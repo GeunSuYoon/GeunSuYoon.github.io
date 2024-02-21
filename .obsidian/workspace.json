@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b56f7ddbadb4e760",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_category/42seoul.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b6d76bd03ba36a41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-02-21-pipex.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/boj/math/2024-02-21-remainsum.md",
+                "file": "2024-02-21-pipex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/boj/math/2024-02-21-remainsum.md",
+                "file": "2024-02-21-pipex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/boj/math/2024-02-21-remainsum.md"
+                "file": "2024-02-21-pipex.md"
               }
             }
           }
@@ -145,10 +170,24 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "21340cb550a78ab2",
+  "active": "a24e5739df025198",
   "lastOpenFiles": [
-    "_posts/_src/image/remainsum_subject.png",
+    "Untitled",
+    "_site/2024-02-21-pipex.html",
+    "_site/2024-02-21-pipex.md",
+    "_site/Untitled.md",
+    "_category/42seoul.md",
+    "2024-02-21-pipex.md",
+    "_posts/2024-02-20-test.md",
+    "_posts/42seoul",
+    "_site/42seoul/index.html",
+    "_site/42seoul",
+    "_template/post_template.md",
+    "_template/categroy_template.md",
+    "_site/42seoul.html",
+    "_site/42seoul.md",
     "_posts/boj/math/2024-02-21-remainsum.md",
+    "_posts/_src/image/remainsum_subject.png",
     "_posts/_src/image/remainsum_subject.md",
     "_posts/algorithm/math/2024-02-21-permuncomb.md",
     "_post/algorithm/math/2024-02-21-permuncomb.md",
@@ -158,33 +197,20 @@
     "~/_post/algorithm/math/2024-02-21-permuncomb.md",
     "~/_post/algorithm/math",
     "~/_post/algorithm",
-    "~/_post",
-    "~",
     "().md",
     "_site/().md",
-    "_site/boj/remainsum.html",
-    "_site/boj",
-    "_posts/boj/math",
     "Pasted image 20240221201807.png",
     "Pasted image 20240221201809.png",
-    "_template/post_template.md",
     "_category/boj.md",
     "_posts/algorithm/sort/2024-02-21-countingsort.md",
     "_posts/algorithm/sort/2024-02-21-quicksort.md",
     "_posts/algorithm/sort/2024-02-21-mergesort.md",
-    "_template/categroy_template.md",
     "2024-02-quicksort.md",
     "_site/2024-02-quicksort.md",
     "_posts/algorithm/sort/2024-02-21-insertionsort.md",
     "_posts/algorithm/sort/2024-02-21-heapsort.md",
     "_posts/technique/2024-02-21-twoptr.md",
     "_site/2024-02-21-twoptr.md",
-    "_site/Untitled.md",
-    "_posts/algorithm/sort/2024-02-21-radixsort.md",
-    "_site/2024-02-21-radixsort.md",
-    "_site/2024-02-21-countingsort.md",
-    "_posts/technique/bit/2024-02-21-bitmask.md",
-    "_posts/algorithm/tree/2024-02-21-dfsnbfs.md",
     "_site/public/img/screenshot-m2.png",
     "_site/public/img/screenshot-m1.png",
     "_site/public/img/screenshot-2.png",
