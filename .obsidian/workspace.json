@@ -11,8 +11,12 @@
             "id": "a5f23a67bae91099",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-02-21-remainsum.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-02-21-remainsum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-02-21-remainsum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024-02-21-remainsum.md"
+              }
             }
           }
         ]
@@ -137,8 +145,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a5f23a67bae91099",
+  "active": "a24e5739df025198",
   "lastOpenFiles": [
+    "image",
+    "_src",
+    "Pasted image 20240221201807.png",
+    "Pasted image 20240221201809.png",
+    "2024-02-21-remainsum.md",
+    "_posts/boj",
     "_template/post_template.md",
     "_category/boj.md",
     "_posts/algorithm/sort/2024-02-21-countingsort.md",
@@ -163,8 +177,6 @@
     "_site/2024-02-21-countingsort.md",
     "_site/boj/index.html",
     "_site/boj",
-    "_site/boj.html",
-    "_site/BOJ.html",
     "_posts/technique/bit/2024-02-21-bitmask.md",
     "_posts/algorithm/tree/2024-02-21-dfsnbfs.md",
     "tag.md",
@@ -173,8 +185,6 @@
     "_posts/algorithm/tree/2024-02-21-lca.md",
     "_posts/algorithm/2024-02-21-lis.md",
     "_posts/algorithm/2024-02-21-lrucache.md",
-    "_posts/algorithm/math/2024-02-21-permuncomb.md",
-    "_category/algorithm.md",
     "_site/public/img/screenshot-m2.png",
     "_site/public/img/screenshot-m1.png",
     "_site/public/img/screenshot-2.png",
