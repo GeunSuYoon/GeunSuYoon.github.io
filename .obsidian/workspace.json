@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-02-21-remainsum.md",
+                "file": "_posts/boj/math/2024-02-21-remainsum.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-02-21-remainsum.md",
+                "file": "_posts/boj/math/2024-02-21-remainsum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-02-21-remainsum.md",
+                "file": "_posts/boj/math/2024-02-21-remainsum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-02-21-remainsum.md"
+                "file": "_posts/boj/math/2024-02-21-remainsum.md"
               }
             }
           }
@@ -147,11 +147,16 @@
   },
   "active": "a24e5739df025198",
   "lastOpenFiles": [
-    "image",
+    "_site/boj/remainsum.html",
+    "_site/boj",
+    "_posts/boj/math",
+    "_site/2024-02-21-remainsum.html",
+    "_src/image/Pasted image 20240221201852.png",
+    "_src/image",
     "_src",
     "Pasted image 20240221201807.png",
     "Pasted image 20240221201809.png",
-    "2024-02-21-remainsum.md",
+    "_posts/boj/math/2024-02-21-remainsum.md",
     "_posts/boj",
     "_template/post_template.md",
     "_category/boj.md",
@@ -172,11 +177,7 @@
     "_site/algorithm/radixsort.html",
     "_site/2024-02-21-radixsort.html",
     "_site/2024-02-21-radixsort.md",
-    "_site/algorithm/countingsort.html",
-    "_site/2024-02-21-countingsort.html",
     "_site/2024-02-21-countingsort.md",
-    "_site/boj/index.html",
-    "_site/boj",
     "_posts/technique/bit/2024-02-21-bitmask.md",
     "_posts/algorithm/tree/2024-02-21-dfsnbfs.md",
     "tag.md",
