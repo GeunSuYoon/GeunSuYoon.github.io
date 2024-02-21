@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a8cab61758b90de8",
+        "id": "ed4e26a488acf369",
         "type": "tabs",
         "children": [
           {
-            "id": "a5f23a67bae91099",
+            "id": "5a1318bfd1041718",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -145,10 +145,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a5f23a67bae91099",
+  "active": "5a1318bfd1041718",
   "lastOpenFiles": [
-    "_src/image/Pasted image 20240221201852.png",
+    "().md",
+    "_site/().md",
     "_posts/boj/math/2024-02-21-remainsum.md",
+    "_src/image/Pasted image 20240221201852.png",
     "_site/boj/remainsum.html",
     "_site/boj",
     "_posts/boj/math",
@@ -184,7 +186,6 @@
     "_posts/algorithm/math/2024-02-21-gcdnlcm.md",
     "_posts/algorithm/tree/2024-02-21-lca.md",
     "_posts/algorithm/2024-02-21-lis.md",
-    "_posts/algorithm/2024-02-21-lrucache.md",
     "_site/public/img/screenshot-m2.png",
     "_site/public/img/screenshot-m1.png",
     "_site/public/img/screenshot-2.png",
