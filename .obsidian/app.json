@@ -1,1 +1,6 @@
-{}
+{
+  "strictLineBreaks": true,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "media"
+}
