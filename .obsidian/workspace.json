@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_template/42seoul_template.md",
+                "file": "_posts/42seoul/circle02/2024-02-21-pipex.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e0d18f265407405c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_template/42seoul_template.md",
+                "file": "_posts/42seoul/circle02/2024-02-21-pipex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_template/42seoul_template.md",
+                "file": "_posts/42seoul/circle02/2024-02-21-pipex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_template/42seoul_template.md"
+                "file": "_posts/42seoul/circle02/2024-02-21-pipex.md"
               }
             }
           }
@@ -147,8 +148,8 @@
   },
   "active": "21340cb550a78ab2",
   "lastOpenFiles": [
-    "_posts/42seoul/circle02/2024-02-21-pipex.md",
     "_template/42seoul_template.md",
+    "_posts/42seoul/circle02/2024-02-21-pipex.md",
     "_template/categroy_template.md",
     "_posts/boj/math/2024-02-21-remainsum.md",
     "_category/42seoul.md",
