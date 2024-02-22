@@ -6,6 +6,7 @@ title: Binary Search
 date: 2024-02-21 18:36:00 +09:00
 tags:
   - tree
+  - search
 ---
 # Binary Search
 ### 이진 탐색(이분 탐색)
