@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/math/2024-02-21-permuncomb.md",
+                "file": "algorithm/math/_posts/2024-02-21-permuncomb.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/os/_posts/2024-02-22-outlineofcs.md",
+                "file": "algorithm/tree/_posts/2024-02-21-binarysearch.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/os/_posts/2024-02-22-outlineofcs.md",
+                "file": "algorithm/tree/_posts/2024-02-21-binarysearch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/os/_posts/2024-02-22-outlineofcs.md",
+                "file": "algorithm/tree/_posts/2024-02-21-binarysearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/os/_posts/2024-02-22-outlineofcs.md"
+                "file": "algorithm/tree/_posts/2024-02-21-binarysearch.md"
               }
             }
           }
@@ -208,19 +208,22 @@
   },
   "active": "a24e5739df025198",
   "lastOpenFiles": [
-    "_site/boj/math/2024-02-22-binomialcoefficient3.html",
-    "_site/boj/math/2024-02-21-remainsum.html",
-    "_site/boj/math",
-    "_site/42seoul/circle02/2024-02-21-pipex.html",
-    "_site/42seoul/circle02",
-    "_site/algorithm/2024-02-22-greedy.html",
-    "_site/algorithm/2024-02-21-lrucache.html",
-    "_site/algorithm/2024-02-21-lis.html",
-    "_site/algorithm/math/2024-02-21-permuncomb.html",
-    "_site/algorithm/math/2024-02-21-sieveeratos.html",
-    "_site/algorithm/math/2024-02-21-gcdnlcm.html",
-    "_category/os.md",
+    "_site/algorithm/tree/lca.html",
+    "_site/algorithm/tree/dfsnbfs.html",
+    "_site/algorithm/tree/binarysearch.html",
+    "algorithm/sort/_posts/2024-20-20-bubblesort.md",
+    "algorithm/tree/_posts",
+    "_site/algorithm/sort/radixsort.html",
+    "_site/algorithm/sort/countingsort.html",
+    "_site/algorithm/sort/heapsort.html",
+    "_site/algorithm/sort/mergesort.html",
+    "_site/algorithm/sort/insertionsort.html",
+    "_site/algorithm/sort/quicksort.html",
+    "_site/algorithm/sort/bubblesort.html",
+    "algorithm/sort/_posts/2024-02-21-countingsort.md",
+    "algorithm/math/_posts/2024-02-21-gcdnlcm.md",
     "cs/os/_posts/2024-02-22-outlineofcs.md",
+    "_category/os.md",
     "_category/cs.md",
     "cs.md",
     "_site/cs.md",
@@ -233,17 +236,14 @@
     "_site/2024-02-22-fermatlittletheorem.md",
     "_category/math.md",
     "_site/math.md",
-    "algorithm/math/2024-02-21-permuncomb.md",
+    "algorithm/math/_posts/2024-02-21-permuncomb.md",
     "algorithm/2024-02-22-greedy.md",
-    "algorithm/sort/2024-20-20-bubblesort.md",
     "_template/post_template.md",
     "_template/categroy_template.md",
     "algorithm/2024-02-21-lis.md",
-    "algorithm/tree/2024-02-21-lca.md",
-    "algorithm/tree/2024-02-21-dfsnbfs.md",
-    "algorithm/tree/2024-02-21-binarysearch.md",
-    "algorithm/2024-02-21-dp.md",
-    "algorithm/2024-02-21-dijkstra.md",
+    "algorithm/tree/_posts/2024-02-21-lca.md",
+    "algorithm/tree/_posts/2024-02-21-dfsnbfs.md",
+    "algorithm/tree/_posts/2024-02-21-binarysearch.md",
     "_src/image/remainsum_subject.png",
     "Pasted image 20240221201807.png",
     "Pasted image 20240221201809.png",
