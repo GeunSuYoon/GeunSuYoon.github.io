@@ -49,7 +49,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
+                "file": "_posts/cs/os/2024-02-22-outlineofcs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ba23da2ffd0fe4e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_category/cs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "224a0e35daa040a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_category/os.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +146,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +162,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/boj/math/2024-02-22-binomialcoefficient3.md"
+                "file": "cs.md"
               }
             }
           }
@@ -182,24 +204,36 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "9b3497eaa817d2e0",
+  "active": "a24e5739df025198",
   "lastOpenFiles": [
-    "_posts/boj/math/2024-02-21-remainsum.md",
-    "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
-    "_site/boj/binomialcoefficient3.html",
-    "_site/2024-02-22-binomialcoefficient3.html",
-    "_site/2024-02-22-fermatlittletheorem.html",
-    "_site/2024-02-22-fermatlittletheorem.md",
+    "_site/os/outlineofcs.html",
+    "_site/os",
+    "_site/cs/os/2024-02-22-outlineofcs.html",
+    "_site/cs/os",
+    "_site/cs",
+    "_posts/cs/os",
+    "_posts/cs",
+    "_site/cs.md",
     "_site/Untitled.md",
+    "_posts/cs/os/2024-02-22-outlineofcs.md",
+    "cs.md",
+    "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
+    "_category/cs.md",
+    "_category/os.md",
+    "_site/2024-02-22-outlineofcs.html",
+    "_site/2024-02-22-outlineofcs.md",
+    "_site/2024-02-22-.md",
+    "_site/os/index.html",
+    "_site/os.html",
+    "_site/os.md",
+    "_site/cs/index.html",
+    "_posts/boj/math/2024-02-21-remainsum.md",
+    "_site/2024-02-22-fermatlittletheorem.md",
     "_category/math.md",
-    "_site/math/index.html",
-    "_site/math",
-    "_site/math.html",
     "_site/math.md",
     "_posts/algorithm/math/2024-02-21-permuncomb.md",
     "_posts/algorithm/2024-02-22-greedy.md",
     "_posts/algorithm/sort/2024-20-20-bubblesort.md",
-    "_site/algorithm/greedy.html",
     "_template/post_template.md",
     "_template/categroy_template.md",
     "_posts/algorithm/2024-02-21-lis.md",
@@ -208,17 +242,6 @@
     "_posts/algorithm/tree/2024-02-21-binarysearch.md",
     "_posts/algorithm/2024-02-21-dp.md",
     "_posts/algorithm/2024-02-21-dijkstra.md",
-    "_posts/42seoul/circle02/2024-02-21-pipex.md",
-    "_template/42seoul_template.md",
-    "_category/42seoul.md",
-    "_site/THEME.md",
-    "_site/42seoul_template.md",
-    "_site/42seoul/pipex.html",
-    "_site/42seoul",
-    "_posts/42seoul/circle02",
-    "_site/2024-02-21-pipex.md",
-    "_posts/2024-02-20-test.md",
-    "_site/42seoul.md",
     "_posts/_src/image/remainsum_subject.png",
     "Pasted image 20240221201807.png",
     "Pasted image 20240221201809.png",
