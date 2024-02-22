@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:approximation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,7 +159,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "9eef6d6ea7e384d4",
+  "active": "9e7ad893e92b13a7",
   "lastOpenFiles": [
     "_posts/algorithm/sort/2024-20-20-bubblesort.md",
     "_posts/algorithm/2024-02-22-greedy.md",
