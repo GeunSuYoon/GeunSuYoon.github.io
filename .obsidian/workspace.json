@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-02-22-fermatlittletheorem.md",
+                "file": "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-02-22-fermatlittletheorem.md",
+                "file": "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-02-22-fermatlittletheorem.md",
+                "file": "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-02-22-fermatlittletheorem.md"
+                "file": "_posts/boj/math/2024-02-22-binomialcoefficient3.md"
               }
             }
           }
@@ -184,9 +184,12 @@
   },
   "active": "9b3497eaa817d2e0",
   "lastOpenFiles": [
+    "_posts/boj/math/2024-02-21-remainsum.md",
+    "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
+    "_site/boj/binomialcoefficient3.html",
+    "_site/2024-02-22-binomialcoefficient3.html",
     "_site/2024-02-22-fermatlittletheorem.html",
     "_site/2024-02-22-fermatlittletheorem.md",
-    "2024-02-22-fermatlittletheorem.md",
     "_site/Untitled.md",
     "_category/math.md",
     "_site/math/index.html",
@@ -207,18 +210,14 @@
     "_posts/algorithm/2024-02-21-dijkstra.md",
     "_posts/42seoul/circle02/2024-02-21-pipex.md",
     "_template/42seoul_template.md",
-    "_posts/boj/math/2024-02-21-remainsum.md",
     "_category/42seoul.md",
     "_site/THEME.md",
     "_site/42seoul_template.md",
     "_site/42seoul/pipex.html",
     "_site/42seoul",
     "_posts/42seoul/circle02",
-    "_site/2024-02-21-pipex.html",
     "_site/2024-02-21-pipex.md",
     "_posts/2024-02-20-test.md",
-    "_posts/42seoul",
-    "_site/42seoul/index.html",
     "_site/42seoul.md",
     "_posts/_src/image/remainsum_subject.png",
     "Pasted image 20240221201807.png",
