@@ -30,9 +30,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d09722e9ecee2e47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_category/math.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b3497eaa817d2e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/algorithm/math/2024-02-21-permuncomb.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/algorithm/math/2024-02-21-permuncomb.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/algorithm/math/2024-02-21-permuncomb.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -158,8 +182,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "9eef6d6ea7e384d4",
+  "active": "9b3497eaa817d2e0",
   "lastOpenFiles": [
+    "_site/Untitled.md",
+    "_category/math.md",
+    "Untitled.md",
+    "_site/math/index.html",
+    "_site/math",
+    "_site/math.html",
+    "_site/math.md",
+    "_posts/algorithm/math/2024-02-21-permuncomb.md",
     "_posts/algorithm/2024-02-22-greedy.md",
     "_posts/algorithm/sort/2024-20-20-bubblesort.md",
     "_site/algorithm/greedy.html",
@@ -177,7 +209,6 @@
     "_category/42seoul.md",
     "_site/THEME.md",
     "_site/42seoul_template.md",
-    "_site/Untitled.md",
     "_site/42seoul/pipex.html",
     "_site/42seoul",
     "_posts/42seoul/circle02",
@@ -186,17 +217,10 @@
     "_posts/2024-02-20-test.md",
     "_posts/42seoul",
     "_site/42seoul/index.html",
-    "_site/42seoul.html",
     "_site/42seoul.md",
     "_posts/_src/image/remainsum_subject.png",
     "_posts/_src/image/remainsum_subject.md",
-    "_posts/algorithm/math/2024-02-21-permuncomb.md",
     "_post/algorithm/math/2024-02-21-permuncomb.md",
-    "_post/algorithm/math",
-    "_post/algorithm",
-    "~/_post/algorithm/math/2024-02-21-permuncomb.md",
-    "().md",
-    "_site/().md",
     "Pasted image 20240221201807.png",
     "Pasted image 20240221201809.png",
     "_site/public/img/screenshot-m2.png",
