@@ -10,7 +10,7 @@ tags:
 
 >[백준 10986. 나머지 합](https://www.acmicpc.net/problem/10986)의 풀이이다.
 
-![remainsum_subject](/_posts/_src/image/remainsum_subject.png)
+![remainsum_subject](remainsum_subject.png)
 
 - 길이 n의 배열에서 부분합이 m으로 나누어 떨어지는 개수를 출력하는 문제.
 
@@ -34,7 +34,7 @@ tags:
 | `mod[i]` | 3 | 2 | 0 |
 
 - 이 표에서 같은 index, 즉 동일한 나머지를 갖는 두 구간을 선택해 누적 합을 뺀다면 나머지는 0이 될 것이다.
-	- 나머지가 i인 구간을 2개 뽑는 경우의 수는 mod\[i] * (mod\[i] - 1) / 2 이다. ([조합](/_posts/algorithm/math/2024-02-21-permuncomb))
+	- 나머지가 i인 구간을 2개 뽑는 경우의 수는 mod\[i] * (mod\[i] - 1) / 2 이다. ([조합](2024-02-21-permuncomb.md))
 	- 물론 mod\[i]의 값이 0인 경우엔 세지 않는다.
 		- i = 0, 3 * 2 / 2 = 3
 		- i = 1, 2 * 1 / 2 = 1

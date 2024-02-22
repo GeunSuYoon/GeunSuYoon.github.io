@@ -17,7 +17,7 @@ tags:
 #### 시간복잡도
 - O(nlogn)
 
-### [QuickSort](./2024-02-21-quicksort)와 차이점
+### [QuickSort](2024-02-21-quicksort.md)와 차이점
 - QS
 	- Pivot을 통해 정렬(partition) > 영역을 쪼갬
 	- Pivot을 임의로 정하므로 LinkedList에서는 불가.

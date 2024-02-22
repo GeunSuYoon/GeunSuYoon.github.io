@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/42seoul/circle02/2024-02-21-pipex.md",
+                "file": "42seoul/circle02/2024-02-21-pipex.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/algorithm/math/2024-02-21-permuncomb.md",
+                "file": "algorithm/math/2024-02-21-permuncomb.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/cs/os/2024-02-22-outlineofcs.md",
+                "file": "cs/os/_posts/2024-02-22-outlineofcs.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cs/os/_posts/2024-02-22-outlineofcs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cs/os/_posts/2024-02-22-outlineofcs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs.md"
+                "file": "cs/os/_posts/2024-02-22-outlineofcs.md"
               }
             }
           }
@@ -206,43 +208,43 @@
   },
   "active": "a24e5739df025198",
   "lastOpenFiles": [
-    "_site/os/outlineofcs.html",
-    "_site/os",
-    "_site/cs/os/2024-02-22-outlineofcs.html",
-    "_site/cs/os",
-    "_site/cs",
-    "_posts/cs/os",
-    "_posts/cs",
+    "_site/boj/math/2024-02-22-binomialcoefficient3.html",
+    "_site/boj/math/2024-02-21-remainsum.html",
+    "_site/boj/math",
+    "_site/42seoul/circle02/2024-02-21-pipex.html",
+    "_site/42seoul/circle02",
+    "_site/algorithm/2024-02-22-greedy.html",
+    "_site/algorithm/2024-02-21-lrucache.html",
+    "_site/algorithm/2024-02-21-lis.html",
+    "_site/algorithm/math/2024-02-21-permuncomb.html",
+    "_site/algorithm/math/2024-02-21-sieveeratos.html",
+    "_site/algorithm/math/2024-02-21-gcdnlcm.html",
+    "_category/os.md",
+    "cs/os/_posts/2024-02-22-outlineofcs.md",
+    "_category/cs.md",
+    "cs.md",
     "_site/cs.md",
     "_site/Untitled.md",
-    "_posts/cs/os/2024-02-22-outlineofcs.md",
-    "cs.md",
-    "_posts/boj/math/2024-02-22-binomialcoefficient3.md",
-    "_category/cs.md",
-    "_category/os.md",
-    "_site/2024-02-22-outlineofcs.html",
+    "boj/math/2024-02-22-binomialcoefficient3.md",
     "_site/2024-02-22-outlineofcs.md",
     "_site/2024-02-22-.md",
-    "_site/os/index.html",
-    "_site/os.html",
     "_site/os.md",
-    "_site/cs/index.html",
-    "_posts/boj/math/2024-02-21-remainsum.md",
+    "boj/math/2024-02-21-remainsum.md",
     "_site/2024-02-22-fermatlittletheorem.md",
     "_category/math.md",
     "_site/math.md",
-    "_posts/algorithm/math/2024-02-21-permuncomb.md",
-    "_posts/algorithm/2024-02-22-greedy.md",
-    "_posts/algorithm/sort/2024-20-20-bubblesort.md",
+    "algorithm/math/2024-02-21-permuncomb.md",
+    "algorithm/2024-02-22-greedy.md",
+    "algorithm/sort/2024-20-20-bubblesort.md",
     "_template/post_template.md",
     "_template/categroy_template.md",
-    "_posts/algorithm/2024-02-21-lis.md",
-    "_posts/algorithm/tree/2024-02-21-lca.md",
-    "_posts/algorithm/tree/2024-02-21-dfsnbfs.md",
-    "_posts/algorithm/tree/2024-02-21-binarysearch.md",
-    "_posts/algorithm/2024-02-21-dp.md",
-    "_posts/algorithm/2024-02-21-dijkstra.md",
-    "_posts/_src/image/remainsum_subject.png",
+    "algorithm/2024-02-21-lis.md",
+    "algorithm/tree/2024-02-21-lca.md",
+    "algorithm/tree/2024-02-21-dfsnbfs.md",
+    "algorithm/tree/2024-02-21-binarysearch.md",
+    "algorithm/2024-02-21-dp.md",
+    "algorithm/2024-02-21-dijkstra.md",
+    "_src/image/remainsum_subject.png",
     "Pasted image 20240221201807.png",
     "Pasted image 20240221201809.png",
     "_site/public/img/screenshot-m2.png",
