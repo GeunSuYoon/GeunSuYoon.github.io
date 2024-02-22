@@ -29,4 +29,4 @@ tags:
 # 풀이
 - p는 1,000,000,007로 주어졌다.
 - <sub>n</sub>C<sub>k</sub> 는 a / b = a \* b<sup>-1</sup>로 표현할 수 있다. (a = n! / (n - k)!, b = k!)
-- a \* b<sup>-1</sup> ≅ a \* b<sup>p-2</sup> / 
+- a \* b<sup>-1</sup> ≅ a \* b<sup>p-2</sup> / b<sup>p-1</sup> ≅ a \* b<sup>p-2</sup> (mod p)
