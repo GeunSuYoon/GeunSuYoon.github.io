@@ -19,10 +19,10 @@ tags:
 ---
 
 # 응용
-- n! / (n - k)! = a, k! = b라고 하자.
+- 정수 a, b, p에 대해 (p는 소수) 이하의 식으로 정리할 수 있다.
 - b<sup>p-1</sup> = b\*b<sup>p-2</sup> ≅ 1 (mod p)
 - b<sup>p-2</sup> ≅ b<sup>-1</sup> (mod p)
-- a\ * b<sup>-1</sup> % p = a\ * b<sup>p-2</sup>  % p ≅ (a % p) \* (b<sup>p-2</sup>  % p) % p
+- a\ * b<sup>-1</sup> % p ≅ a\ * b<sup>p-2</sup>  % p (mod % p)
 
 ---
 
