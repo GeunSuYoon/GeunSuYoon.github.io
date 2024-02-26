@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_category/data_structure.md",
+                "file": "category.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_category/data_structure.md",
+                "file": "42seoul/circle02/2024-02-21-pipex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_category/data_structure.md",
+                "file": "42seoul/circle02/2024-02-21-pipex.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_category/data_structure.md"
+                "file": "42seoul/circle02/2024-02-21-pipex.md"
               }
             }
           }
@@ -218,9 +218,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ca67481205172ce5",
+  "active": "a24e5739df025198",
   "lastOpenFiles": [
-    "datastructure/_posts/2024-02-20-hashtable.md",
+    "_category/data_structure.md",
+    "_site/data_structure/hashtable.html",
+    "_site/data_structure",
+    "data_structure/_posts/2024-02-20-hashtable.md",
     "algorithm/_posts/2024-02-21-binarysearch.md",
     "algorithm/_posts/2024-02-21-countingsort.md",
     "_site/algorithm/radixsort.html",
@@ -233,8 +236,6 @@
     "_site/algorithm/permuncomb.html",
     "_site/algorithm/gcdnlcm.html",
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
-    "_site/boj/binomialcoefficient3.html",
-    "_site/boj/remainsum.html",
     "boj/_posts/2024-02-21-remainsum.md",
     "algorithm/_posts/2024-02-21-dfsnbfs.md",
     "algorithm/_posts/2024-02-21-dijkstra.md",
@@ -249,7 +250,7 @@
     "_category/math.md",
     "algorithm/_posts/2024-02-21-sieveeratos.md",
     "algorithm/_posts/2024-20-20-bubblesort.md",
-    "cs/os/_posts/2024-02-22-outlineofcs.md",
+    "cs/_posts/2024-02-22-outlineofcs.md",
     "_category/os.md",
     "_category/cs.md",
     "cs.md",
