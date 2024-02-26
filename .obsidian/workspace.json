@@ -56,6 +56,16 @@
             }
           },
           {
+            "id": "cce0e59c9c9023de",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
+          },
+          {
             "id": "ba23da2ffd0fe4e0",
             "type": "leaf",
             "state": {
@@ -80,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "da0e2ec0d70cc638",
@@ -224,7 +234,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "9b3497eaa817d2e0",
+  "active": "cce0e59c9c9023de",
   "lastOpenFiles": [
     "boj/_posts/2024-02-21-remainsum.md",
     "algorithm/_posts/2024-02-21-lis.md",
