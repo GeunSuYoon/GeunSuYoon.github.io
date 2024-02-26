@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e0d18f265407405c",
@@ -208,6 +209,9 @@
   },
   "active": "ba23da2ffd0fe4e0",
   "lastOpenFiles": [
+    "Pasted image 20240226205446.png",
+    "Pasted image 20240226205151.png",
+    "Pasted image 20240226205147.png",
     "_category/os.md",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "_category/cs.md",
@@ -243,7 +247,6 @@
     "_site/Untitled.md",
     "algorithm/_posts/2024-02-21-dp.md",
     "algorithm/_posts/2024-02-22-greedy.md",
-    "_category/math.md",
     "_src/image/remainsum_subject.png",
     "Pasted image 20240221201807.png",
     "Pasted image 20240221201809.png",
