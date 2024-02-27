@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "fd79725e72c693bf",
+        "id": "f2c1687bc3cb6e7b",
         "type": "tabs",
         "children": [
           {
-            "id": "7901e552f8f828e0",
+            "id": "e7b82befe26053a9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cs/_posts/2024-02-22-outlineofcs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "cs/_posts/2024-02-22-outlineofcs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "cs/_posts/2024-02-22-outlineofcs.md"
+              }
             }
           }
         ]
@@ -137,20 +145,26 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "7901e552f8f828e0",
+  "active": "e7b82befe26053a9",
   "lastOpenFiles": [
-    "algorithm/_posts/2024-02-21-lrucache.md",
+    "_src/boj/image/remainsum_subject.png",
+    "_src/Untitled 1",
+    "_src/cs/os/image/outlineofcs_cmd2.png",
+    "_src/cs/os/image/outlineofcs_memory_hierachi.png",
+    "_src/cs/os/image/outlineofcs_computer_componant.png",
+    "_src/cs/os/image",
+    "_src/boj",
+    "_src/cs/os",
+    "_src/cs",
+    "_src/cs/os/image/outlineofcs_interupt.png",
+    "_src/image/Pasted image 20240226205151.png",
     "cs/_posts/2024-02-22-outlineofcs.md",
+    "algorithm/_posts/2024-02-21-lrucache.md",
     "_category/os.md",
     "42seoul/circle02/2024-02-21-pipex.md",
     "algorithm/_posts/2024-02-21-permuncomb.md",
     "_category/math.md",
     "algorithm/_posts/2024-02-21-lis.md",
-    "Pasted image 20240226211204.png",
-    "Pasted image 20240226211053.png",
-    "Pasted image 20240226205446.png",
-    "Pasted image 20240226205151.png",
-    "Pasted image 20240226205147.png",
     "_category/cs.md",
     "boj/_posts/2024-02-21-remainsum.md",
     "algorithm/_posts/2024-02-21-countingsort.md",
@@ -167,20 +181,13 @@
     "_site/algorithm/radixsort.html",
     "_site/algorithm/heapsort.html",
     "_site/algorithm/mergesort.html",
-    "_site/algorithm/insertionsort.html",
-    "_site/algorithm/quicksort.html",
-    "_site/algorithm/bubblesort.html",
     "algorithm/_posts/2024-02-21-gcdnlcm.md",
-    "_site/algorithm/permuncomb.html",
-    "_site/algorithm/gcdnlcm.html",
     "algorithm/_posts/2024-02-21-dfsnbfs.md",
     "algorithm/_posts/2024-02-21-dijkstra.md",
     "_category/sort.md",
     "_site/sort.md",
     "_site/Untitled.md",
     "algorithm/_posts/2024-02-21-dp.md",
-    "algorithm/_posts/2024-02-22-greedy.md",
-    "_src/image/remainsum_subject.png",
     "Pasted image 20240221201807.png",
     "Pasted image 20240221201809.png",
     "_site/public/img/screenshot-m2.png",
