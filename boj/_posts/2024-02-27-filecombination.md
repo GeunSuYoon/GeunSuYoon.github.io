@@ -20,8 +20,9 @@ tags:
 - 해당 문제에서 제시한 예제, `[40, 30, 30, 50]`을 이용해 풀이를 진행하겠다.
 - 2차원 배열에 각 값과 들어온 이후 누적합을 저장한다.
 
-![[init_table.png]]
+![init_table](_src/boj/image/2024-02-27-filecombination/init_table.png)
 
 - `[k, k]`번째 요소들을 0으로 초기화한다.
 
-![[1st_ctl_table.png]]
+![1st_ctl_table](_src/boj/image/2024-02-27-filecombination/1st_ctl_table.png)
+
