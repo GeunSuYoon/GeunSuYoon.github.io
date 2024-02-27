@@ -10,7 +10,8 @@ tags:
 
 >[백준 10986. 나머지 합](https://www.acmicpc.net/problem/10986)의 풀이이다.
 
-![remainsum_subject](remainsum_subject.png)
+
+![[remainsum_subject.png]]
 
 - 길이 n의 배열에서 부분합이 m으로 나누어 떨어지는 개수를 출력하는 문제.
 

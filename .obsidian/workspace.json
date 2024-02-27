@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "file": "boj/_posts/2024-02-21-remainsum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c6ac88eb2a89ec5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "boj/_posts/2024-02-27-filecombination.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "file": "boj/_posts/2024-02-27-filecombination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "file": "boj/_posts/2024-02-27-filecombination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md"
+                "file": "boj/_posts/2024-02-27-filecombination.md"
               }
             }
           }
@@ -145,8 +158,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e7b82befe26053a9",
+  "active": "9c6ac88eb2a89ec5",
   "lastOpenFiles": [
+    "boj/_posts/2024-02-22-binomialcoefficient3.md",
+    "boj/_posts/2024-02-27-filecombination.md",
+    "boj/_posts/2024-02-21-remainsum.md",
+    "cs/_posts/2024-02-22-outlineofcs.md",
     "_src/boj/image/remainsum_subject.png",
     "_src/Untitled 1",
     "_src/cs/os/image/outlineofcs_cmd2.png",
@@ -158,7 +175,6 @@
     "_src/cs",
     "_src/cs/os/image/outlineofcs_interupt.png",
     "_src/image/Pasted image 20240226205151.png",
-    "cs/_posts/2024-02-22-outlineofcs.md",
     "algorithm/_posts/2024-02-21-lrucache.md",
     "_category/os.md",
     "42seoul/circle02/2024-02-21-pipex.md",
@@ -166,9 +182,7 @@
     "_category/math.md",
     "algorithm/_posts/2024-02-21-lis.md",
     "_category/cs.md",
-    "boj/_posts/2024-02-21-remainsum.md",
     "algorithm/_posts/2024-02-21-countingsort.md",
-    "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "technique/_posts/2024-02-21-bitmask.md",
     "technique/_posts/2024-02-21-twoptr.md",
     "algorithm/_posts/2024-02-21-quicksort.md",
