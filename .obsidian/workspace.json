@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os/_posts/01. Intro.md",
+                "file": "lecture/os/_posts/01. Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_posts/01. Intro.md",
+                "file": "lecture/os/_posts/01. Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_posts/01. Intro.md",
+                "file": "lecture/os/_posts/01. Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_posts/01. Intro.md"
+                "file": "lecture/os/_posts/01. Intro.md"
               }
             }
           }
@@ -146,17 +146,25 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a24e5739df025198",
+  "active": "5360b68194edd8c6",
   "lastOpenFiles": [
+    "Pasted image 20240313231851.png",
+    "Pasted image 20240313231825.png",
+    "Pasted image 20240313231803.png",
+    "boj/_posts/2024-02-21-remainsum.md",
+    "_category/os.md",
+    "_category/sort.md",
+    "_category/cs.md",
+    "_category/boj.md",
+    "lecture/os/_posts/01. Intro.md",
     "Pasted image 20240313230514.png",
     "Pasted image 20240313230454.png",
     "public/img/_src/lecture/lecture_os_01_phase1-3.png",
-    "os/_posts/01. Intro.md",
     "public/img/_src/lecture/lecture_os_01_phase1-2.png",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "_category/lecture.md",
-    "os",
-    "os/_posts",
+    "lecture/os",
+    "lecture/os/_posts",
     "lecture",
     "public/img/_src/cs/os/image/outlineofcs_computer_componant.png",
     "data_structure/_posts/2024-02-20-hashtable.md",
@@ -164,11 +172,7 @@
     "public/img/_src/boj/image/2024-02-27-filecombination/2nd_dia_table.png",
     "public/img/_src/boj/image/2024-02-27-filecombination/1st_dia_table.png",
     "_src/boj/image/2024-02-27-filecombination/Pasted image 20240227223838.png",
-    "_src/boj/image/2024-02-27-filecombination/Pasted image 20240227223731.png",
-    "_src/boj/image/2024-02-27-filecombination/Pasted image 20240227223328.png",
-    "_src/boj/image/2024-02-27-filecombination/Pasted image 20240227224025.png",
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
-    "boj/_posts/2024-02-21-remainsum.md",
     "_src/boj/image/2024-02-27-filecombination/init_table.md",
     "THEME.md",
     "public/img/_src/boj/image/2024-02-27-filecombination",
@@ -178,12 +182,10 @@
     "public/img/_src/cs/os",
     "public/img/_src/cs",
     "algorithm/_posts/2024-02-21-lrucache.md",
-    "_category/os.md",
     "42seoul/circle02/2024-02-21-pipex.md",
     "algorithm/_posts/2024-02-21-permuncomb.md",
     "_category/math.md",
     "algorithm/_posts/2024-02-21-lis.md",
-    "_category/cs.md",
     "algorithm/_posts/2024-02-21-countingsort.md",
     "technique/_posts/2024-02-21-bitmask.md",
     "technique/_posts/2024-02-21-twoptr.md",
@@ -191,8 +193,6 @@
     "algorithm/_posts/2024-02-21-lca.md",
     "_category/data_structure.md",
     "_site/data_structure/hashtable.html",
-    "algorithm/_posts/2024-02-21-binarysearch.md",
-    "algorithm/_posts/2024-02-21-gcdnlcm.md",
-    "algorithm/_posts/2024-02-21-dfsnbfs.md"
+    "algorithm/_posts/2024-02-21-binarysearch.md"
   ]
 }
