@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os/_posts/01. Intro.md",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_posts/01. Intro.md",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_posts/01. Intro.md",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_posts/01. Intro.md"
+                "file": "os/_posts/2024-03-13-Intro.md"
               }
             }
           }
@@ -146,8 +146,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a24e5739df025198",
+  "active": "5360b68194edd8c6",
   "lastOpenFiles": [
+    "Pasted image 20240313233700.png",
+    "Pasted image 20240313233607.png",
     "Pasted image 20240313231851.png",
     "Pasted image 20240313231825.png",
     "Pasted image 20240313231803.png",
@@ -156,7 +158,7 @@
     "_category/sort.md",
     "_category/cs.md",
     "_category/boj.md",
-    "os/_posts/01. Intro.md",
+    "os/_posts/2024-03-13-Intro.md",
     "Pasted image 20240313230514.png",
     "Pasted image 20240313230454.png",
     "public/img/_src/lecture/lecture_os_01_phase1-3.png",
@@ -170,8 +172,6 @@
     "data_structure/_posts/2024-02-20-hashtable.md",
     "boj/_posts/2024-02-27-filecombination.md",
     "public/img/_src/boj/image/2024-02-27-filecombination/2nd_dia_table.png",
-    "public/img/_src/boj/image/2024-02-27-filecombination/1st_dia_table.png",
-    "_src/boj/image/2024-02-27-filecombination/Pasted image 20240227223838.png",
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "_src/boj/image/2024-02-27-filecombination/init_table.md",
     "THEME.md",
