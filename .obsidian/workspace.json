@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3e3fead638b3af91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80caae072e9d6bbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_category/lecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5360b68194edd8c6",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,12 +147,13 @@
   },
   "active": "5360b68194edd8c6",
   "lastOpenFiles": [
+    "public/img/_src/lecture/lecture_os_01_phase1-2.png",
+    "cs/_posts/2024-02-22-outlineofcs.md",
+    "_category/lecture.md",
+    "lecture/os/_posts/01. Intro.md",
     "lecture/os",
     "lecture/os/_posts",
     "lecture",
-    "_category/lecture.md",
-    "lecture/os/_posts/01. Intro.md",
-    "cs/_posts/2024-02-22-outlineofcs.md",
     "public/img/_src/cs/os/image/outlineofcs_computer_componant.png",
     "data_structure/_posts/2024-02-20-hashtable.md",
     "boj/_posts/2024-02-27-filecombination.md",
@@ -194,8 +170,7 @@
     "public/img/_src/boj/image/2024-02-27-filecombination/1st_ctl_table.png",
     "THEME.md",
     "public/img/_src/boj/image/2024-02-27-filecombination",
-    "public/img/_src/boj/image/remainsum_subject.png",
-    "public/img/_src/Untitled 1",
+    "public/img/_src/lecture",
     "public/img/_src/cs/os/image",
     "public/img/_src/boj",
     "public/img/_src/cs/os",
@@ -214,7 +189,6 @@
     "algorithm/_posts/2024-02-21-lca.md",
     "_category/data_structure.md",
     "_site/data_structure/hashtable.html",
-    "_site/data_structure",
     "algorithm/_posts/2024-02-21-binarysearch.md",
     "algorithm/_posts/2024-02-21-gcdnlcm.md",
     "algorithm/_posts/2024-02-21-dfsnbfs.md"
