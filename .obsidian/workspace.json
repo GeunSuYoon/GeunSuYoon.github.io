@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lecture/os/_posts/01. Intro.md",
+                "file": "os/_posts/01. Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lecture/os/_posts/01. Intro.md",
+                "file": "os/_posts/01. Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lecture/os/_posts/01. Intro.md",
+                "file": "os/_posts/01. Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lecture/os/_posts/01. Intro.md"
+                "file": "os/_posts/01. Intro.md"
               }
             }
           }
@@ -146,7 +146,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5360b68194edd8c6",
+  "active": "a24e5739df025198",
   "lastOpenFiles": [
     "Pasted image 20240313231851.png",
     "Pasted image 20240313231825.png",
@@ -156,15 +156,15 @@
     "_category/sort.md",
     "_category/cs.md",
     "_category/boj.md",
-    "lecture/os/_posts/01. Intro.md",
+    "os/_posts/01. Intro.md",
     "Pasted image 20240313230514.png",
     "Pasted image 20240313230454.png",
     "public/img/_src/lecture/lecture_os_01_phase1-3.png",
     "public/img/_src/lecture/lecture_os_01_phase1-2.png",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "_category/lecture.md",
-    "lecture/os",
-    "lecture/os/_posts",
+    "os",
+    "os/_posts",
     "lecture",
     "public/img/_src/cs/os/image/outlineofcs_computer_componant.png",
     "data_structure/_posts/2024-02-20-hashtable.md",
