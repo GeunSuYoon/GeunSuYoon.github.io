@@ -8,12 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1719c830236d1488",
+            "id": "3d554e6d736ae083",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "public/img/_src/cs/os/outlineofcs_computer_componant.png"
+                "file": "lectures_os_01_MMU.png"
+              }
+            }
+          },
+          {
+            "id": "e230b5d9685a0111",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "lectures_os_01_base_bound_registers.png"
+              }
+            }
+          },
+          {
+            "id": "57d2f4529f9def12",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "lectures_os_01_memory_problem.png"
+              }
+            }
+          },
+          {
+            "id": "d17177ae50d439c0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "lectures_os_01_Asyn_Syn_IO.png"
               }
             }
           },
@@ -93,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "public/img/_src/cs/os/outlineofcs_computer_componant.png",
+                "file": "lectures_os_01_MMU.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "public/img/_src/cs/os/outlineofcs_computer_componant.png",
+                "file": "lectures_os_01_MMU.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "public/img/_src/cs/os/outlineofcs_computer_componant.png"
+                "file": "lectures_os_01_MMU.png"
               }
             }
           }
@@ -153,27 +183,27 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1719c830236d1488",
+  "active": "3d554e6d736ae083",
   "lastOpenFiles": [
     "os/_posts/2024-03-13-Intro.md",
+    "lectures_os_01_MMU.png",
+    "lectures_os_01_base_bound_registers.png",
+    "lectures_os_01_Asyn_Syn_IO.png",
+    "lectures_os_01_memory_problem.png",
+    "public/img/_src/cs/os/outlineofcs_computer_componant.png",
     "public/img/_src/cs/os/outlineofcs_cmd2.png",
     "public/img/lecture_os_01_phase1-2.png",
     "cs/_posts/2024-02-22-outlineofcs.md",
-    "public/img/_src/cs/os/outlineofcs_computer_componant.png",
     "data_structure/_posts/2024-02-20-hashtable.md",
     "~.md",
     "Pasted image 20240313234020.png",
-    "Pasted image 20240313233700.png",
-    "Pasted image 20240313233607.png",
     "Pasted image 20240313231851.png",
-    "Pasted image 20240313231825.png",
     "Pasted image 20240313231803.png",
     "boj/_posts/2024-02-21-remainsum.md",
     "_category/os.md",
     "_category/sort.md",
     "_category/cs.md",
     "_category/boj.md",
-    "Pasted image 20240313230514.png",
     "_category/lecture.md",
     "os",
     "os/_posts",
