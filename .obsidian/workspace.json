@@ -11,9 +11,51 @@
             "id": "3d554e6d736ae083",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "os/_posts/2024-03-13-Intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3ff66e14c0c8e71",
+            "type": "leaf",
+            "state": {
               "type": "image",
               "state": {
-                "file": "lectures_os_01_MMU.png"
+                "file": "public/img/lectures_os_01_memory_protection.png"
+              }
+            }
+          },
+          {
+            "id": "3082595ef8faa48f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/lecture_os_01_phase1-2.png"
+              }
+            }
+          },
+          {
+            "id": "74827592270b076f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/lectures_os_01_memory_relocation.png"
+              }
+            }
+          },
+          {
+            "id": "6788cd89028e6007",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/lectures_os_01_history_of_os_phase1.png"
               }
             }
           },
@@ -23,7 +65,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "lectures_os_01_base_bound_registers.png"
+                "file": "public/img/lectures_os_01_base_bound_registers.png"
               }
             }
           },
@@ -33,7 +75,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "lectures_os_01_memory_problem.png"
+                "file": "public/img/lectures_os_01_memory_protection.png"
               }
             }
           },
@@ -43,7 +85,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "lectures_os_01_Asyn_Syn_IO.png"
+                "file": "public/img/lectures_os_01_Asyn_Syn_IO.png"
               }
             }
           },
@@ -123,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lectures_os_01_MMU.png",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lectures_os_01_MMU.png",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lectures_os_01_MMU.png"
+                "file": "os/_posts/2024-03-13-Intro.md"
               }
             }
           }
@@ -185,20 +227,20 @@
   },
   "active": "3d554e6d736ae083",
   "lastOpenFiles": [
+    "public/img/lectures_os_01_memory_protection.png",
     "os/_posts/2024-03-13-Intro.md",
-    "lectures_os_01_MMU.png",
-    "lectures_os_01_base_bound_registers.png",
-    "lectures_os_01_Asyn_Syn_IO.png",
-    "lectures_os_01_memory_problem.png",
+    "public/img/lecture_os_01_phase1-2.png",
+    "public/img/lectures_os_01_MMU.png",
+    "public/img/lectures_os_01_memory_relocation.png",
+    "public/img/lectures_os_01_history_of_os_phase1.png",
+    "public/img/lectures_os_01_Asyn_Syn_IO.png",
+    "public/img/lectures_os_01_ATM_ex.png",
+    "public/img/lectures_os_01_base_bound_registers.png",
     "public/img/_src/cs/os/outlineofcs_computer_componant.png",
     "public/img/_src/cs/os/outlineofcs_cmd2.png",
-    "public/img/lecture_os_01_phase1-2.png",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "data_structure/_posts/2024-02-20-hashtable.md",
     "~.md",
-    "Pasted image 20240313234020.png",
-    "Pasted image 20240313231851.png",
-    "Pasted image 20240313231803.png",
     "boj/_posts/2024-02-21-remainsum.md",
     "_category/os.md",
     "_category/sort.md",
