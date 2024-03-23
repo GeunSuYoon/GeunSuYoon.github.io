@@ -13,89 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
+                "file": "boj/_posts/2024-02-27-filecombination.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "e3ff66e14c0c8e71",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/lectures_os_01_memory_protection.png"
-              }
-            }
-          },
-          {
-            "id": "3082595ef8faa48f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/lecture_os_01_phase1-2.png"
-              }
-            }
-          },
-          {
-            "id": "74827592270b076f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/lectures_os_01_memory_relocation.png"
-              }
-            }
-          },
-          {
-            "id": "6788cd89028e6007",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/lectures_os_01_history_of_os_phase1.png"
-              }
-            }
-          },
-          {
-            "id": "e230b5d9685a0111",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/lectures_os_01_base_bound_registers.png"
-              }
-            }
-          },
-          {
-            "id": "57d2f4529f9def12",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/lectures_os_01_memory_protection.png"
-              }
-            }
-          },
-          {
-            "id": "d17177ae50d439c0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/lectures_os_01_Asyn_Syn_IO.png"
-              }
-            }
-          },
-          {
-            "id": "ab6b4b409d7e9751",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/lecture_os_01_phase1-2.png"
               }
             }
           }
@@ -165,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
+                "file": "boj/_posts/2024-02-27-filecombination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
+                "file": "boj/_posts/2024-02-27-filecombination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md"
+                "file": "boj/_posts/2024-02-27-filecombination.md"
               }
             }
           }
@@ -227,21 +147,24 @@
   },
   "active": "3d554e6d736ae083",
   "lastOpenFiles": [
-    "public/img/lectures_os_01_memory_protection.png",
+    "public/img/boj_filecomb_2nd_dia_table.png",
+    "public/img/boj_filecomb_init_table.png",
+    "public/img/boj_filecomb_1st_dia_table.png",
+    "public/img/boj_filecomb_1st_ctl_table.png",
+    "boj/_posts/2024-02-27-filecombination.md",
+    "boj/_posts/2024-02-22-binomialcoefficient3.md",
+    "boj/_posts/2024-02-21-remainsum.md",
+    "public/img/outlineofcs_cmd2.png",
     "os/_posts/2024-03-13-Intro.md",
     "public/img/lecture_os_01_phase1-2.png",
-    "public/img/lectures_os_01_MMU.png",
-    "public/img/lectures_os_01_memory_relocation.png",
-    "public/img/lectures_os_01_history_of_os_phase1.png",
+    "public/img/lectures_os_01_memory_protection.png",
     "public/img/lectures_os_01_Asyn_Syn_IO.png",
-    "public/img/lectures_os_01_ATM_ex.png",
     "public/img/lectures_os_01_base_bound_registers.png",
-    "public/img/_src/cs/os/outlineofcs_computer_componant.png",
-    "public/img/_src/cs/os/outlineofcs_cmd2.png",
+    "public/img/lectures_os_01_history_of_os_phase1.png",
+    "public/img/lectures_os_01_memory_relocation.png",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "data_structure/_posts/2024-02-20-hashtable.md",
     "~.md",
-    "boj/_posts/2024-02-21-remainsum.md",
     "_category/os.md",
     "_category/sort.md",
     "_category/cs.md",
@@ -250,8 +173,6 @@
     "os",
     "os/_posts",
     "lecture",
-    "boj/_posts/2024-02-27-filecombination.md",
-    "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "_src/boj/image/2024-02-27-filecombination/init_table.md",
     "THEME.md",
     "public/img/_src/boj/image/2024-02-27-filecombination",
