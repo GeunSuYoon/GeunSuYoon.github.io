@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "1719c830236d1488",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/_src/cs/os/outlineofcs_computer_componant.png"
+              }
+            }
+          },
+          {
             "id": "ab6b4b409d7e9751",
             "type": "leaf",
             "state": {
@@ -157,6 +167,9 @@
   },
   "active": "5360b68194edd8c6",
   "lastOpenFiles": [
+    "public/img/_src/cs/os/outlineofcs_cmd2.png",
+    "cs/_posts/2024-02-22-outlineofcs.md",
+    "public/img/_src/cs/os/outlineofcs_computer_componant.png",
     "data_structure/_posts/2024-02-20-hashtable.md",
     "os/_posts/2024-03-13-Intro.md",
     "public/img/_src/lecture/lecture_os_01_phase1-2.png",
@@ -174,8 +187,6 @@
     "_category/boj.md",
     "Pasted image 20240313230514.png",
     "Pasted image 20240313230454.png",
-    "public/img/_src/lecture/lecture_os_01_phase1-3.png",
-    "cs/_posts/2024-02-22-outlineofcs.md",
     "_category/lecture.md",
     "os",
     "os/_posts",

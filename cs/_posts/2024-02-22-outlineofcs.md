@@ -27,8 +27,8 @@ tags:
 
 ## 컴퓨터 구성 요소 (최상위 수준 관점)
 
-![ComputerComponents]()
-![[outlineofcs_computer_componant.png]]
+![ComputerComponents](/public/img/_src/cs/os/outlineofcs_computer_componant.png)
+
 - 메모리 주소 레지스터(Memory Address Register): 다음 번에 읽거나 쓸 주소 명시
 - 메모리 버퍼 레지스터(Memory Buffer Register): 메모리에 쓸 데이터를 포함하거나 메모리로부터 수신된 데이터를 포함
 - 프로그램 계수기(Program Counter): 다음 실행될 명령어의 주소(실행할 기계어 코드 위치)를 저장
@@ -38,7 +38,8 @@ tags:
 
 ## 명령어 실행 2단계
 
-![[outlineofcs_cmd2.png]]
+![Command_Execute](/public/img/_src/cs/os/outlineofcs_cmd2.png)
+
 - 반입(Fetch): 처리기가 메모리로부터 명령어를 읽음
 - 실행(Execute): 처리기가 각 명령어 수행
 
@@ -48,14 +49,14 @@ tags:
 - 디바이스 작업이 완료되면 처리기에게 **인터럽트**를 걸 수 있도록 허용
 - 인터럽트와 프로그램 제어 흐름
 
-![[outlineofcs_interupt.png]]
+![Interrupt](/public/img/_src/cs/os/outlineofcs_interupt.png)
 
 - 인터럽트 처리를 위한 오버헤드가 존재하나, 입출력 연산이 완료되기를 기다리며 낭비하는 시간에 비해 상대적으로 짧음.
 
 ## 메모리 계층 구조
 - 접근 시간이 빠르면 비트 당 비용이 높아짐.
 - 용량이 크면 비트 당 저장 비용이 낮아지지만, 접근 시간이 길어짐
-- ![[outlineofcs_memory_hierachi.png]]
+	![Memory_Hierachi](/public/img/_src/cs/os/outlineofcs_memory_hierachi.png)
 	- 계층 구조를 따라 내려갈수록
 		a. 비트 당 비용이 감소
 		b. 용량이 증가
