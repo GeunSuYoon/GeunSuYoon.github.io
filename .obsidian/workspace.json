@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5360b68194edd8c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1719c830236d1488",
             "type": "leaf",
             "state": {
@@ -105,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
+                "file": "public/img/_src/cs/os/outlineofcs_computer_componant.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
+                "file": "public/img/_src/cs/os/outlineofcs_computer_componant.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md"
+                "file": "public/img/_src/cs/os/outlineofcs_computer_componant.png"
               }
             }
           }
@@ -165,11 +153,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "5360b68194edd8c6",
+  "active": "1719c830236d1488",
   "lastOpenFiles": [
+    "os/_posts/2024-03-13-Intro.md",
     "public/img/_src/cs/os/outlineofcs_cmd2.png",
     "public/img/lecture_os_01_phase1-2.png",
-    "os/_posts/2024-03-13-Intro.md",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "public/img/_src/cs/os/outlineofcs_computer_componant.png",
     "data_structure/_posts/2024-02-20-hashtable.md",
