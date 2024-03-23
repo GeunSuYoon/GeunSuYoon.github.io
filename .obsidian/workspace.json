@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,7 +35,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "public/img/_src/lecture/lecture_os_01_phase1-2.png"
+                "file": "public/img/lecture_os_01_phase1-2.png"
               }
             }
           }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md"
+                "file": "os/_posts/2024-03-13-Intro.md"
               }
             }
           }
@@ -168,11 +168,11 @@
   "active": "5360b68194edd8c6",
   "lastOpenFiles": [
     "public/img/_src/cs/os/outlineofcs_cmd2.png",
+    "public/img/lecture_os_01_phase1-2.png",
+    "os/_posts/2024-03-13-Intro.md",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "public/img/_src/cs/os/outlineofcs_computer_componant.png",
     "data_structure/_posts/2024-02-20-hashtable.md",
-    "os/_posts/2024-03-13-Intro.md",
-    "public/img/_src/lecture/lecture_os_01_phase1-2.png",
     "~.md",
     "Pasted image 20240313234020.png",
     "Pasted image 20240313233700.png",
@@ -186,7 +186,6 @@
     "_category/cs.md",
     "_category/boj.md",
     "Pasted image 20240313230514.png",
-    "Pasted image 20240313230454.png",
     "_category/lecture.md",
     "os",
     "os/_posts",
