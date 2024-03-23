@@ -27,6 +27,7 @@ tags:
 
 ## 컴퓨터 구성 요소 (최상위 수준 관점)
 
+![ComputerComponents]()
 ![[outlineofcs_computer_componant.png]]
 - 메모리 주소 레지스터(Memory Address Register): 다음 번에 읽거나 쓸 주소 명시
 - 메모리 버퍼 레지스터(Memory Buffer Register): 메모리에 쓸 데이터를 포함하거나 메모리로부터 수신된 데이터를 포함
