@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "etc/_posts/2024-03-24-Naver_ct.md",
+                "file": "git/_posts/2024-03-24-git_commit_msg.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "etc/_posts/2024-03-24-Naver_ct.md",
+                "file": "git/_posts/2024-03-24-git_commit_msg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "etc/_posts/2024-03-24-Naver_ct.md",
+                "file": "git/_posts/2024-03-24-git_commit_msg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "etc/_posts/2024-03-24-Naver_ct.md"
+                "file": "git/_posts/2024-03-24-git_commit_msg.md"
               }
             }
           }
@@ -165,8 +165,12 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
-    "os/_posts/2024-03-13-Intro.md",
+    "_category/git.md",
+    "git/_posts/2024-03-24-git_commit_msg.md",
+    "git/_posts",
+    "git",
     "etc/_posts/2024-03-24-Naver_ct.md",
+    "os/_posts/2024-03-13-Intro.md",
     "public/img/screenshot-1.png",
     "_category/etc.md",
     "Untitled.md",
@@ -203,12 +207,9 @@
     "public/img/_src/boj/image/2024-02-27-filecombination",
     "public/img/_src/lecture",
     "public/img/_src/cs/os/image",
-    "public/img/_src/boj",
-    "public/img/_src/cs/os",
     "algorithm/_posts/2024-02-21-lrucache.md",
     "42seoul/circle02/2024-02-21-pipex.md",
     "algorithm/_posts/2024-02-21-permuncomb.md",
-    "_category/math.md",
-    "algorithm/_posts/2024-02-21-lis.md"
+    "_category/math.md"
   ]
 }
