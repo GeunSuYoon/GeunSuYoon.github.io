@@ -11,11 +11,9 @@
             "id": "d48af1f85c59c01c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md",
-                "mode": "source",
-                "source": false
+                "file": "git_commit_msg_before_change.png"
               }
             }
           }
@@ -103,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md",
+                "file": "git_commit_msg_before_change.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md",
+                "file": "git_commit_msg_before_change.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md"
+                "file": "git_commit_msg_before_change.png"
               }
             }
           }
@@ -163,15 +161,24 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d48af1f85c59c01c",
+  "active": "a24e5739df025198",
   "lastOpenFiles": [
-    "_category/git.md",
     "git/_posts/2024-03-24-git_commit_msg.md",
+    "Screenshot 2024-03-24 at 1.48.21 PM.png",
+    "Screenshot 2024-03-24 at 1.48.10 PM.png",
+    "Screenshot 2024-03-24 at 1.47.16 PM.png",
+    "Screenshot 2024-03-24 at 1.47.00 PM.png",
+    "Screenshot 2024-03-24 at 1.46.15 PM.png",
+    "Screenshot 2024-03-24 at 1.46.12 PM.png",
+    "Screenshot 2024-03-24 at 1.46.03 PM.png",
+    "Screenshot 2024-03-24 at 1.45.29 PM.png",
+    "Screenshot 2024-03-24 at 1.45.22 PM.png",
+    "Screenshot 2024-03-24 at 1.45.13 PM.png",
+    "_category/git.md",
     "git/_posts",
     "git",
     "etc/_posts/2024-03-24-Naver_ct.md",
     "os/_posts/2024-03-13-Intro.md",
-    "public/img/screenshot-1.png",
     "_category/etc.md",
     "Untitled.md",
     "Untitled 1.md",
@@ -182,15 +189,6 @@
     "boj/_posts/2024-02-27-filecombination.md",
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "boj/_posts/2024-02-21-remainsum.md",
-    "public/img/boj_remainsum_subject.png",
-    "public/img/boj_filecomb_2nd_dia_table.png",
-    "public/img/boj_filecomb_init_table.png",
-    "public/img/boj_filecomb_1st_dia_table.png",
-    "public/img/boj_filecomb_1st_ctl_table.png",
-    "public/img/outlineofcs_cmd2.png",
-    "public/img/lecture_os_01_phase1-2.png",
-    "public/img/lectures_os_01_memory_protection.png",
-    "public/img/lectures_os_01_Asyn_Syn_IO.png",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "data_structure/_posts/2024-02-20-hashtable.md",
     "~.md",
@@ -209,7 +207,6 @@
     "public/img/_src/cs/os/image",
     "algorithm/_posts/2024-02-21-lrucache.md",
     "42seoul/circle02/2024-02-21-pipex.md",
-    "algorithm/_posts/2024-02-21-permuncomb.md",
-    "_category/math.md"
+    "algorithm/_posts/2024-02-21-permuncomb.md"
   ]
 }

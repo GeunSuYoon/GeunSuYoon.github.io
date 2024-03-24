@@ -18,7 +18,27 @@ tags:
 	`$ git config --global core.editor "vim"`
 
 - 해당 명령어를 입력하면 git 옵션으로 실행하는 파일 편집이 vim으로 바뀐다.
+![[git_commit_msg_before_change.png]]
 
+![[Screenshot 2024-03-24 at 1.45.13 PM.png]]
+
+![[Screenshot 2024-03-24 at 1.45.22 PM.png]]
+
+![[Screenshot 2024-03-24 at 1.45.29 PM.png]]
+
+![[Screenshot 2024-03-24 at 1.46.03 PM.png]]
+
+![[Screenshot 2024-03-24 at 1.46.12 PM.png]]
+
+![[Screenshot 2024-03-24 at 1.46.15 PM.png]]
+
+![[Screenshot 2024-03-24 at 1.47.00 PM.png]]
+
+![[Screenshot 2024-03-24 at 1.47.16 PM.png]]
+
+![[Screenshot 2024-03-24 at 1.48.10 PM.png]]
+
+![[Screenshot 2024-03-24 at 1.48.21 PM.png]]
 # git log 보기
 
 	`$ git log`
