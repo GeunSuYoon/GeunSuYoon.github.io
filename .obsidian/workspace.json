@@ -8,22 +8,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d554e6d736ae083",
+            "id": "d48af1f85c59c01c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "public/img/screenshot-1.png"
+                "file": "etc/_posts/2024-03-24-Naver_ct.md",
+                "mode": "source",
+                "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "c226f28f104a1243",
+        "type": "tabs",
+        "children": [
           {
-            "id": "681d0dae174b9bae",
+            "id": "24198b41ddcd2851",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "public/img/boj_remainsum_subject.png"
+                "file": "os/_posts/2024-03-13-Intro.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -93,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "public/img/screenshot-1.png",
+                "file": "etc/_posts/2024-03-24-Naver_ct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "public/img/screenshot-1.png",
+                "file": "etc/_posts/2024-03-24-Naver_ct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "public/img/screenshot-1.png"
+                "file": "etc/_posts/2024-03-24-Naver_ct.md"
               }
             }
           }
@@ -153,10 +163,19 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "3d554e6d736ae083",
+  "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
-    "boj/_posts/2024-02-27-filecombination.md",
+    "os/_posts/2024-03-13-Intro.md",
+    "etc/_posts/2024-03-24-Naver_ct.md",
     "public/img/screenshot-1.png",
+    "_category/etc.md",
+    "Untitled.md",
+    "Untitled 1.md",
+    "etc/_posts",
+    "etc",
+    "_category/data_structure.md",
+    "_category/42seoul.md",
+    "boj/_posts/2024-02-27-filecombination.md",
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "boj/_posts/2024-02-21-remainsum.md",
     "public/img/boj_remainsum_subject.png",
@@ -165,7 +184,6 @@
     "public/img/boj_filecomb_1st_dia_table.png",
     "public/img/boj_filecomb_1st_ctl_table.png",
     "public/img/outlineofcs_cmd2.png",
-    "os/_posts/2024-03-13-Intro.md",
     "public/img/lecture_os_01_phase1-2.png",
     "public/img/lectures_os_01_memory_protection.png",
     "public/img/lectures_os_01_Asyn_Syn_IO.png",
@@ -187,18 +205,10 @@
     "public/img/_src/cs/os/image",
     "public/img/_src/boj",
     "public/img/_src/cs/os",
-    "public/img/_src/cs",
     "algorithm/_posts/2024-02-21-lrucache.md",
     "42seoul/circle02/2024-02-21-pipex.md",
     "algorithm/_posts/2024-02-21-permuncomb.md",
     "_category/math.md",
-    "algorithm/_posts/2024-02-21-lis.md",
-    "algorithm/_posts/2024-02-21-countingsort.md",
-    "technique/_posts/2024-02-21-bitmask.md",
-    "technique/_posts/2024-02-21-twoptr.md",
-    "algorithm/_posts/2024-02-21-quicksort.md",
-    "algorithm/_posts/2024-02-21-lca.md",
-    "_category/data_structure.md",
-    "_site/data_structure/hashtable.html"
+    "algorithm/_posts/2024-02-21-lis.md"
   ]
 }
