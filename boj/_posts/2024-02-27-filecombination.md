@@ -20,23 +20,23 @@ tags:
 - 해당 문제에서 제시한 예제, `[40, 30, 30, 50]`을 이용해 풀이를 진행하겠다.
 - 2차원 배열에 각 값과 들어온 이후 누적합을 저장한다.
 
-![init_table](boj_filecomb_init_table.png)
+![init_table](/public/img/boj_filecomb_init_table.png)
 
 
 - `[k, k]`번째 요소들을 0으로 초기화한다.
 
-![1st_ctl_table](boj_filecomb_1st_ctl_table.png)
+![1st_ctl_table](/public/img/boj_filecomb_1st_ctl_table.png)
 
 - 이후 대각선으로 돌며, 해당 누적합을 만들 수 있는 최소 값을 구해 더해준다.
 
-![init_table](boj_filecomb_1st_dia_table.png)
+![init_table](/public/img/boj_filecomb_1st_dia_table.png)
 
 - `[1 - 3]` 누적합을 만들 수 있는 방법은 `[1] + [2, 3]`, `[1, 2] + [3]`이다.
 	- `(1, 1) + (2, 3) = 60`
 	- `(1, 2) + (3, 3) = 70`
 	- 최솟값인 60을 `(1, 3)`에 더해준다.
 
-![init_table](boj_filecomb_2nd_dia_table.png)
+![init_table](/public/img/boj_filecomb_2nd_dia_table.png)
 
 - `[1 - 4]` 누적합은 `[1] + [2 - 4]`, `[1, 2] + [3, 4]`, `[1 - 3] + [4]`로 만들 수 있다.
 	- `(1, 1) + (2, 4) = 160`
