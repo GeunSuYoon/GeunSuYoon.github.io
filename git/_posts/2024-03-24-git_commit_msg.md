@@ -17,4 +17,10 @@ tags:
 
 	`$ git config --global core.editor "vim"`
 
-- 
+- 해당 명령어를 입력하면 git 옵션으로 실행하는 파일 편집이 vim으로 바뀐다.
+
+# git log 보기
+
+	`$ git log`
+
+- 해당 명령어를 입력하면 commit 이력을 볼 수 있고, 
