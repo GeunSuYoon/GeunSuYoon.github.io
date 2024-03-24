@@ -13,29 +13,22 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "git_commit_msg_before_change.png"
+                "file": "public/img/_src/git/commit_msg_change/commit_log.png"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "c226f28f104a1243",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "24198b41ddcd2851",
+            "id": "eba6e3d239d93d80",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
-                "mode": "source",
-                "source": false
+                "file": "public/img/_src/git/commit_msg_change/commit_log.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git_commit_msg_before_change.png",
+                "file": "public/img/_src/git/commit_msg_change/commit_log.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git_commit_msg_before_change.png",
+                "file": "public/img/_src/git/commit_msg_change/commit_log.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git_commit_msg_before_change.png"
+                "file": "public/img/_src/git/commit_msg_change/commit_log.png"
               }
             }
           }
@@ -161,19 +154,22 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a24e5739df025198",
+  "active": "eba6e3d239d93d80",
   "lastOpenFiles": [
+    "public/img/_src/git/commit_msg_change/commit_msg_after_change.png",
+    "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.48.10 PM.png",
+    "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.47.16 PM.png",
+    "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.46.12 PM.png",
+    "public/img/_src/git/commit_msg_change/git_push_cmd_after_msg_change.png",
+    "public/img/_src/git/commit_msg_change/commit_msg_before_change.png",
+    "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.46.03 PM.png",
+    "public/img/_src/git/commit_msg_change/git_rebase_hash.png",
+    "public/img/_src/git/commit_msg_change/rebase_window_change_target_cmd.png",
+    "public/img/_src/git/commit_msg_change/rebase_window.png",
+    "public/img/_src/git/commit_msg_change/commit_log.png",
     "git/_posts/2024-03-24-git_commit_msg.md",
-    "Screenshot 2024-03-24 at 1.48.21 PM.png",
-    "Screenshot 2024-03-24 at 1.48.10 PM.png",
-    "Screenshot 2024-03-24 at 1.47.16 PM.png",
-    "Screenshot 2024-03-24 at 1.47.00 PM.png",
-    "Screenshot 2024-03-24 at 1.46.15 PM.png",
-    "Screenshot 2024-03-24 at 1.46.12 PM.png",
-    "Screenshot 2024-03-24 at 1.46.03 PM.png",
-    "Screenshot 2024-03-24 at 1.45.29 PM.png",
-    "Screenshot 2024-03-24 at 1.45.22 PM.png",
-    "Screenshot 2024-03-24 at 1.45.13 PM.png",
+    "public/img/_src/git/commit_msg_change",
+    "public/img/_src/git",
     "_category/git.md",
     "git/_posts",
     "git",
@@ -203,8 +199,6 @@
     "_src/boj/image/2024-02-27-filecombination/init_table.md",
     "THEME.md",
     "public/img/_src/boj/image/2024-02-27-filecombination",
-    "public/img/_src/lecture",
-    "public/img/_src/cs/os/image",
     "algorithm/_posts/2024-02-21-lrucache.md",
     "42seoul/circle02/2024-02-21-pipex.md",
     "algorithm/_posts/2024-02-21-permuncomb.md"
