@@ -11,24 +11,11 @@
             "id": "d48af1f85c59c01c",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/_src/git/commit_msg_change/commit_log.png"
-              }
-            }
-          },
-          {
-            "id": "eba6e3d239d93d80",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/_src/git/commit_msg_change/commit_log.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "public/img/_src/git/commit_msg_change/commit_log.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "public/img/_src/git/commit_msg_change/commit_log.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "public/img/_src/git/commit_msg_change/commit_log.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -151,22 +134,23 @@
       "graph:Open graph view": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eba6e3d239d93d80",
+  "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
+    "public/img/_src/git/commit_msg_change/rebase_window_change_target_cmd.png",
+    "public/img/_src/git/commit_msg_change/rebase_window.png",
+    "public/img/_src/git/commit_msg_change/commit_log.png",
+    "public/img/_src/git/commit_msg_change/Drawing 2024-03-25 01.20.57.excalidraw.md",
+    "public/img/_src/git/commit_msg_change/git_rebase_hash.png",
+    "public/img/_src/git/commit_msg_change/git_push_cmd_after_msg_change.png",
+    "public/img/_src/git/commit_msg_change/commit_msg_before_change.png",
     "public/img/_src/git/commit_msg_change/commit_msg_after_change.png",
     "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.48.10 PM.png",
     "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.47.16 PM.png",
     "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.46.12 PM.png",
-    "public/img/_src/git/commit_msg_change/git_push_cmd_after_msg_change.png",
-    "public/img/_src/git/commit_msg_change/commit_msg_before_change.png",
-    "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.46.03 PM.png",
-    "public/img/_src/git/commit_msg_change/git_rebase_hash.png",
-    "public/img/_src/git/commit_msg_change/rebase_window_change_target_cmd.png",
-    "public/img/_src/git/commit_msg_change/rebase_window.png",
-    "public/img/_src/git/commit_msg_change/commit_log.png",
     "git/_posts/2024-03-24-git_commit_msg.md",
     "public/img/_src/git/commit_msg_change",
     "public/img/_src/git",
@@ -200,7 +184,6 @@
     "THEME.md",
     "public/img/_src/boj/image/2024-02-27-filecombination",
     "algorithm/_posts/2024-02-21-lrucache.md",
-    "42seoul/circle02/2024-02-21-pipex.md",
-    "algorithm/_posts/2024-02-21-permuncomb.md"
+    "42seoul/circle02/2024-02-21-pipex.md"
   ]
 }

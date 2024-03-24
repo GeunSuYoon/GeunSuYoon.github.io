@@ -2,5 +2,8 @@
   "strictLineBreaks": true,
   "trashOption": "local",
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "media"
+  "attachmentFolderPath": "public/img",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true,
+  "promptDelete": false
 }
