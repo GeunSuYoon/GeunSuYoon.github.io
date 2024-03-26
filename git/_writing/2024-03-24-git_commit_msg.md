@@ -84,7 +84,7 @@ tags:
 
 	`$ git push --force-with-lease`
 
-- 
+- 위 옵션은 
 
 ![git_push_option_to_change_github](public/img/_src/git/commit_msg_change/07.git_push_option_to_change_github.png)
 
