@@ -11,8 +11,12 @@
             "id": "d48af1f85c59c01c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "git/_writing/2024-03-24-git_commit_msg.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "git/_writing/2024-03-24-git_commit_msg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "git/_writing/2024-03-24-git_commit_msg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "git/_writing/2024-03-24-git_commit_msg.md"
+              }
             }
           }
         ]
@@ -140,24 +148,26 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
+    "public/img/_src/git/commit_msg_change/01.before_change_msg.png",
+    "git/_writing/2024-03-24-git_commit_msg.md",
+    "public/img/_src/Untitled",
+    "public/img/_src/git/commit_msg_change/08.after_change_msg.png",
+    "public/img/_src/git/commit_msg_change/07_1.git_push_option_with_no_includes.png",
+    "public/img/_src/git/commit_msg_change/07.git_push_option_to_change_github.png",
+    "public/img/_src/git/commit_msg_change/06.after_msg_change_terminal.png",
+    "public/img/_src/git/commit_msg_change/05.change_commit_msg.png",
+    "public/img/_src/git/commit_msg_change/04.git_rebase_target_cmd_change.png",
+    "public/img/_src/git/commit_msg_change/03.git_rebase_hash.png",
+    "public/img/_src/git/commit_msg_change/02.git_log.png",
+    "git/_writing",
+    "etc/_posts/2024-03-24-Naver_ct.md",
     "public/img/_src/git/commit_msg_change/rebase_window_change_target_cmd.png",
-    "public/img/_src/git/commit_msg_change/rebase_window.png",
-    "public/img/_src/git/commit_msg_change/commit_log.png",
     "public/img/_src/git/commit_msg_change/Drawing 2024-03-25 01.20.57.excalidraw.md",
-    "public/img/_src/git/commit_msg_change/git_rebase_hash.png",
-    "public/img/_src/git/commit_msg_change/git_push_cmd_after_msg_change.png",
-    "public/img/_src/git/commit_msg_change/commit_msg_before_change.png",
-    "public/img/_src/git/commit_msg_change/commit_msg_after_change.png",
-    "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.48.10 PM.png",
-    "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.47.16 PM.png",
-    "public/img/_src/git/commit_msg_change/Screenshot 2024-03-24 at 1.46.12 PM.png",
-    "git/_posts/2024-03-24-git_commit_msg.md",
     "public/img/_src/git/commit_msg_change",
     "public/img/_src/git",
     "_category/git.md",
     "git/_posts",
     "git",
-    "etc/_posts/2024-03-24-Naver_ct.md",
     "os/_posts/2024-03-13-Intro.md",
     "_category/etc.md",
     "Untitled.md",
@@ -179,10 +189,8 @@
     "_category/lecture.md",
     "os",
     "os/_posts",
-    "lecture",
     "_src/boj/image/2024-02-27-filecombination/init_table.md",
     "THEME.md",
-    "public/img/_src/boj/image/2024-02-27-filecombination",
     "algorithm/_posts/2024-02-21-lrucache.md",
     "42seoul/circle02/2024-02-21-pipex.md"
   ]
