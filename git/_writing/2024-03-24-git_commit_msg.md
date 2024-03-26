@@ -73,7 +73,17 @@ tags:
 - 그럼 이제 push를 해주자. 그런데 그냥 git push를 하면 안 올라간다.
 - 그 이유는 크게 두 가지가 있다.
 	1. Hash 값 변경
-	2. 
+	2. 원격 저장소와 로컬 저장소 충돌
+- 이럴 때 우리는 강제로 push해야 한다.
+- 강제로 push하는 명령어는 아래와 같다.
+
+	`$ git push --force`
+
+- 하지만, 해당 명령어는 말 그대로 강제로 밀어 넣기 때문에 협업 환경에서 다른 사람들의 결과물을 망칠 수 있다.
+- 그러므로 force 뒤에 추가 옵션을 준다.
+
+	`$ git push --force-with-lease`
+
 - 
 
 ![git_push_option_to_change_github](public/img/_src/git/commit_msg_change/07.git_push_option_to_change_github.png)
