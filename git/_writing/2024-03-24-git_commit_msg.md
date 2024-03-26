@@ -41,7 +41,7 @@ tags:
 	- feat: Destroy enemy when hitten by bullet 부터 보인다는 뜻이다.
 - 그래서 우린 빨간 선, 즉 이전 기록인 docs: Create README.md file의 hash key를 복사하자.
 
-# commit massage 바기기
+# commit massage 바꾸기
 
 - 이제 우리는 변경을 할 수 있는 위치를 알았다. 그렇다면 이제 이동해보자!
 - 이동하는 것은 rebase로 할 수 있다.
@@ -67,7 +67,10 @@ tags:
 ![after_msg_change_terminal](public/img/_src/git/commit_msg_change/06.after_msg_change_terminal.png)
 
 - 그럼 위와 같이 massage가 update됐다는 안내가 나온다.
-- 그럼 이제 push를 해줘야 하는데, 
+
+# 수정 사항 git push하
+
+- 그럼 이제 push를 해줘야 하는데, 뒤에 
 
 ![git_push_option_to_change_github](public/img/_src/git/commit_msg_change/07.git_push_option_to_change_github.png)
 
