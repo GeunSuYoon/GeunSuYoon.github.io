@@ -36,7 +36,18 @@ tags:
 
 ![](public/img/_src/git/commit_msg_change/02.git_log.png)
 
-- 파란 선이 내가 test로 commit massage를 보낸 hash key이다. 하지만, 해당 
+- 파란 선이 내가 test로 commit massage를 보낸 hash key이다.
+- 하지만, rebase로 해당 로그로 이동하면 그 다음 기록부터 보인다.
+	- feat: Destroy enemy when hitten by bullet 부터 보인다는 뜻이다.
+- 따라서, 이전 기록인 docs: Create README.md file의 hash key를 복사하자.
+
+# git rebase
+
+- 이제 우리는 변경을 할 수 있는 위치를 알았다. 그렇다면 이제 이동해보자!
+
+	`$ git rebase -i [HASH_KEY]`
+
+- 위 명령어를 입력하면 앞서 말한 것처럼 다음  
 
 ![](public/img/_src/git/commit_msg_change/03.git_rebase_hash.png)
 
