@@ -68,9 +68,9 @@ tags:
 
 - 그럼 위와 같이 massage가 update됐다는 안내가 나온다.
 
-# 수정 사항 git push하
+# 수정 사항 git push하기
 
-- 그럼 이제 push를 해줘야 하는데, 뒤에 
+- 그럼 이제 push를 해주자. 그런데 그냥 git push를 하면 안 올라간다.
 
 ![git_push_option_to_change_github](public/img/_src/git/commit_msg_change/07.git_push_option_to_change_github.png)
 
