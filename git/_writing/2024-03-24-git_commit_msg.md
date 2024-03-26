@@ -12,7 +12,10 @@ tags:
 ![before_change_msg](public/img/_src/git/commit_msg_change/01.before_change_msg.png)
 - 최근 unity 공부를 하던 중, 기존 unity 프로젝트 폴더 내부 파일을 만든 repository에 추가하려 했다.
 - pull request에 익숙해지려 PR을 하는 방식으로 여러 번 push했다.
-- 하지만, 익숙하지 않은 작업에 제대로 동작하지 않아 commit massage를 test로 여러 번 시도하던 중 commit
+- 하지만, 익숙하지 않은 작업에 commit massage를 test로 여러 번 시도하던 중 commit이 성공했다!!
+- 그러고 다른 작업을 하던 중 commit massage가 test로 남아있는 모습을 보게 됐다.
+	- 물론, 다른 작업을 push하기 전에 가장 최근 massage만 바꾸려면 `$ git commit --amend -m "NEW MASSAGE"` 로 바꾸면 된다!
+- 이번엔 이것을 바꾸는 방법을 알아보자!
 # git editor 변경
 
 - 커밋 메시지를 변경하는 과정에서 터미널에서 편집하는 과정이 있다.
@@ -23,7 +26,17 @@ tags:
 
 - 해당 명령어를 입력하면 git 옵션으로 실행하는 파일 편집이 vim으로 바뀐다.
 
+# git log 보기
+
+- 다른 일을 할 때도 git log를 봐야 하는 경우가 있다.
+
+	`$ git log`
+
+- 해당 명령어를 입력하면 해당 repository의 기록을 볼 수 있다.
+
 ![](public/img/_src/git/commit_msg_change/02.git_log.png)
+
+- 파란 선이 내가 test로 commit massage를 보낸 hash key이다. 하지만, 해당 
 
 ![](public/img/_src/git/commit_msg_change/03.git_rebase_hash.png)
 
