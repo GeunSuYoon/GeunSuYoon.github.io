@@ -58,19 +58,13 @@ tags:
 
 
 
-![](public/img/_src/git/commit_msg_change/05.change_commit_msg.png)
+![change_commit_msg](public/img/_src/git/commit_msg_change/05.change_commit_msg.png)
 
-![](public/img/_src/git/commit_msg_change/06.after_msg_change_terminal.png)
+![after_msg_change_terminal](public/img/_src/git/commit_msg_change/06.after_msg_change_terminal.png)
 
-![](public/img/_src/git/commit_msg_change/07.git_push_option_to_change_github.png)
+![git_push_option_to_change_github](public/img/_src/git/commit_msg_change/07.git_push_option_to_change_github.png)
 
-![](public/img/_src/git/commit_msg_change/07_1.git_push_option_with_no_includes.png)
+![git_push_option_with_no_includes](public/img/_src/git/commit_msg_change/07_1.git_push_option_with_no_includes.png)
 
-![](public/img/_src/git/commit_msg_change/08.after_change_msg.png)
+![after_change_msg](public/img/_src/git/commit_msg_change/08.after_change_msg.png)
 
-
-# git log 보기
-
-	`$ git log`
-
-- 해당 명령어를 입력하면 commit 이력을 볼 수 있고, 
