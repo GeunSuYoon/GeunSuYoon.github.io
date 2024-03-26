@@ -34,12 +34,12 @@ tags:
 
 - 해당 명령어를 입력하면 해당 repository의 기록을 볼 수 있다.
 
-![](public/img/_src/git/commit_msg_change/02.git_log.png)
+![git_log](public/img/_src/git/commit_msg_change/02.git_log.png)
 
 - 파란 선이 내가 test로 commit massage를 보낸 hash key이다.
 - 하지만, rebase로 해당 로그로 이동하면 그 다음 기록부터 보인다.
 	- feat: Destroy enemy when hitten by bullet 부터 보인다는 뜻이다.
-- 따라서, 이전 기록인 docs: Create README.md file의 hash key를 복사하자.
+- 그래서 우린 빨간 선, 즉 이전 기록인 docs: Create README.md file의 hash key를 복사하자.
 
 # git rebase
 
@@ -47,11 +47,16 @@ tags:
 
 	`$ git rebase -i [HASH_KEY]`
 
-- 위 명령어를 입력하면 앞서 말한 것처럼 다음  
+- 위 명령어를 입력하면 앞서 말한 것처럼 다음 기록부터 보인다. 
 
-![](public/img/_src/git/commit_msg_change/03.git_rebase_hash.png)
+![git_rebase_hash](public/img/_src/git/commit_msg_change/03.git_rebase_hash.png)
 
-![](public/img/_src/git/commit_msg_change/04.git_rebase_target_cmd_change.png)
+- 각 commit massage 앞에 `pick` 이라고 적힌 것을 볼 수 있다. 해당 명령어는 아래 파란 글씨로 적힌 `Commands:` 아래 적힌 의미이다.
+- 우린 test의 커맨드를 `pick`에서 `reword`로 바꿀 것이다.
+
+![git_rebase_target_cmd_change](public/img/_src/git/commit_msg_change/04.git_rebase_target_cmd_change.png)
+
+
 
 ![](public/img/_src/git/commit_msg_change/05.change_commit_msg.png)
 
