@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/_writing/2024-03-24-git_commit_msg.md",
+                "file": "git/_posts/2024-03-24-git_commit_msg.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/_writing/2024-03-24-git_commit_msg.md",
+                "file": "git/_posts/2024-03-24-git_commit_msg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/_writing/2024-03-24-git_commit_msg.md",
+                "file": "git/_posts/2024-03-24-git_commit_msg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/_writing/2024-03-24-git_commit_msg.md"
+                "file": "git/_posts/2024-03-24-git_commit_msg.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d48af1f85c59c01c",
+  "active": "a24e5739df025198",
   "lastOpenFiles": [
     "public/img/_src/git/commit_msg_change/01.before_change_msg.png",
-    "git/_writing/2024-03-24-git_commit_msg.md",
+    "git/_posts/2024-03-24-git_commit_msg.md",
     "public/img/_src/Untitled",
     "public/img/_src/git/commit_msg_change/08.after_change_msg.png",
     "public/img/_src/git/commit_msg_change/07_1.git_push_option_with_no_includes.png",

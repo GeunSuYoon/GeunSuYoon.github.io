@@ -10,6 +10,7 @@ tags:
 >이를 변경하는 방법을 알아보자!
 
 ![before_change_msg](public/img/_src/git/commit_msg_change/01.before_change_msg.png)
+
 - 최근 unity 공부를 하던 중, 기존 unity 프로젝트 폴더 내부 파일을 만든 repository에 추가하려 했다.
 - pull request에 익숙해지려 PR을 하는 방식으로 여러 번 push했다.
 - 하지만, 익숙하지 않은 작업에 commit massage를 test로 여러 번 시도하던 중 commit이 성공했다!!
@@ -84,11 +85,13 @@ tags:
 
 	`$ git push --force-with-lease`
 
-- 위 옵션은 
-
-![git_push_option_to_change_github](public/img/_src/git/commit_msg_change/07.git_push_option_to_change_github.png)
+- 위 옵션은 로컬과 원격 저장소의 동기화 상태를 확인한다.
+- 만일 원격 저장소에 변경 사항이 있다면 실패해 충돌을 방지한다!
 
 ![git_push_option_with_no_includes](public/img/_src/git/commit_msg_change/07_1.git_push_option_with_no_includes.png)
 
+# 결과
+
 ![after_change_msg](public/img/_src/git/commit_msg_change/08.after_change_msg.png)
 
+- 그럼 우린 원격 저장소의 commit massage가 바뀐 것을 확인할 수 있다!!
