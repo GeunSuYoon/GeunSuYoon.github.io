@@ -71,6 +71,10 @@ tags:
 # 수정 사항 git push하기
 
 - 그럼 이제 push를 해주자. 그런데 그냥 git push를 하면 안 올라간다.
+- 그 이유는 크게 두 가지가 있다.
+	1. Hash 값 변경
+	2. 
+- 
 
 ![git_push_option_to_change_github](public/img/_src/git/commit_msg_change/07.git_push_option_to_change_github.png)
 
