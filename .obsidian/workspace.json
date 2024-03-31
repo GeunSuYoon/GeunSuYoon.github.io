@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md",
+                "file": "git/_writing/2024-03-31-git_submodule.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md",
+                "file": "git/_writing/2024-03-31-git_submodule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md",
+                "file": "git/_writing/2024-03-31-git_submodule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md"
+                "file": "git/_writing/2024-03-31-git_submodule.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
-    "cs/_posts/2024-02-22-outlineofcs.md",
     "git/_posts/2024-03-24-git_commit_msg.md",
+    "git/_writing/2024-03-31-git_submodule.md",
+    "cs/_posts/2024-02-22-outlineofcs.md",
     "public/img/git_commit_msg_change_08.after_change_msg.png",
     "public/img/git_commit_msg_change_07.git_push_option_to_change_github.png",
     "public/img/git_commit_msg_change_07_1.git_push_option_with_no_includes.png",
