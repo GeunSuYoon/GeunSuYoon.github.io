@@ -23,9 +23,11 @@
             "id": "4adedd48ea837ed2",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.12"
+                "file": "algorithm/_posts/2024-02-21-quicksort.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md",
+                "file": "algorithm/_posts/2024-02-21-quicksort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md",
+                "file": "algorithm/_posts/2024-02-21-quicksort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git/_posts/2024-03-24-git_commit_msg.md"
+                "file": "algorithm/_posts/2024-02-21-quicksort.md"
               }
             }
           }
@@ -159,6 +161,11 @@
   },
   "active": "4adedd48ea837ed2",
   "lastOpenFiles": [
+    "algorithm/_writing/2024-04-10-mitm.md",
+    "boj/_posts/2024-02-27-filecombination.md",
+    "algorithm/_posts/2024-02-21-lrucache.md",
+    "algorithm/_posts/2024-02-21-binarysearch.md",
+    "algorithm/_writing",
     "git/_writing/2024-03-31-git_submodule.md",
     "git/_posts/2024-03-24-git_commit_msg.md",
     "cs/_posts/2024-02-22-outlineofcs.md",
@@ -189,7 +196,6 @@
     "etc",
     "_category/data_structure.md",
     "_category/42seoul.md",
-    "boj/_posts/2024-02-27-filecombination.md",
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "boj/_posts/2024-02-21-remainsum.md",
     "data_structure/_posts/2024-02-20-hashtable.md",
@@ -200,10 +206,6 @@
     "_category/boj.md",
     "_category/lecture.md",
     "os",
-    "os/_posts",
-    "_src/boj/image/2024-02-27-filecombination/init_table.md",
-    "THEME.md",
-    "algorithm/_posts/2024-02-21-lrucache.md",
-    "42seoul/circle02/2024-02-21-pipex.md"
+    "_src/boj/image/2024-02-27-filecombination/init_table.md"
   ]
 }
