@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/_writing/2024-04-10-mitm.md",
+                "file": "algorithm/_posts/2024-04-10-mitm.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/_writing/2024-04-10-mitm.md",
+                "file": "algorithm/_posts/2024-04-10-mitm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/_writing/2024-04-10-mitm.md",
+                "file": "algorithm/_posts/2024-04-10-mitm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/_writing/2024-04-10-mitm.md"
+                "file": "algorithm/_posts/2024-04-10-mitm.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "4adedd48ea837ed2",
   "lastOpenFiles": [
-    "algorithm/_posts/2024-20-20-bubblesort.md",
-    "algorithm/_writing/2024-04-10-mitm.md",
+    "algorithm/_posts/2024-02-20-bubblesort.md",
+    "algorithm/_posts/2024-04-10-mitm.md",
     "algorithm/_posts/2024-02-21-quicksort.md",
     "boj/_posts/2024-02-27-filecombination.md",
     "algorithm/_posts/2024-02-21-lrucache.md",
