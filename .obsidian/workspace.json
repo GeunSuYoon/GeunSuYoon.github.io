@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4adedd48ea837ed2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d48af1f85c59c01c",
+  "active": "4adedd48ea837ed2",
   "lastOpenFiles": [
     "git/_writing/2024-03-31-git_submodule.md",
     "git/_posts/2024-03-24-git_commit_msg.md",
