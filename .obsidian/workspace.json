@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webservice/_writing/2024-04-24-seo.md",
+                "file": "_template/post_template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webservice/_writing/2024-04-24-seo.md",
+                "file": "_template/post_template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webservice/_writing/2024-04-24-seo.md",
+                "file": "_template/post_template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webservice/_writing/2024-04-24-seo.md"
+                "file": "_template/post_template.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
-    "_category/webservice.md",
     "webservice/_writing/2024-04-24-seo.md",
+    "_category/webservice.md",
     "public/img/outlineofcs_computer_componant.png",
     "git/_posts/2024-03-24-git_commit_msg.md",
     "_category/Untitled.md",
