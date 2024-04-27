@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/_writing/2024-04-28-awselb.md",
+                "file": "aws/_posts/2024-04-28-awsebs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/_writing/2024-04-28-awselb.md",
+                "file": "aws/_posts/2024-04-28-awsebs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/_writing/2024-04-28-awselb.md",
+                "file": "aws/_posts/2024-04-28-awsebs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/_writing/2024-04-28-awselb.md"
+                "file": "aws/_posts/2024-04-28-awsebs.md"
               }
             }
           }
@@ -146,13 +146,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d48af1f85c59c01c",
+  "active": "a24e5739df025198",
   "lastOpenFiles": [
-    "aws/_writing/2024-04-28-awsrds.md",
-    "aws/_writing/2024-04-28-awselb.md",
-    "aws/_writing/2024-04-28-awss3.md",
-    "aws/_writing/2024-04-28-awsebs.md",
-    "aws/_writing/2024-04-28-awsec2.md",
+    "aws/_posts/2024-04-28-awss3.md",
+    "aws/_posts",
+    "aws/_posts/2024-04-28-awsebs.md",
+    "aws/_posts/2024-04-28-awsec2.md",
+    "aws/_posts/2024-04-28-awselb.md",
+    "aws/_posts/2024-04-28-awsrds.md",
     "webservice/_posts/2024-04-28-seo.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
     "public/img/aws_ec2_instance_architecture.png",
@@ -178,7 +179,6 @@
     "algorithm/_posts/2024-02-21-insertionsort.md",
     "algorithm/_posts/2024-02-21-heapsort.md",
     "algorithm/_posts/2024-02-21-gcdnlcm.md",
-    "algorithm/_posts/2024-02-21-dp.md",
     "public/img/outlineofcs_computer_componant.png",
     "webservice/_posts",
     "webservice/_writing",
@@ -192,7 +192,6 @@
     "public/img/git_commit_msg_change_04.git_rebase_target_cmd_change.png",
     "public/img/git_commit_msg_change_03.git_rebase_hash.png",
     "public/img/git_commit_msg_change_02.git_log.png",
-    "public/img/_src/Untitled",
-    "git/_writing"
+    "public/img/_src/Untitled"
   ]
 }
