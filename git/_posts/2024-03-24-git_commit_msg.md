@@ -19,7 +19,7 @@ tags:
 - 그러고 다른 작업을 하던 중 commit massage가 test로 남아있는 모습을 보게 됐다.
 	- 물론, 다른 작업을 push하기 전에 가장 최근 massage만 바꾸려면 `$ git commit --amend -m "NEW MASSAGE"` 로 바꾸면 된다!
 - 이번엔 이것을 바꾸는 방법을 알아보자!
-# git editor 변경
+## git editor 변경
 
 - 커밋 메시지를 변경하는 과정에서 터미널에서 편집하는 과정이 있다.
 - 기본 편집기는 nano다.
@@ -29,7 +29,7 @@ tags:
 
 - 해당 명령어를 입력하면 git 옵션으로 실행하는 파일 편집이 vim으로 바뀐다.
 
-# git log 보기
+## git log 보기
 
 - 다른 일을 할 때도 git log를 봐야 하는 경우가 있다.
 
@@ -44,7 +44,7 @@ tags:
 	- feat: Destroy enemy when hitten by bullet 부터 보인다는 뜻이다.
 - 그래서 우린 빨간 선, 즉 이전 기록인 docs: Create README.md file의 hash key를 복사하자.
 
-# commit massage 바꾸기
+## commit massage 바꾸기
 
 - 이제 우리는 변경을 할 수 있는 위치를 알았다. 그렇다면 이제 이동해보자!
 - 이동하는 것은 rebase로 할 수 있다.
@@ -71,7 +71,7 @@ tags:
 
 - 그럼 위와 같이 massage가 update됐다는 안내가 나온다.
 
-# 수정 사항 git push하기
+## 수정 사항 git push하기
 
 - 그럼 이제 push를 해주자. 그런데 그냥 git push를 하면 안 올라간다.
 - 그 이유는 크게 두 가지가 있다.
@@ -92,7 +92,7 @@ tags:
 
 ![git_push_option_with_no_includes](/public/img/git_commit_msg_change_07_1.git_push_option_with_no_includes.png)
 
-# 결과
+## 결과
 
 ![after_change_msg](/public/img/git_commit_msg_change_08.after_change_msg.png)
 

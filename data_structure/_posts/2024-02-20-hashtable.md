@@ -5,10 +5,11 @@ date: 2024-02-20 20:51:54 +09:00
 categories: [data_structure]
 tags: [data_structure]
 ---
-# Hash Table
-- 브루트포스(완전 탐색, O(n^2))로 시간 초과에 빠지게 되는 문제에 사용.
+# \[Data Structure] 해시 테이블 (Hash Table)
 
-### 각 값의 의미
+>브루트포스(완전 탐색, O(n^2))로 시간 초과에 빠지게 되는 문제에 사용.
+
+## 각 값의 의미
 
 #### HashTable\[HASH_SIZE]\[HASH_LEN]
 - 테이블을 2차원 배열로 구현해 해당 값을 key를 이용해 몇 번 중복해서 들어왔는지 저장한다.
@@ -36,7 +37,7 @@ tags: [data_structure]
 - HASH_VAL과 자신만의 방법을 이용해 값을 만들고, HASH_SIZE로 나눈 몫을 출력한다.
 - 음수면 -1을 곱해 양수로 만들어준다.
 
-### 함수 내용
+## 함수 내용
 
 #### getHashKey
 - 위의 내용을 토대로 HASH_VAL을 이용해 key값을 만든다.
