@@ -23,8 +23,8 @@ tags:
 	- 예를 들어 \https://www.example.com/ 아래 모든 URL에 관한 크롤링 제어하려면  \https://www.example.com/robots.txt에 존재해야 한다.
 		- 하위 디렉토리에 배치하면 안된다!!
 - 하위 도메인 또는 비표준 포트에 게시할 수 있다.
-	- 하위 도메인 예시: '\https://**website.**\example\.com/robots.txt'
-	- 비표준 포트 예식: '\https://example.com\\**:8181**/robots.txt'
+	- 하위 도메인 예시: 'https://**website.**\example\.com/robots.txt'
+	- 비표준 포트 예식: '\https://example.com**:8181**/robots.txt'
 - 게시된 프로토콜, 호스트, 포트 내의 경로에만 적용된다.
 	- 위 경로에 배치한 robots.txt 규칙은 '\https://**m.**\example\.com/'과 같은 하위 도메인이나 '**http**://example.com/'과 같은 대체 프로토콜에는 적용되지 않는다.
 - ASCII를 포함한 UTF-8로 인코딩된 텍스트 파일이어야 한다.
@@ -94,7 +94,7 @@ tags:
 
 - 첫 페이지를 제외한 나머지 페이지 접근을 차단하려면 다음과 같이 작성하면 된다.
 
-`User-agent: \*`
+`User-agent: *`
 
 `Disallow: /`
 

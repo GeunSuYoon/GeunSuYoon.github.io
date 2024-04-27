@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/_posts/2024-04-28-awsec2.md",
+                "file": "webservice/_posts/2024-04-28-robotstxt.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/_posts/2024-04-28-awsec2.md",
+                "file": "webservice/_posts/2024-04-28-robotstxt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/_posts/2024-04-28-awsec2.md",
+                "file": "webservice/_posts/2024-04-28-robotstxt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/_posts/2024-04-28-awsec2.md"
+                "file": "webservice/_posts/2024-04-28-robotstxt.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
+    "webservice/_posts/2024-04-28-seo.md",
+    "webservice/_posts/2024-04-28-robotstxt.md",
+    "aws/_posts/2024-04-28-awsec2.md",
     "os/_posts/2024-03-13-Intro.md",
     "aws/_posts/2024-04-28-awsebs.md",
     "aws/_posts/2024-04-28-awss3.md",
     "aws/_posts",
-    "aws/_posts/2024-04-28-awsec2.md",
     "aws/_posts/2024-04-28-awselb.md",
     "aws/_posts/2024-04-28-awsrds.md",
-    "webservice/_posts/2024-04-28-seo.md",
-    "webservice/_posts/2024-04-28-robotstxt.md",
     "public/img/aws_ec2_instance_architecture.png",
     "geunsuyoon.github.io/webservice/robotstxt.html.md",
     "geunsuyoon.github.io/webservice/robots.txt.md",
