@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "647995aad42fae93",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/aws_ec2_instance_architecture.png"
+              }
+            }
+          },
+          {
             "id": "8a0b37e890537928",
             "type": "leaf",
             "state": {
@@ -160,7 +170,7 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
-    "public/img/aws_ec2_hierarchy.png",
+    "public/img/aws_ec2_instance_architecture.png",
     "webservice/_writing/2024-04-28-awsec2.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
     "webservice/_posts/2024-04-28-seo.md",
