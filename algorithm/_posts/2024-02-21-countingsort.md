@@ -8,7 +8,8 @@ date: 2024-02-21 19:17:00 +09:00
 tags:
   - sort
 ---
-# Counting Sort
+# \[Algorithm] 계수 정렬 (Counting Sort)
+
 >n개의 원소 배열을 정렬하는 가짓수는 n!
 >
 >해당 방법으로 만든 트리의 말단 노드가 n! 이상이 되기 위해선 2^h >= n!을 만족하는 h를 가지고 h > O(nlogn)을 만족.(h는 트리의 높이)

@@ -7,8 +7,9 @@ date: 2024-02-21 18:34:00 +09:00
 tags:
   - sort
 ---
-# Merge Sort
->합병 정렬.
+# \[Algorithm] 병합 정렬 (Merge Sort)
+
+>병합 정렬.
 >
 >Divide and Conquer(분할 정복) 방법을 이용해 구현.
 >

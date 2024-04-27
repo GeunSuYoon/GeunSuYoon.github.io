@@ -7,7 +7,8 @@ categories:
 tags:
   - sort
 ---
-# Bubble Sort
+# \[Algorithm] 거품 정렬
+
 >각 index를 비교하며 가장 마지막, 혹은 가장 앞에서부터 순서대로 배치한다.
 >
 >구현이 단순하나 비효율적이다.

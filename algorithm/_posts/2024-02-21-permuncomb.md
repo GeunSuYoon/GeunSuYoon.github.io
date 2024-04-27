@@ -7,7 +7,7 @@ date: 2024-02-21 19:10:00 +09:00
 tags:
   - math
 ---
-# Permutation & Combination
+# \[Algorithm] 순열과 조합
 
 >순열과 조합. 아래에 나오는 n은 전체 집합 요소의 개수, r은 해당 부분 집합의 길이를 의미한다.
 
