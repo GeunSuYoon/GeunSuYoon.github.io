@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webservice/_posts/2024-04-28-seo.md",
+                "file": "webservice/_writing/2024-04-28-awsec2.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webservice/_writing/2024-04-28-awsec2.md",
+                "file": "webservice/_posts/2024-04-28-robotstxt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,10 +158,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8a0b37e890537928",
+  "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
-    "webservice/_posts/2024-04-28-robotstxt.md",
+    "public/img/aws_ec2_hierarchy.png",
     "webservice/_writing/2024-04-28-awsec2.md",
+    "webservice/_posts/2024-04-28-robotstxt.md",
     "webservice/_posts/2024-04-28-seo.md",
     "_template/post_template.md",
     "42seoul/circle02/2024-02-21-pipex.md",
@@ -186,7 +186,6 @@
     "algorithm/_posts/2024-02-21-binarysearch.md",
     "algorithm/_posts/2024-02-20-bubblesort.md",
     "boj/_posts/2024-02-21-remainsum.md",
-    "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "public/img/outlineofcs_computer_componant.png",
     "webservice/_posts",
     "webservice/_writing",
@@ -200,7 +199,6 @@
     "public/img/git_commit_msg_change_04.git_rebase_target_cmd_change.png",
     "public/img/git_commit_msg_change_03.git_rebase_hash.png",
     "public/img/git_commit_msg_change_02.git_log.png",
-    "public/img/git_commit_msg_change_01.before_change_msg.png",
     "public/img/_src/Untitled",
     "git/_writing",
     "public/img/_src/git/commit_msg_change",

@@ -48,12 +48,12 @@ tags:
 
 `Disallow: /includes/`
 
-
+\
 `User-agent: Googlebot`
 
 `Allow: /includes/`
 
-
+\
 `Sitemap: https://example.com/sitemap.xml`
 
 ---
@@ -99,5 +99,3 @@ tags:
 `Disallow: /`
 
 `Allow: /$`
-
-- git upload test
