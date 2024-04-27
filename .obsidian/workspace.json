@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webservice/_writing/2024-04-28-awsebs.md",
+                "file": "aws/_writing/2024-04-28-awss3.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webservice/_writing/2024-04-28-awsebs.md",
+                "file": "aws/_writing/2024-04-28-awss3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webservice/_writing/2024-04-28-awsebs.md",
+                "file": "aws/_writing/2024-04-28-awss3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webservice/_writing/2024-04-28-awsebs.md"
+                "file": "aws/_writing/2024-04-28-awss3.md"
               }
             }
           }
@@ -170,8 +170,12 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
-    "webservice/_writing/2024-04-28-awsec2.md",
-    "webservice/_writing/2024-04-28-awsebs.md",
+    "aws/_writing/2024-04-28-awsec2.md",
+    "aws/_writing/2024-04-28-awsebs.md",
+    "aws/_writing/2024-04-28-awss3.md",
+    "aws/_writing",
+    "aws",
+    "_category/AWS.md",
     "public/img/aws_ec2_instance_architecture.png",
     "webservice/_posts/2024-04-28-robotstxt.md",
     "webservice/_posts/2024-04-28-seo.md",
@@ -194,9 +198,6 @@
     "algorithm/_posts/2024-02-21-dijkstra.md",
     "algorithm/_posts/2024-02-21-dfsnbfs.md",
     "algorithm/_posts/2024-02-21-countingsort.md",
-    "algorithm/_posts/2024-02-21-binarysearch.md",
-    "algorithm/_posts/2024-02-20-bubblesort.md",
-    "boj/_posts/2024-02-21-remainsum.md",
     "public/img/outlineofcs_computer_componant.png",
     "webservice/_posts",
     "webservice/_writing",
@@ -213,8 +214,6 @@
     "public/img/_src/Untitled",
     "git/_writing",
     "public/img/_src/git/commit_msg_change",
-    "public/img/_src/git",
-    "git/_posts",
-    "git"
+    "public/img/_src/git"
   ]
 }
