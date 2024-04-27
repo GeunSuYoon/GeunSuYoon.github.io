@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/_posts/2024-02-21-permuncomb.md",
+                "file": "webservice/_writing/2024-04-24-seo.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/_posts/2024-02-21-permuncomb.md",
+                "file": "webservice/_writing/2024-04-24-seo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/_posts/2024-02-21-permuncomb.md",
+                "file": "webservice/_writing/2024-04-24-seo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/_posts/2024-02-21-permuncomb.md"
+                "file": "webservice/_writing/2024-04-24-seo.md"
               }
             }
           }
@@ -148,6 +148,13 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
+    "42seoul/circle02/2024-02-21-pipex.md",
+    "algorithm/_posts/2024-04-10-mitm.md",
+    "algorithm/_posts/2024-02-22-greedy.md",
+    "algorithm/_posts/2024-02-21-sieveeratos.md",
+    "algorithm/_posts/2024-02-21-radixsort.md",
+    "algorithm/_posts/2024-02-21-quicksort.md",
+    "algorithm/_posts/2024-02-21-permuncomb.md",
     "algorithm/_posts/2024-02-21-mergesort.md",
     "algorithm/_posts/2024-02-21-lrucache.md",
     "algorithm/_posts/2024-02-21-lis.md",
@@ -167,14 +174,7 @@
     "cs/_posts/2024-02-22-outlineofcs.md",
     "data_structure/_posts/2024-02-20-hashtable.md",
     "etc/_posts/2024-03-24-Naver_ct.md",
-    "git/_posts/2024-03-24-git_commit_msg.md",
-    "git/_writing/2024-03-31-git_submodule.md",
-    "os/_posts/2024-03-13-Intro.md",
-    "webservice/_writing/2024-04-24-seo.md",
-    "_template/post_template.md",
-    "_category/webservice.md",
     "public/img/outlineofcs_computer_componant.png",
-    "_category/Untitled.md",
     "webservice/_posts",
     "webservice/_writing",
     "webservice",

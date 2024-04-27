@@ -7,7 +7,8 @@ date: 2024-02-21 19:19:00 +09:00
 tags:
   - sort
 ---
-# Radix Sort
+# \[Algorithm] 기수 정렬 (Radix Sort)
+
 >Comparison Sort의 문제 해결.
 
 ### Radix Sort

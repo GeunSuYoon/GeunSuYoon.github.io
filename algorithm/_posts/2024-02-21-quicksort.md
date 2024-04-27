@@ -7,7 +7,8 @@ categories:
 tags:
   - sort
 ---
-# Quick Sort
+# \[Algorithm] 퀵 정렬 (Quick Sort)
+
 - 안전 정렬 : 동일한 값에 기존 순서가 유지(버블, 삽입)
 - 불안정 정렬 : 동일한 값에 기존 순서가 유지X(선택, 퀵)
 

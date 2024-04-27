@@ -8,7 +8,8 @@ date: 2024-02-21 19:14:00 +09:00
 tags:
   - math
 ---
-# Sieve of Eratosthenes
+# \[Algorithm] 에라토크테네스의 체
+
 >에라토크테네스의 체.
 
 - 소수를 찾는 방법.
