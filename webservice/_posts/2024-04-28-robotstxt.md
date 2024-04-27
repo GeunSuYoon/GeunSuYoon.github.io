@@ -37,7 +37,9 @@ tags:
 - 아래는 [google for developers](https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt?hl=ko)에서 제시한 example이다.
 
 `# This robots.txt file controls crawling of URLs under https://example.com.`
+
 `# All crawlers are disallowed to crawl files in the "includes" directory, such`
+
 `# as .css, .js, but Google needs them for rendering, so Googlebot is allowed`
 `# to crawl them.`
 `User-agent: *`
