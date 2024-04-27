@@ -1,6 +1,7 @@
 ---
 layout: category
-categories: []
+categories:
+  - webservice
 title: 
 permalink: /webservice/
 ---
