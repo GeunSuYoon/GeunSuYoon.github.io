@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webservice/_writing/2024-04-24-seo.md",
+                "file": "webservice/_writing/2024-04-28-robottxt.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e0d18f265407405c",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webservice/_writing/2024-04-24-seo.md",
+                "file": "webservice/_writing/2024-04-28-robottxt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webservice/_writing/2024-04-24-seo.md",
+                "file": "webservice/_writing/2024-04-28-robottxt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webservice/_writing/2024-04-24-seo.md"
+                "file": "webservice/_writing/2024-04-28-robottxt.md"
               }
             }
           }
@@ -149,6 +148,8 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
+    "webservice/_writing/2024-04-28-seo.md",
+    "webservice/_writing/2024-04-28-robottxt.md",
     "42seoul/circle02/2024-02-21-pipex.md",
     "algorithm/_posts/2024-04-10-mitm.md",
     "algorithm/_posts/2024-02-22-greedy.md",
@@ -173,8 +174,6 @@
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "boj/_posts/2024-02-27-filecombination.md",
     "cs/_posts/2024-02-22-outlineofcs.md",
-    "data_structure/_posts/2024-02-20-hashtable.md",
-    "etc/_posts/2024-03-24-Naver_ct.md",
     "public/img/outlineofcs_computer_componant.png",
     "webservice/_posts",
     "webservice/_writing",
