@@ -52,6 +52,8 @@ tags:
 
 ## 구문
 
+- Sitemap을 제외한 모든 규칙은 경로 접두사, 접미사에 와일드카드 \*를 지원한다.
+
 ### User-agent: ${User-Agent}
 
 - ${User-Agent}는 제어할 robots의 이름이다.
@@ -65,8 +67,7 @@ tags:
 | Naver        | Yeti            |
 | Daum         | Daumoa          |
 | ChatGPT      | ChatGPT-User    |
-- 
-	- 위 예시에서 \'\*'를 쓴 이유는 모든 robots에 허가한 것이다.
+- 위 예시에서 \*를 쓴 이유는 모든 robots의 크롤링을 제어한 것이다.
 
 ### Disallow: ${DIR}
 - 위에 적은 ${User-Agent} robot의 ${DIR} 디렉토리 내부 접근을 차단한다.
@@ -75,8 +76,16 @@ tags:
 ### Allow: ${DIR}
 - 위에 적은 ${User-Agent} robot의 ${DIR} 디렉토리 내부 접근을 허용한다.
 - 모든 접근을 허용하려면 \'/'을 적으면 된다.
+
+### Sitemap: ${URL}
+- ${URL}은 웹사이트의 사이트맵 위치이다.
+- 정규화된 URL이어야 한다.
+	- 구글의 경우 http, https, www를 포함하는 URL과 대체 URL을 가정하여 확인하지 않는다.
+	- 웬만해선 URL의 전문을 다 써야 한다!!
+
 - 첫 페이지를 제외한 나머지 페이지 접근을 차단하려면 다음과 같이 작성하면 된다.
-	- User-agent: \*
-	- Disallow: \/
-	- Allow: \/$
-- 
+
+`User-agent: \*`
+`Disallow: /`
+`Allow: /$`
+ 
