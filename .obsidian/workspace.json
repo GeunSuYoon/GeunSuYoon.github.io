@@ -160,10 +160,10 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
-    "_template/post_template.md",
-    "webservice/_writing/2024-04-28-awsec2.md",
-    "webservice/_posts/2024-04-28-seo.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
+    "webservice/_posts/2024-04-28-seo.md",
+    "webservice/_writing/2024-04-28-awsec2.md",
+    "_template/post_template.md",
     "42seoul/circle02/2024-02-21-pipex.md",
     "algorithm/_posts/2024-04-10-mitm.md",
     "algorithm/_posts/2024-02-22-greedy.md",
