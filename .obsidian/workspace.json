@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webservice/_writing/2024-04-28-robottxt.md",
+                "file": "webservice/_writing/2024-04-28-robotstxt.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webservice/_writing/2024-04-28-robottxt.md",
+                "file": "webservice/_writing/2024-04-28-robotstxt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webservice/_writing/2024-04-28-robottxt.md",
+                "file": "webservice/_writing/2024-04-28-robotstxt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webservice/_writing/2024-04-28-robottxt.md"
+                "file": "webservice/_writing/2024-04-28-robotstxt.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
     "webservice/_writing/2024-04-28-seo.md",
-    "webservice/_writing/2024-04-28-robottxt.md",
+    "webservice/_writing/2024-04-28-robotstxt.md",
     "42seoul/circle02/2024-02-21-pipex.md",
     "algorithm/_posts/2024-04-10-mitm.md",
     "algorithm/_posts/2024-02-22-greedy.md",
