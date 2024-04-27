@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webservice/_posts/2024-04-28-robotstxt.md",
+                "file": "webservice/_posts/2024-04-28-seo.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webservice/_posts/2024-04-28-robotstxt.md",
+                "file": "webservice/_writing/2024-04-28-awsec2.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webservice/_posts/2024-04-28-robotstxt.md",
+                "file": "webservice/_writing/2024-04-28-awsec2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webservice/_posts/2024-04-28-robotstxt.md",
+                "file": "webservice/_writing/2024-04-28-awsec2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webservice/_posts/2024-04-28-robotstxt.md"
+                "file": "webservice/_writing/2024-04-28-awsec2.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d48af1f85c59c01c",
+  "active": "8a0b37e890537928",
   "lastOpenFiles": [
-    "webservice/_writing/2024-04-28-awsec2.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
+    "webservice/_writing/2024-04-28-awsec2.md",
     "webservice/_posts/2024-04-28-seo.md",
     "_template/post_template.md",
     "42seoul/circle02/2024-02-21-pipex.md",

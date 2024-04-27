@@ -41,12 +41,18 @@ tags:
 `# All crawlers are disallowed to crawl files in the "includes" directory, such`
 
 `# as .css, .js, but Google needs them for rendering, so Googlebot is allowed`
+
 `# to crawl them.`
+
 `User-agent: *`
+
 `Disallow: /includes/`
 
+
 `User-agent: Googlebot`
+
 `Allow: /includes/`
+
 
 `Sitemap: https://example.com/sitemap.xml`
 
@@ -69,6 +75,7 @@ tags:
 | Naver        | Yeti            |
 | Daum         | Daumoa          |
 | ChatGPT      | ChatGPT-User    |
+
 - 위 예시에서 \*를 쓴 이유는 모든 robots의 크롤링을 제어한 것이다.
 
 ### Disallow: ${DIR}
@@ -88,6 +95,8 @@ tags:
 - 첫 페이지를 제외한 나머지 페이지 접근을 차단하려면 다음과 같이 작성하면 된다.
 
 `User-agent: \*`
+
 `Disallow: /`
+
 `Allow: /$`
  
