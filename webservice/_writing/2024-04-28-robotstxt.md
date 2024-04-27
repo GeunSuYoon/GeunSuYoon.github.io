@@ -16,7 +16,14 @@ tags:
 ## 규칙
 
 - 파일 이름은 robots.txt여야 한다.
-- 
+- 사이트에는 robots.txt는 하나만 있어야 한다.
+- 웹사이트 호스트의 루트에 있어야 한다.
+	- 예를 들어 \https://example.com/ 아래 모든 URL에 관한 크롤링 제어하려면  \https://example.com/robots.txt에 존재해야 한다.
+		- 하위 디렉토리에 배치하면 안된다!!
+		- 위 robot.txt 규칙은 '\https://**m.**\example\.com/'과 같은 하위 도메인이나 '**http**://example.com/'과 같은 대체 프로토콜에는 적용되지 않는다.
+- 하위 도메인 또는 비표준 포트에 게시할 수 있다.
+	- 하위 도메인 예시: '\https://**website.**\example\.com/robots.txt'
+	- 비표준 포트 예식: '\https://example.com\\**:8181**/robots.txt'
 - ASCII를 포함한 UTF-8로 인코딩된 텍스트 파일이어야 한다.
 	- UTF-8 범위 외 문자는 무시할 수 있어 robots.txt의 규칙이 무효화될 수 있다!!
 
@@ -37,12 +44,7 @@ tags:
 `Sitemap: https://example.com/sitemap.xml`
 
 ## robot.txt 파일 해석
-
-- 첫 줄은 \https://example.com/ 아래 모든 URL에 관한 크롤링 제어를 한다는 뜻이다.
-	- 이를 위해선 robot.txt 파일이 다음과 같이 존재해야 한다.
-		- \https://example.com/robots.txt
-		- 하위 디렉토리에 배치하면 안된다!!
-		- 위 robot.txt 규칙은 '\https://m.example.com/'과 같은 하위 도메인이나 '\http://example.com/'과 같은 대체 프로토콜에는 적용되지 않는다.
+.
 - User-agent: ${User-Agent}
 	- ${User-Agent}는 제어할 robots의 User-Agent다.
 	- 대표적인 예시는 아래 표와 같다.
