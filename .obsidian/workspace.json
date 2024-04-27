@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_template/post_template.md",
+                "file": "data_structure/_posts/2024-02-20-hashtable.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_template/post_template.md",
+                "file": "data_structure/_posts/2024-02-20-hashtable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_template/post_template.md",
+                "file": "data_structure/_posts/2024-02-20-hashtable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_template/post_template.md"
+                "file": "data_structure/_posts/2024-02-20-hashtable.md"
               }
             }
           }
@@ -148,10 +148,13 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
+    "etc/_posts/2024-03-24-Naver_ct.md",
+    "git/_posts/2024-03-24-git_commit_msg.md",
+    "git/_writing/2024-03-31-git_submodule.md",
     "webservice/_writing/2024-04-24-seo.md",
+    "_template/post_template.md",
     "_category/webservice.md",
     "public/img/outlineofcs_computer_componant.png",
-    "git/_posts/2024-03-24-git_commit_msg.md",
     "_category/Untitled.md",
     "webservice/_posts",
     "webservice/_writing",
@@ -163,7 +166,6 @@
     "algorithm/_posts/2024-02-21-lrucache.md",
     "algorithm/_posts/2024-02-21-binarysearch.md",
     "algorithm/_writing",
-    "git/_writing/2024-03-31-git_submodule.md",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "public/img/git_commit_msg_change_08.after_change_msg.png",
     "public/img/git_commit_msg_change_07.git_push_option_to_change_github.png",
@@ -176,7 +178,6 @@
     "public/img/git_commit_msg_change_01.before_change_msg.png",
     "public/img/_src/Untitled",
     "git/_writing",
-    "etc/_posts/2024-03-24-Naver_ct.md",
     "public/img/_src/git/commit_msg_change/Drawing 2024-03-25 01.20.57.excalidraw.md",
     "public/img/_src/git/commit_msg_change",
     "public/img/_src/git",
