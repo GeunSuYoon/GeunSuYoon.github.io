@@ -2,7 +2,7 @@
 layout: post
 categories:
   - webservice
-title: "[WEB] robot.stxt"
+title: "[WEB] robots.txt"
 date: 2024-04-24 01:53:00 +09:00
 tags:
 ---
