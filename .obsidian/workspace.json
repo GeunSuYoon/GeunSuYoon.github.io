@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "02f44f81d9511c24",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/sw_develop_seq.png"
+              }
+            }
           }
         ]
       }
@@ -148,8 +158,9 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
-    "os/_posts/2024-03-13-Intro.md",
+    "public/img/sw_develop_seq.png",
     "os/_writing/2024-05-03-processnthread.md",
+    "os/_posts/2024-03-13-Intro.md",
     "os/_posts/2024-05-03-runtime_stack.md",
     "os/_posts/2024-05-03-Hardware.md",
     "public/img/sample_assembly_code.png",
@@ -183,7 +194,6 @@
     "algorithm/_posts/2024-02-21-permuncomb.md",
     "algorithm/_posts/2024-02-21-mergesort.md",
     "algorithm/_posts/2024-02-21-lrucache.md",
-    "algorithm/_posts/2024-02-21-lis.md",
     "public/img/outlineofcs_computer_componant.png",
     "webservice/_posts",
     "webservice/_writing",
@@ -192,7 +202,6 @@
     "public/img/git_commit_msg_change_08.after_change_msg.png",
     "public/img/git_commit_msg_change_07.git_push_option_to_change_github.png",
     "public/img/git_commit_msg_change_07_1.git_push_option_with_no_includes.png",
-    "public/img/git_commit_msg_change_06.after_msg_change_terminal.png",
-    "public/img/git_commit_msg_change_05.change_commit_msg.png"
+    "public/img/git_commit_msg_change_06.after_msg_change_terminal.png"
   ]
 }
