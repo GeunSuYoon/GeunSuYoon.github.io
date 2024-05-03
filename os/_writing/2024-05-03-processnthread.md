@@ -229,5 +229,26 @@ tags:
 - Traps (Sync)
 	- System call
 	- Error
-	- Page Faults
+	- Page faults
 - Interrupts (Async)
+
+#### Process의 mode change
+
+- syscall은 mode만 바뀐다.
+	- context switching 일어나지 않는다!
+	- PID는 유지된다.
+
+#### System Call vs. Function Call
+
+- 공통점
+	- Control을 넘긴다.
+	- Context를 유지한다.
+- 차이점
+	- Syscall은 mode change가 일어난다.
+	- Syscall의 overhead가 더 크다! (expensive)
+
+### Scheduling Policy
+
+#### Dispatcher가 control을 얻고 다음을 정하는 방법
+
+- ㅖ
