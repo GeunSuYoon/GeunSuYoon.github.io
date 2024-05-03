@@ -18,16 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f0ac7482e5f22e75",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/switch_mode_instruction.png"
-              }
-            }
           }
         ]
       }
@@ -160,6 +150,7 @@
   "lastOpenFiles": [
     "public/img/switch_mode_instruction.png",
     "os/_writing/2024-05-03-Hardware.md",
+    "public/img/syscall_handling.png",
     "os/_posts/2024-03-13-Intro.md",
     "os/_writing",
     "cs/_posts/2024-02-22-outlineofcs.md",
@@ -201,7 +192,6 @@
     "public/img/git_commit_msg_change_07_1.git_push_option_with_no_includes.png",
     "public/img/git_commit_msg_change_06.after_msg_change_terminal.png",
     "public/img/git_commit_msg_change_05.change_commit_msg.png",
-    "public/img/git_commit_msg_change_04.git_rebase_target_cmd_change.png",
-    "public/img/git_commit_msg_change_03.git_rebase_hash.png"
+    "public/img/git_commit_msg_change_04.git_rebase_target_cmd_change.png"
   ]
 }
