@@ -178,4 +178,18 @@ tags:
 
 #### Challenges
 
-1. Dispatcher는 
+1. Dispatcher가 어떻게 control을 되찾을 것인가?
+	- CPU는 한 번에 하나만 수행할 수 있다.
+	- 사용자 process가 동작하는 것은 dispatcher는 동작하지 않음을 의미한다.
+2. 어떤 process를 다음에 실행할 것인가?
+	- 실행할 수 있는 process를 효과적으로 정해야 한다.
+
+### 1. Entering and Leaving the Kernel
+
+#### Dispatcher가 control을 되찾는 과정.
+
+- Non-preemptive
+	- Process가 자발적으로 한다.
+	- 가끔 process가 잘못 동작할 수 있다.
+- Preemptive
+	- 
