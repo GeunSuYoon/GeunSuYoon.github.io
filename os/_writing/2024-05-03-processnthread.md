@@ -70,7 +70,3 @@ tags:
 
 ### Design-time Entity vs. Run-time Entity
 
-## H2 tag
-
-### H3 tag (element about H2 tag)
-- explane about H3 tag
