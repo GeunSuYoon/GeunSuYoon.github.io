@@ -160,5 +160,22 @@ tags:
 #### Principle in designing system software
 
 - Policy and Mechanism의 분리.
-	- Scheduling Policy와 Dispatching Mechanism은 분리돼있다.
-- Two-
+	- Scheduling Policy와 Dispatching Mechanism(Context Switching)은 분리돼있다.
+- Two-level architecture
+
+### Dispatcher
+
+>Dispatcher는 Interrupt다!
+
+#### Process를 작동하는 OS의 최심부
+
+`loop forever`
+`{`
+	`run the process for a while`
+	`stop it and save its state(Context save/store)`
+	`load state of another process(Context restore)`
+`}`
+
+#### Challenges
+
+1. Dispatcher는 
