@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "5e6774b9cd83d199",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/state_transition_diagram.png"
+              }
+            }
+          },
+          {
             "id": "02f44f81d9511c24",
             "type": "leaf",
             "state": {
@@ -158,8 +168,9 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
-    "public/img/sw_develop_seq.png",
+    "public/img/state_transition_diagram.png",
     "os/_writing/2024-05-03-processnthread.md",
+    "public/img/sw_develop_seq.png",
     "os/_posts/2024-03-13-Intro.md",
     "os/_posts/2024-05-03-runtime_stack.md",
     "os/_posts/2024-05-03-Hardware.md",
@@ -201,7 +212,6 @@
     "algorithm/_writing",
     "public/img/git_commit_msg_change_08.after_change_msg.png",
     "public/img/git_commit_msg_change_07.git_push_option_to_change_github.png",
-    "public/img/git_commit_msg_change_07_1.git_push_option_with_no_includes.png",
-    "public/img/git_commit_msg_change_06.after_msg_change_terminal.png"
+    "public/img/git_commit_msg_change_07_1.git_push_option_with_no_includes.png"
   ]
 }

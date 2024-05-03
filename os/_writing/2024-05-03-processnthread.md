@@ -100,8 +100,25 @@ tags:
 #### Process를 수행함에 따라 state가 변한다.
 
 - New
-	- 생성된 process
+	- Process가 생성됨.
 - Running
+	- Instruction이 수행 중.
 - Waiting
+	- Process가 다른 event가 일어나길 기다림.
 - Ready
+	- Process가 CPU 할당을 기다림.
 - Terminated
+	- Process 수행이 끝남.
+
+#### State Transition Diagram
+
+![state_transition_diagram](/public/img/state_transition_diagram.png)
+
+- Terminated
+	- kill도 포함된다.
+- Interrupt
+	- Hardware interrupt
+	- Async.
+	- CPU protection
+- Waiting for I/O or Event
+	- Sy
