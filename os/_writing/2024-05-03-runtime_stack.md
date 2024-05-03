@@ -22,8 +22,13 @@ tags:
 ## Compile
 
 - 위에서 언급한 naming은 compile 할 때 address로 바뀐다.
+- Compiler는 모든 address value(Logical address)를 알고 있다.
+	- Global variable은 space address에 logical address로 할당된다.
+	- 다만, local variable은 주소를 할당 받지 않아 모른다.
+	- 이것을 stack에 register 저장해 활용한다!
 
-## H2 tag
+## Assembly Code
 
+- 
 ### H3 tag (element about H2 tag)
 - explane about H3 tag
