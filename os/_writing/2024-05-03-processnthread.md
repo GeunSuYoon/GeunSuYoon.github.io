@@ -70,3 +70,20 @@ tags:
 
 ### Design-time Entity vs. Run-time Entity
 
+#### System design은 아래의 과정이다.
+
+- System requirements를 수용
+- Collection of tasks 생성
+	- Decomposition하게 만듦
+
+#### Design-time Entity
+
+- Task
+
+#### Run-time Entity
+
+- Process
+
+#### Implementation
+
+- Design-time en
