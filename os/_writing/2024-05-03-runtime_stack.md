@@ -8,7 +8,7 @@ tags:
 ---
 # \[Lecture - OS] Runtime stack
 
->simple explane
+>우리가 코드를 작성한 다음, 
 
 ## H2 tag
 
