@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webservice/_posts/2024-04-28-robotstxt.md",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webservice/_posts/2024-04-28-robotstxt.md",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "webservice/_posts/2024-04-28-robotstxt.md",
+                "file": "os/_posts/2024-03-13-Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "webservice/_posts/2024-04-28-robotstxt.md"
+                "file": "os/_posts/2024-03-13-Intro.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
-    "webservice/_posts/2024-04-28-seo.md",
+    "cs/_posts/2024-02-22-outlineofcs.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
+    "webservice/_posts/2024-04-28-seo.md",
     "aws/_posts/2024-04-28-awsec2.md",
     "os/_posts/2024-03-13-Intro.md",
     "aws/_posts/2024-04-28-awsebs.md",
@@ -179,7 +180,6 @@
     "algorithm/_posts/2024-02-21-lca.md",
     "algorithm/_posts/2024-02-21-insertionsort.md",
     "algorithm/_posts/2024-02-21-heapsort.md",
-    "algorithm/_posts/2024-02-21-gcdnlcm.md",
     "public/img/outlineofcs_computer_componant.png",
     "webservice/_posts",
     "webservice/_writing",
