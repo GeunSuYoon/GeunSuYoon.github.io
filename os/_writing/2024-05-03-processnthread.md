@@ -192,4 +192,13 @@ tags:
 	- Process가 자발적으로 한다.
 	- 가끔 process가 잘못 동작할 수 있다.
 - Preemptive
-	- 
+	- 강제로 실행한다.
+	- Timer hardware and Interrupts.
+
+#### Kernel
+
+- 오해
+	- 사용자 process처럼 kernel은 thread of control을 보유한 능동적이고 독립적인 entity다.
+	- Kernel은 사용자 process가 돌아가는 동안 계속 monitoring 한다.
+- 진실
+	- Kernel은 kernel function과 ISR로 이루어진 
