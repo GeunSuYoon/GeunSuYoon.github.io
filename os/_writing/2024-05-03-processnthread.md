@@ -86,4 +86,6 @@ tags:
 
 #### Implementation
 
-- Design-time en
+- Design-time Entity를 Run-time Entity로 옮기기.
+
+### Large SW Develop Sequence
