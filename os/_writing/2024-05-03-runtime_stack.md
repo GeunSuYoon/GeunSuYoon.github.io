@@ -29,6 +29,13 @@ tags:
 
 ## Assembly Code
 
-- 
-### H3 tag (element about H2 tag)
-- explane about H3 tag
+![sample_assembly_code](/public/img/sample_assembly_code.png)
+
+- 위 코드는 assembly code의 예시다.
+- 위에서 아래로 내려가며 순서대로 실행한다.
+- %는 register를 나타낸다.
+- %ebp는 base pointer로, 함수의 시작점을 나타낸다.
+- %esp는 stack pointer로, stack의 주소를 나타낸다.
+	- 코드가 실행됨에 따라 변할 수 있다.
+	- Address는 stack의 아래로 갈수록 높아진다.
+- %eax는 주로 함수의 return value로 사용된다.

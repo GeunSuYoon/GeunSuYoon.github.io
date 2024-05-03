@@ -150,11 +150,12 @@
   "lastOpenFiles": [
     "os/_posts/2024-05-03-Hardware.md",
     "os/_writing/2024-05-03-runtime_stack.md",
+    "os/_posts/2024-03-13-Intro.md",
+    "public/img/sample_assembly_code.png",
     "_template/post_template.md",
     "aws/_posts/2024-04-28-awsebs.md",
     "public/img/switch_mode_instruction.png",
     "public/img/syscall_handling.png",
-    "os/_posts/2024-03-13-Intro.md",
     "os/_writing",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
@@ -182,7 +183,6 @@
     "algorithm/_posts/2024-02-21-mergesort.md",
     "algorithm/_posts/2024-02-21-lrucache.md",
     "algorithm/_posts/2024-02-21-lis.md",
-    "algorithm/_posts/2024-02-21-lca.md",
     "public/img/outlineofcs_computer_componant.png",
     "webservice/_posts",
     "webservice/_writing",
@@ -192,7 +192,6 @@
     "public/img/git_commit_msg_change_07.git_push_option_to_change_github.png",
     "public/img/git_commit_msg_change_07_1.git_push_option_with_no_includes.png",
     "public/img/git_commit_msg_change_06.after_msg_change_terminal.png",
-    "public/img/git_commit_msg_change_05.change_commit_msg.png",
-    "public/img/git_commit_msg_change_04.git_rebase_target_cmd_change.png"
+    "public/img/git_commit_msg_change_05.change_commit_msg.png"
   ]
 }
