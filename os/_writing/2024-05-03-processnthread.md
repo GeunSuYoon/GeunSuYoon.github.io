@@ -214,4 +214,20 @@ tags:
 
 #### User Space(Mode)
 
-- Kernel과 비교해 제한된 system s
+- Kernel과 비교해 제한된 system state를 가지고 있다.
+	- 사용 가능한 machine의 subset.
+	- Limited previlege
+		- 특정 system funcs를 사용할 수 없다.
+- Restricted System State & Restricted Memory Access
+
+#### PWS(Process State Word)에 따라 execution mode가 나뉜다.
+
+#### 즉, Dispatcher는 Kernel Function이다.
+
+#### OS가 control을 얻는 방법
+
+- Traps (Sync)
+	- System call
+	- Error
+	- Page Faults
+- Interrupts (Async)
