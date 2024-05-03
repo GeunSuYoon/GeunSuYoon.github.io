@@ -35,6 +35,22 @@ tags:
 	- code, data values, open files, etc.
 - Execution Stream
 	- Process State 내부에서 동작하는 instruction의 순서.
+	- Process의 특징을 간략하게 표현할 수 있다.
+	- 한 Process에서 한 번에 하나의 일만 일어날 수 있다.
+	- 수행의 주체로, scheduling의 대상이 된다.
+
+### Process State or Context
+
+- Context의 세 가지 types
+	- Memory Context
+		- code/data/stack segment, heap
+	- Hardware Context (Register 내부 값)
+		- CPU/I/O registers
+	- System Context (OS가 Process를 관리하기 위한 것들)
+		- process table(control block의 모음), open file table, page table
+- Process의 개념 구현.
+
+### Multiprogramming VS Multiprocessing
 
 
 
