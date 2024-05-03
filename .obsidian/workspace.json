@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d48af1f85c59c01c",
+            "id": "d60760ca2f44688d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os/_writing/2024-05-03-Hardware.md",
+                "file": "os/_writing/2024-05-03-runtime_stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_writing/2024-05-03-Hardware.md",
+                "file": "os/_writing/2024-05-03-runtime_stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_writing/2024-05-03-Hardware.md",
+                "file": "os/_writing/2024-05-03-runtime_stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_writing/2024-05-03-Hardware.md"
+                "file": "os/_writing/2024-05-03-runtime_stack.md"
               }
             }
           }
@@ -146,10 +146,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d48af1f85c59c01c",
+  "active": "d60760ca2f44688d",
   "lastOpenFiles": [
+    "os/_posts/2024-05-03-Hardware.md",
+    "os/_writing/2024-05-03-runtime_stack.md",
+    "_template/post_template.md",
+    "aws/_posts/2024-04-28-awsebs.md",
     "public/img/switch_mode_instruction.png",
-    "os/_writing/2024-05-03-Hardware.md",
     "public/img/syscall_handling.png",
     "os/_posts/2024-03-13-Intro.md",
     "os/_writing",
@@ -157,7 +160,6 @@
     "webservice/_posts/2024-04-28-robotstxt.md",
     "webservice/_posts/2024-04-28-seo.md",
     "aws/_posts/2024-04-28-awsec2.md",
-    "aws/_posts/2024-04-28-awsebs.md",
     "aws/_posts/2024-04-28-awss3.md",
     "aws/_posts",
     "aws/_posts/2024-04-28-awselb.md",
@@ -170,7 +172,6 @@
     "aws/_writing",
     "aws",
     "_category/AWS.md",
-    "_template/post_template.md",
     "42seoul/circle02/2024-02-21-pipex.md",
     "algorithm/_posts/2024-04-10-mitm.md",
     "algorithm/_posts/2024-02-22-greedy.md",
