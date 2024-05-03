@@ -50,9 +50,25 @@ tags:
 		- process table(control block의 모음), open file table, page table
 - Process의 개념 구현.
 
-### Multiprogramming VS Multiprocessing
+### Multiprogramming vs. Multiprocessing
 
+#### Uniprogramming
 
+- 한 time에 하나의 process만 memory에 존재한다.
+- 과거 PC OS.
+- OS의 몇몇 부분을 간단히 하지만, 많은 것들을 어렵게 한다.
+
+#### Multiprogramming
+
+- Memory에 multiple process가 존재한다.
+- 대부분 system은 multiprogrammimg을 지원한다.
+
+#### Multiprocessing
+
+- 동시에 여러 process가 실행된다.
+- CPU가 복잡해진다.
+
+### Design-time Entity vs. Run-time Entity
 
 ## H2 tag
 
