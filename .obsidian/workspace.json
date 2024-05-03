@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
+                "file": "os/_writing/2024-05-03-Hardware.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
+                "file": "os/_writing/2024-05-03-Hardware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md",
+                "file": "os/_writing/2024-05-03-Hardware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_posts/2024-03-13-Intro.md"
+                "file": "os/_writing/2024-05-03-Hardware.md"
               }
             }
           }
@@ -148,11 +148,13 @@
   },
   "active": "d48af1f85c59c01c",
   "lastOpenFiles": [
+    "os/_posts/2024-03-13-Intro.md",
+    "os/_writing/2024-05-03-Hardware.md",
+    "os/_writing",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
     "webservice/_posts/2024-04-28-seo.md",
     "aws/_posts/2024-04-28-awsec2.md",
-    "os/_posts/2024-03-13-Intro.md",
     "aws/_posts/2024-04-28-awsebs.md",
     "aws/_posts/2024-04-28-awss3.md",
     "aws/_posts",
@@ -179,7 +181,6 @@
     "algorithm/_posts/2024-02-21-lis.md",
     "algorithm/_posts/2024-02-21-lca.md",
     "algorithm/_posts/2024-02-21-insertionsort.md",
-    "algorithm/_posts/2024-02-21-heapsort.md",
     "public/img/outlineofcs_computer_componant.png",
     "webservice/_posts",
     "webservice/_writing",
@@ -192,7 +193,6 @@
     "public/img/git_commit_msg_change_05.change_commit_msg.png",
     "public/img/git_commit_msg_change_04.git_rebase_target_cmd_change.png",
     "public/img/git_commit_msg_change_03.git_rebase_hash.png",
-    "public/img/git_commit_msg_change_02.git_log.png",
-    "public/img/_src/Untitled"
+    "public/img/git_commit_msg_change_02.git_log.png"
   ]
 }
