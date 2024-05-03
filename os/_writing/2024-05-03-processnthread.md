@@ -84,4 +84,24 @@ tags:
 
 ### Process Control Block
 
-#### With Multiprocessing, OS must keep track of 
+#### With Multiprocessing, OS must keep track of Processes
+
+- PCB(Process Control Block)가 저장하는 요소
+	- Execution state (save registers, etc.)
+	- Scheduling information (priority)
+	- Accounting and other misc. information (open files)
+- System-wide table of PCB
+	- Process table
+- Unix
+	- PCB의 크기는 고정돼있다.
+
+### State Transition
+
+#### Process를 수행함에 따라 state가 변한다.
+
+- New
+	- 생성된 process
+- Running
+- Waiting
+- Ready
+- Terminated
