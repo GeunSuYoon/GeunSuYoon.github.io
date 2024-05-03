@@ -201,4 +201,17 @@ tags:
 	- 사용자 process처럼 kernel은 thread of control을 보유한 능동적이고 독립적인 entity다.
 	- Kernel은 사용자 process가 돌아가는 동안 계속 monitoring 한다.
 - 진실
-	- Kernel은 kernel function과 ISR로 이루어진 
+	- Kernel은 kernel function과 ISR로 이루어진 수동적 entity다.
+	- Library와 비슷하다.
+	- A collection of functions는 kernel space에서 돌아간다.
+
+#### Kernel Space(Mode)
+
+- 일반적인 사용자 app과 비교해 높은 system state를 가지고 있다.
+	- 보호된 memory 공간
+	- 모든 hardware에 접근 가능
+- Elevated System State & Unrestriced Memory Access
+
+#### User Space(Mode)
+
+- Kernel과 비교해 제한된 system s
