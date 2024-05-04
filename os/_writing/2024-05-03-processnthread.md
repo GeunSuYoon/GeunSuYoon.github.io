@@ -587,6 +587,7 @@ tags:
 	- Blocking이 thread-level로 일어남.
 	- Kernel routine도 multithread 됨.
 - 단점
-	- Thread switching
-	- Overhead가 크다.
+	- 한 process에서 thread switching을 kernel에서 한다.
+		- mode change가 일어난다.
+		- Overhead가 크다.
 	- 그래서 느려진다.
