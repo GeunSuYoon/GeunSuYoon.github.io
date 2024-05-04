@@ -453,4 +453,17 @@ tags:
 
 #### 최근 OS는 위 두 특징을 독립적으로 분리한다.
 
-- 
+- resource ownership은 process/task가 그대로 보유
+- dispatching은 thread(execution entity)/lightweight process가 보유
+
+### Multithreading: Basics
+
+#### Threads의 특징
+
+- execution state(running, ready, stopped, etc.) 보유
+	- 동작하지 않을 때 context save
+- local variable을 위한 runtime stack과 per-thread static memory 보유
+- Memory address space와 process의 resource에 접근 가능 > 새로운 memory 정책 필요!
+	- Process의 모든 thread는 이걸 공유.
+	- 한 thread가 공유 memory를 변경하면 모든 thread가 알 수 있다.
+	- 한 thread가 연 file
