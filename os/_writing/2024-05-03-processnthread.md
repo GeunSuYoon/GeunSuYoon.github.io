@@ -466,4 +466,19 @@ tags:
 - Memory address space와 process의 resource에 접근 가능 > 새로운 memory 정책 필요!
 	- Process의 모든 thread는 이걸 공유.
 	- 한 thread가 공유 memory를 변경하면 모든 thread가 알 수 있다.
-	- 한 thread가 연 file
+	- 한 thread가 연 file은 모든 thread에서 접근할 수 있다!
+
+#### Single threading & Multithreading
+
+![threading_structure](/public/img/threading_structure.png)
+
+- TCB는 thread scheduling을 위해 필요하다.
+
+#### Thread의 state transition
+
+- 3가지 states
+	- Running, Ready, Blocked
+- Suspended는 없다!
+	- 한 process의 모든 thread는 address space를 공유한다.
+	- 한 thread가 suspend 되면 addr space를 공유하는 모든 thread가 suspend된다!
+- Prc
