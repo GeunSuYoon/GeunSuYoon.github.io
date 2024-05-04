@@ -502,4 +502,12 @@ tags:
 
 #### 반응이 빠르다 (반응형 system에 좋다)
 
-- Inconcurrent server 
+- Interaction app을 위한 concurrent server architecture
+	- Process는 하나의 서버와 여러 thread로 이루어져 있다.
+
+### Pthread Programming Model
+
+#### Life cycle
+
+![pthread_life_cycle](/public/img/pthread_life_cycle.png)
+

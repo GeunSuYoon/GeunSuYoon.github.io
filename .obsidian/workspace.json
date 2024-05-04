@@ -148,8 +148,9 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
-    "public/img/threading_structure.png",
+    "public/img/pthread_life_cycle.png",
     "os/_writing/2024-05-03-processnthread.md",
+    "public/img/threading_structure.png",
     "public/img/process_life_cycle.png",
     "public/img/state_transition_diagram.png",
     "public/img/sw_develop_seq.png",
@@ -191,7 +192,6 @@
     "webservice/_posts",
     "webservice/_writing",
     "webservice",
-    "algorithm/_writing",
-    "public/img/git_commit_msg_change_08.after_change_msg.png"
+    "algorithm/_writing"
   ]
 }
