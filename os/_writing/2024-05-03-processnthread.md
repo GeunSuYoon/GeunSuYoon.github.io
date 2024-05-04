@@ -396,7 +396,7 @@ tags:
 
 #### Cloning
 
->Parant가 fork() syscall로 child 생성 > PID를 제외한 context 복사.
+>Parent가 fork() syscall로 child 생성 > PID를 제외한 context 복사.
 
 1. 진행 중인 process를 멈추고 state를 저장.
 2. PID 제외한 context를 복사.
@@ -406,8 +406,8 @@ tags:
 
 ![process_life_cycle](public/img/process_life_cycle.png)
 
-- Parant는 wait() 함수로 child의 종료를 기다림.
-- Child는 exit-status를 남겨 parant가 access할 수 있도록 한다.
+- Parent는 wait() 함수로 child의 종료를 기다림.
+- Child는 exit-status를 남겨 parent가 access할 수 있도록 한다.
 
 #### Copy Status??
 
@@ -418,4 +418,20 @@ tags:
 	- Resource 낭비가 심하다!
 - Shallow copy는 stack pointer를 복사해 넘긴다.
 	- 참조 후 write해야 하면 hard-copy한다!
-	- Interrupt 동작시켜 kernel code 도
+	- Interrupt해 kernel code 작동.
+
+### Process Termination
+
+- exit()
+	- Child가 parent에 exit status를 넘길 때 사용한다.
+	- Process의 memory allocate를 해제한다.
+- abort()
+	- Parent가 child를 terminate 시킨다.
+	- Child가 할당된 resource를 초과했을 때 수행.
+	- Task가 child를 더 이상 필요로 하지 않을 때.
+	- Parent가 살아있어야 한다.
+
+## 5. Multithreading
+
+>Process는 독립적 segments를 가지고 있다.\
+>\> 병렬 연산을 위해 process를 늘린
