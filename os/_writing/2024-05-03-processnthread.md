@@ -334,19 +334,48 @@ tags:
 
 #### Restore/Load
 
-| StkPtr   | Properties                          |
-| -------- | ----------------------------------- |
-|          | OS-PCB                              |
-|          | HI-MEM                              |
-| PSW      | INT call---CPU SP#6                 |
-| SEG task |                                     |
-| OFF task | INT call---                         |
-| AX       | pusha---CPU SP#5                    |
-| CX       |                                     |
-| BX       |                                     |
-| SP       | ->AX                                |
-| BP       |                                     |
-| SI       | pusha---                            |
-| DI       |                                     |
-| ES       | ->StkPtr,<br>push es 필요<br>CPU SP#4 |
-|          | LO-MEM                              |
+| StkPtr    | Properties                          |
+| --------- | ----------------------------------- |
+|           | OS-PCB                              |
+|           | HI-MEM                              |
+| PSW       | INT call---CPU SP#6                 |
+| SEG task  |                                     |
+| OFF task  | INT call---                         |
+| AX        | pusha---CPU SP#5                    |
+| CX        |                                     |
+| BX        |                                     |
+| SP        | ->AX                                |
+| BP        |                                     |
+| SI        | pusha---                            |
+| DI        |                                     |
+| ES        | ->StkPtr,<br>push es 필요<br>CPU SP#4 |
+| from RunQ | LO-MEM                              |
+
+#### Fake Stack
+
+>Process 시작 직후 interrupt가 일어나면 process를 위한 fake stack을 만들어줘야 한다.
+
+| StkPtr      | Properties                                  |
+| ----------- | ------------------------------------------- |
+|             | OS-PCB                                      |
+|             | HI-MEM                                      |
+| void \*data | arg for process                             |
+| SEG task    |                                             |
+| OFF task    |                                             |
+| PSW         | INT call---CPU SP#1<br>interrupt-enable     |
+| SEG task    |                                             |
+| OFF task    | INT call---                                 |
+| AX          | pusha---CPU SP#2                            |
+| CX          |                                             |
+| BX          |                                             |
+| SP          | ->AX                                        |
+| BP          |                                             |
+| SI          | pusha---<br>레지스터 내부 값은 필요한 경우 제외 채울 필요는 없다. |
+| ES          | ->StkPtr,<br>push es 필요<br>CPU SP#3         |
+|             | LO-MEM                                      |
+
+## 4. Process Creation and Termination
+
+### Process Creation
+
+#### 
