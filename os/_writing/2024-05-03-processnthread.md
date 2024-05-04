@@ -301,6 +301,23 @@ tags:
 
 #### Machine dependent
 
+- CPU register를 저장해야 하므로 의존적이다.
+
 #### Tricky
 
-#### 몇몇 
+- OS는 process의 state 변화 없이 state를 save하는 code를 실행해야 한다.
+
+#### 특정 hardware의 도움이 필요하다.
+
+- HW가 interrupt 지원 시 context switching이 쉽다!!
+
+### Mechanism
+
+#### Save
+
+|StkPtr||
+|||
+|||
+
+#### Restore
+
