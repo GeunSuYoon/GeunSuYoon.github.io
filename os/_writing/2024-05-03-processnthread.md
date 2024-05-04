@@ -315,9 +315,38 @@ tags:
 
 #### Save
 
-|StkPtr||
-|||
-|||
+| StkPtr     | Properties                          |
+| ---------- | ----------------------------------- |
+|            | OS-PCB                              |
+|            | HI-MEM                              |
+| PSW        | INT call---CPU SP#1                 |
+| SEG task   |                                     |
+| OFF task   | INT call---                         |
+| AX         | pusha---CPU SP#2                    |
+| CX         |                                     |
+| BX         |                                     |
+| SP         | ->AX                                |
+| BP         |                                     |
+| SI         | pusha---                            |
+| DI         |                                     |
+| ES         | ->StkPtr,<br>push es 필요<br>CPU SP#3 |
+| go to RunQ | LO-MEM                              |
 
-#### Restore
+#### Restore/Load
 
+| StkPtr   | Properties                          |
+| -------- | ----------------------------------- |
+|          | OS-PCB                              |
+|          | HI-MEM                              |
+| PSW      | INT call---CPU SP#6                 |
+| SEG task |                                     |
+| OFF task | INT call---                         |
+| AX       | pusha---CPU SP#5                    |
+| CX       |                                     |
+| BX       |                                     |
+| SP       | ->AX                                |
+| BP       |                                     |
+| SI       | pusha---                            |
+| DI       |                                     |
+| ES       | ->StkPtr,<br>push es 필요<br>CPU SP#4 |
+|          | LO-MEM                              |
