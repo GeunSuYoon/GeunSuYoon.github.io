@@ -286,7 +286,21 @@ tags:
 			- Memory는 전체 batch에 할당됨.
 		- 과거 batch processing system(Multiprogrammed batch monitor)
 		- Multithreaded process에서 context switching
-	1. Memory를 모두 disk에 저장.(roll-in/roll-out swapping)
-		- 
-	2. Memory의 일부분을 disk에 저장.
-		- 
+	2. Memory를 모두 disk에 저장.(roll-in/roll-out swapping)
+		- Process 실행 후 전체를 disk에 저장
+			- 다른 program이 disk에서 자신의 memory를 load.
+		- 초기 PC/PW: DOS
+		- 효과적이나 너무 느리다.
+	3. Memory의 일부분을 disk에 저장.
+		- RAM과 disk 사이에서 process의 memory block을 이동.
+			- Swap file/device
+		- 복잡한 memory 관리 machanism
+		- 대부분의 최신 OS에서 사용한다.
+
+### Implementation
+
+#### Machine dependent
+
+#### Tricky
+
+#### 몇몇 
