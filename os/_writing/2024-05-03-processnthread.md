@@ -378,4 +378,26 @@ tags:
 
 ### Process Creation
 
-#### 
+#### full-fledged OS에서 새로운 process 생성
+
+- Scratch에서 하나를 build
+	- Process 0
+- 존재하는 것을 clone
+	- fork() syscall
+
+#### From Scratch
+
+>Process 첫 생성
+
+1. Memory에서 code와 data 불러오기
+2. (empty) Call stack 생성.
+3. PCB 만들고 초기화.
+4. ReadyQ에 process 집어넣기.
+
+#### Cloning
+
+>Parant가 fork() syscall로 child 생성 > PID를 제외한 context 복사.
+
+1. 진행 중인 process를 멈추고 state를 저장.
+2. PID 제외한 context를 복사.
+3. 새로운 process를 ReadyQ에 넣기.
