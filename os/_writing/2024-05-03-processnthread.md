@@ -408,3 +408,14 @@ tags:
 
 - Parant는 wait() 함수로 child의 종료를 기다림.
 - Child는 exit-status를 남겨 parant가 access할 수 있도록 한다.
+
+#### Copy Status??
+
+- fork() 해서 states를 copy할 때 두 경우를 생각할 수 있다.
+	- Deep copy
+	- Shallow copy
+- Deep copy는 state를 모두 복사해 새로운 stack을 만든다.
+	- Resource 낭비가 심하다!
+- Shallow copy는 stack pointer를 복사해 넘긴다.
+	- 참조 후 write해야 하면 hard-copy한다!
+	- Interrupt 동작시켜 kernel code 도
