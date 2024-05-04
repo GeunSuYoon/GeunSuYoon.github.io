@@ -527,3 +527,22 @@ tags:
 		- thread 사이 메세지와 data 전송
 - Processor
 	- Process basis에 할당.
+
+#### Characteristics
+
+- App은 thread library로 모든 thread 관리.
+	- threading switching은 kernel mode privilege를 필요로 하지 않는다.
+	- Scheduling은 app의 특징이다.
+- Kernel 동작
+	- thread는 알지 못하고 process만 관리한다.
+	- thread가 blocking syscall을 하면
+		- process가 block된다.
+		- thread library는 여전히 해당 thread를 running state로 알고 있다.
+	- 요약
+		- thread state는 process state와 독립적이다.
+
+#### 장단점
+
+- 장점
+	- 
+- 단점
