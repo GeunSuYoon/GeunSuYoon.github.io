@@ -401,3 +401,10 @@ tags:
 1. 진행 중인 process를 멈추고 state를 저장.
 2. PID 제외한 context를 복사.
 3. 새로운 process를 ReadyQ에 넣기.
+
+#### Unix에서 process의 life-cycle
+
+![process_life_cycle](public/img/process_life_cycle.png)
+
+- Parant는 wait() 함수로 child의 종료를 기다림.
+- Child는 exit-status를 남겨 parant가 access할 수 있도록 한다.
