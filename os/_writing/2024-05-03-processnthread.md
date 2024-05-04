@@ -280,6 +280,13 @@ tags:
 	- PC(Program Counter)
 	- Processor Status Word (condition code, etc.)
 	- General purpose Registers, Floating point Registers
-	- All of Memory?
-		- Swapping.
-- 
+- 고려 사항
+	1. Memory를 저장하지 않음.
+		- Dynamic memory는 관리하지 않음.
+			- Memory는 전체 batch에 할당됨.
+		- 과거 batch processing system(Multiprogrammed batch monitor)
+		- Multithreaded process에서 context switching
+	1. Memory를 모두 disk에 저장.(roll-in/roll-out swapping)
+		- 
+	2. Memory의 일부분을 disk에 저장.
+		- 
