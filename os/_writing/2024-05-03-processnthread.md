@@ -263,3 +263,11 @@ tags:
 
 - OS가 결정한다.
 	- Policy와 mechanism의 분리 때문에 dispatcher가 아닌 OS가 결정한다.
+
+## 3. Context Switching
+
+>Context는 여기서 collection of a process states를 의미한다.\
+>
+>Interrupt는 context switching이 일어나지 않는다.\
+>
+>Blocking syscall에선 context switching이 일어난다!
