@@ -481,4 +481,25 @@ tags:
 - Suspended는 없다!
 	- 한 process의 모든 thread는 address space를 공유한다.
 	- 한 thread가 suspend 되면 addr space를 공유하는 모든 thread가 suspend된다!
-- Prc
+- Process가 종료되면 내부 모든 thread도 종료된다!
+
+### Why Multithreading?
+
+#### Parallel programming에 효과적이다!
+
+- Shared data를 바로바로 참조할 수 있다.
+
+#### Resource 공유
+
+- Memory 공유로 data를 바로 공유 가능
+	- IPC는 필요 없다.
+	- 작동 중인 thread를 sync해 동시 참조를 막아야 한다.
+
+#### 싸다!
+
+- 시간이 적게 걸린다.
+- 아주 작은 resource만 사용한다.
+
+#### 반응이 빠르다 (반응형 system에 좋다)
+
+- Inconcurrent server 
