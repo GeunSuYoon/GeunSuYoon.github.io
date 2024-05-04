@@ -511,3 +511,19 @@ tags:
 
 ![pthread_life_cycle](/public/img/pthread_life_cycle.png)
 
+### Thread Implementation: User-Level Thread
+
+#### Key entities
+
+- Thread:
+	- 100% user-level entity
+	- Kernel은 thread의 존재를 알지 못한다.
+- Threads library
+	- User-level library가 process code와 연결됨.
+	- 이하 code를 가지고 있다.
+		- thread 생성, 파괴
+		- thread scheduling
+		- thread context 저장/복구
+		- thread 사이 메세지와 data 전송
+- Processor
+	- Process basis에 할당.
