@@ -544,5 +544,27 @@ tags:
 #### 장단점
 
 - 장점
-	- 
+	- thread switching은 kernel을 부르지 않는다.
+		- mode switching 일어나지 않는다.
+	- Scheduling은 app에서 관리
+		- 최고의 algorithm 선택 가능
+	- ULT는 어떤 OS에서도 동작할 수 있다.
+		- thread library가 필요하다.
 - 단점
+	- 하나의 thread가 block되면 process가 block됨.
+		- 전체 thread block.
+	- Preemptive scheduling 불가능하다.
+		- Hardware interrupt가 불가능하다!
+		- Interrupt가 어떤 process인지는 알지만 어떤 thread인지는 모른다.
+
+### Thread Implementation: Kernel-Level Thread
+
+#### Key entities
+
+- Thread
+	- User-level와 같은 entity
+	- Kernel이 모든 thread의 존재를 안다.
+- Syscall API, thread facility를 위한 kernel func.
+	- 이하 code를 가지고 있다.
+		- Process와 thread를 위한 context 정보 
+- Processor
