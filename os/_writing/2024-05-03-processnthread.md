@@ -434,4 +434,23 @@ tags:
 ## 5. Multithreading
 
 >Process는 독립적 segments를 가지고 있다.\
->\> 병렬 연산을 위해 process를 늘린
+>\> 병렬 연산을 위해 process를 늘리는 것은 비효율적이다!!!
+
+### Traditional Process Model
+
+#### Process의 두 가지 특징
+
+- resource ownership
+	- 가상 주소 공간이 있다.
+	- 몇몇 resource의 control을 보유한다.(files, I/O devices, etc.)
+		- 이건 process가 그대로 보유
+- dispatching
+	- Thread의 control을 가지고 있다.
+	- execution state와 dispatching priority를 가지고 있다.
+		- 이걸 thread에 넘기자!
+
+### Multithreaded Process Model
+
+#### 최근 OS는 위 두 특징을 독립적으로 분리한다.
+
+- 
