@@ -611,9 +611,17 @@ tags:
 - Syscall API and thread facility를 위한 kernel func.
 	- 이하 code를 가지고 있다.
 		- KL thread 생성/파괴
-		- UL과 KL thread 사이 
+		- UL과 KL thread 사이 mapping/unmapping
+		- process와 thread를 위한 context 정보 유지
+		- thread scheduling
 - Processor
+	- thread basis에 할당
 
 #### 특징
 
-
+- thread가 user space에 생성
+- 공유되는 KL thread를 위한 UL scheduling
+- thread basis에서 KL scheduling
+- User space에서 thread sync.
+- Programmer는 KLT의 숫자 조정
+- 두 접근의 장점만 합칠 수 있다!
