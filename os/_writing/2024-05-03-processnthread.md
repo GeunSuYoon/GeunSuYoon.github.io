@@ -267,7 +267,19 @@ tags:
 ## 3. Context Switching
 
 >Context는 여기서 collection of a process states를 의미한다.\
->
+>Memory(code, data, stack, heap)는 Swapping에서 저장한다.\
 >Interrupt는 context switching이 일어나지 않는다.\
->
->Blocking syscall에선 context switching이 일어난다!
+>Blocking syscall에선 context switching이 일어난다!\
+>Dispatcher가 process states를 save/restore 하는 mechanism
+
+### Context Switching
+
+#### 무조건 저장해야 하는 것
+
+- 다음 Process가 영향을 줄  수 있는 것들
+	- PC(Program Counter)
+	- Processor Status Word (condition code, etc.)
+	- General purpose Registers, Floating point Registers
+	- All of Memory?
+		- Swapping.
+- 
