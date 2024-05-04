@@ -591,3 +591,29 @@ tags:
 		- mode change가 일어난다.
 		- Overhead가 크다.
 	- 그래서 느려진다.
+
+### Thread Implementation: Combined UL/KL Thread
+
+#### Key entity
+
+- UL
+	- Kernel은 여기 존재하는 thread를 인식하지 못함.
+- KL
+	- UL thread에 가상 processor 제공
+		- stack을 만들어 process에 전달한다.
+	- Schedule 할 수 있는 entity다.
+- Thread library
+	- 이하 code를 가지고 있다.
+		- UL thread 생성/파괴
+		- thread execution scheduling
+		- thread context 저장/복원
+		- thread 사이 메세지, data 전송
+- Syscall API and thread facility를 위한 kernel func.
+	- 이하 code를 가지고 있다.
+		- KL thread 생성/파괴
+		- UL과 KL thread 사이 
+- Processor
+
+#### 특징
+
+
