@@ -566,5 +566,27 @@ tags:
 	- Kernel이 모든 thread의 존재를 안다.
 - Syscall API, thread facility를 위한 kernel func.
 	- 이하 code를 가지고 있다.
-		- Process와 thread를 위한 context 정보 
+		- Process와 thread를 위한 context 정보 유지
+		- thread 사이 switching
+		- thread scheduling
+		- Sync.
 - Processor
+	- Thread basis에 할당.
+
+#### 특징
+
+- thread library 대신 kernel thread facility를 위한 API 필요
+	- kernel 수정이 필요하다.
+- thread basis에서 scheduling
+	- Kernel-level thread는 scheduling entity다.
+
+#### 장단점
+
+- 장점
+	- Kernel이 많은 processor에서 한 process의 모든 thread를 동시에 scheduling 가능.
+	- Blocking이 thread-level로 일어남.
+	- Kernel routine도 multithread 됨.
+- 단점
+	- Thread switching
+	- Overhead가 크다.
+	- 그래서 느려진다.
