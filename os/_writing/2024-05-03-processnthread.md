@@ -249,6 +249,17 @@ tags:
 
 ### Scheduling Policy
 
-#### Dispatcher가 control을 얻고 다음을 정하는 방법
+#### Dispatcher가 control을 얻고 다음을 일을 방법
 
-- ㅖ
+- Process table 탐색
+	- 시간이 오래 걸린다.
+- Queue
+	- Queue의 head를 선택한다.
+- Priority
+	- Queue에 priority 순서로 저장한다.
+	- Priority에 따라 저장한다.
+
+#### Priority
+
+- OS가 결정한다.
+	- Policy와 mechanism의 분리 때문에 dispatcher가 아닌 OS가 결정한다.
