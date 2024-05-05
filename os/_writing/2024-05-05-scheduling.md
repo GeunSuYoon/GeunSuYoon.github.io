@@ -385,4 +385,13 @@ tags:
 
 - 주어진 weight를 이용해 각 process에 적절한 resource 분배.
 - $C_{τ_i}(t_1, t_2) = {W(τ_i)}/{S_Φ} * (t_2 - t_1)$
-	- Time interval의 
+	- Time interval의 weight 비율.
+	- $t_2 - t_1$이 작을수록 좋지만, 너무 작으면 overhead가 커진다.
+		- overhead가 0이라 가정하면, interval = 0 -> GPS
+
+### Fairness Measurement
+
+#### CPU time lag
+
+- $lag_{τ_i}(t) = C_{τ_i}(t_1, t) - {W(τ_i)}/{S_Φ} * (t - t_1)$
+	- 실제 CPU time - 
