@@ -148,8 +148,9 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
-    "public/img/process_state_transition.png",
+    "public/img/gantt_chart_1.png",
     "os/_writing/2024-05-05-scheduling.md",
+    "public/img/process_state_transition.png",
     "os/_writing/2024-05-03-processnthread.md",
     "public/img/pthread_life_cycle.png",
     "public/img/threading_structure.png",
@@ -173,7 +174,6 @@
     "aws/_posts",
     "aws/_posts/2024-04-28-awselb.md",
     "aws/_posts/2024-04-28-awsrds.md",
-    "public/img/aws_ec2_instance_architecture.png",
     "geunsuyoon.github.io/webservice/robotstxt.html.md",
     "geunsuyoon.github.io/webservice/robots.txt.md",
     "geunsuyoon.github.io/webservice",

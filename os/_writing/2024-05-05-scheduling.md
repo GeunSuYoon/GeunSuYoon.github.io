@@ -148,4 +148,27 @@ tags:
 - 문제점
 	- 하나의 process가 CPU를 독점한다.
 - 해결법
-	- Context swi
+	- Context switch를 제외하고 최대 동작 시간을 제한한다.
+	- 이 시간을 "Time slice"라고 부른다.
+
+#### 예시
+
+- 아래와 같은 특징을 가진 process들이 있다고 하자.
+
+| -Process- | -Burst Time- |
+| --------- | ------------ |
+| $P_1$     | 24           |
+| $P_2$     | 3            |
+| $P_3$     | 3            |
+
+- 아래와 같은 Gantt Chart를 생각해보자.
+
+![gantt_chart_1](/public/img/gantt_chart_1.png)
+
+- Waiting time
+	- $P_1$ = 0
+	- $P_2$ = 24
+	- $P_3$ = 27
+- Average waiting time: (0 + 24 + 27) / 3 = 17
+
+- 다른 Gantt Chart
