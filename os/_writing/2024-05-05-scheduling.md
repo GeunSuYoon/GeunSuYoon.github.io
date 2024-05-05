@@ -192,4 +192,9 @@ tags:
 
 #### Optimal
 
-- 
+- 주어진 set of processes의 AWT를 최소화 한다.
+
+#### 두 가지 방법
+
+- Non-preemptive
+- Preemptive
