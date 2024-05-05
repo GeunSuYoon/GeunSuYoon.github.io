@@ -350,3 +350,18 @@ tags:
 
 - Exponential Queue scheduling라 부르기도 한다.
 - 새로 RunQ에 들어온 process에 가장 높은 priority를 부여한다.
+	- 새로운 process는 I/O intensive로 간주
+- 만약 process가 blocking 없이 time slice동안 동작을 끝내지 못하면?
+	- Priority 1 감소.
+	- Time slice는 2배 상승.
+	- Priority가 n일 때, time slice는 $2^n$만큼 부여한다.
+
+### FSS (Fair Share Scheduling)
+
+>Continous process가 등장함에 따라 필요해졌다.
+
+#### FSS
+
+- 각 process의 최근 CPU 사용 정도를 기록.
+- 짧은 CPU time을 사용한 process에 높은 priority 부여.
+- 
