@@ -127,6 +127,25 @@ tags:
 ### Scheduling Policies
 
 >CPU scheduler가 사용하는 것들.
+
+
 #### 규칙
 
-- FIFO(FCFS), RR, S
+- FIFO(FCFS), RR, SJF, MLFQ(EQ), etc.
+
+### FIFO (First In First Out)
+
+>Non-preemptive programming\
+>First Come First Served (FCFS)로도 불린다.
+
+#### Key ideas
+
+- 처음 온 애를 끝날 때 까지 돌리자. (CPU 독점 > time interrupt로 해결)
+- 가장 간단하다. Uniprogramming이다.
+- Finished는 Blocked를 의미한다.
+	- 하나의 process가 CPU 사용하는 동안 다른 것들은 semaphore에서 대기.
+	- Ready일 때 RunQ로 돌아감.
+- 문제점
+	- 하나의 process가 CPU를 독점한다.
+- 해결법
+	- Context swi
