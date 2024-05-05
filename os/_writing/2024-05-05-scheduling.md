@@ -54,4 +54,22 @@ tags:
 
 ### CPU Scheduler
 
-#### 
+>Ready 상태인 memory 내 process를 선택한 뒤, CPU에 해당 process를 할당해야 한다. 어떤 방법으로?
+
+#### CPU Scheduling은 아래의 경우에 process를 선택한다.
+
+1. Switches from running to waiting state
+2. Switches from running to ready state
+3. Switches from waiting to ready state
+4. Terminates
+- 1과 4는 non-preemptive다.
+- 다른 것들은 preemptive다.
+
+#### Process는 세 가지 scheduling state를 가진다.
+
+- Running
+	- CPU 보유
+- Ready
+	- CPU 주세요
+- Waiting(Blocked)
+	- 특정 event를 기다린다.(disk I/O, message, semaphore, etc.)
