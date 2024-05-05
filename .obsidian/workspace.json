@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b83acfb48760d9f0",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/gantt_chart_2.png"
+              }
+            }
           }
         ]
       }
@@ -148,8 +158,9 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
-    "public/img/gantt_chart_1.png",
+    "public/img/gantt_chart_2.png",
     "os/_writing/2024-05-05-scheduling.md",
+    "public/img/gantt_chart_1.png",
     "public/img/process_state_transition.png",
     "os/_writing/2024-05-03-processnthread.md",
     "public/img/pthread_life_cycle.png",
@@ -164,7 +175,6 @@
     "_template/post_template.md",
     "aws/_posts/2024-04-28-awsebs.md",
     "public/img/switch_mode_instruction.png",
-    "public/img/syscall_handling.png",
     "os/_writing",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "webservice/_posts/2024-04-28-robotstxt.md",

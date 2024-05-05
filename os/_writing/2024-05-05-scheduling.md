@@ -171,4 +171,25 @@ tags:
 	- $P_3$ = 27
 - Average waiting time: (0 + 24 + 27) / 3 = 17
 
-- 다른 Gantt Chart
+- 다른 Gantt Chart를 보자.
+
+![gantt_chart_2](/public/img/gantt_chart_2.png)
+
+- Waiting time
+	- $P_1$ = 6
+	- $P_2$ = 0
+	- $P_3$ = 3
+- Average waiting time: (6 + 0 + 3) / 3 = 3
+
+- Convoy Effect가 발생한다.
+	- Burst time이 짧은 애들이 앞에 올 수록 AWT가 짧아짐!!!
+
+### SJF (Shortest Job First)
+
+#### Key operation
+
+- 각 process의 다음 CPU burst에 따라 짧은 것을 먼저 실행.
+
+#### Optimal
+
+- 
