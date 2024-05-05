@@ -329,17 +329,24 @@ tags:
 - $U_{CPU}$ = 100%
 - $U_{IO}$ = 10 / 11 ~ 91%
 - 겉보기엔 좋아 보이지만, $P_2$는 interrupt가 자주 걸린다.
-	- $P_2$에 Time slice를 크게 주면 I/O 입력 꼬여 오래 걸린다.
-	- 우선 순위를 다르게 주자!
-		- Process가 fork되면 우선 I/O intensive로 간주.
-			- 빨리 종료? I/O intensive 유지
-			- 더 써야 한다? I/O intensive가 아닌지 의심
-
+	- $P_2$에 $P_1$보다다 Time slice를 크게 주면 어떨까?
 
 ### MLFQ (Multi-Level Feedback Queue)
+
+>위에서 언급한 process간 특징 차이를 이용해 time slice를 다르게 주자!
 
 #### MLFQ에서 idea development
 
 - STCF는 나쁘지 않게 동작하지만, 예측이 필요하다.
 	- 과거 데이터로 미래 예측
-	- 이는 곧 resource 낭비로 
+	- 이는 곧 resource 낭비로 연결된다.
+- Dispatcher의 priority mechanism을 오래 동작하는 process에 적용하자!
+- CPU-I/O intensive process로 분류
+	- I/O intensive process에 높은 priority 부여
+	- CPU intensive process에 낮은 priority 부여
+	- 낮은 prioirty process에 긴 time slice 부여.
+
+#### MLFQ scheduling
+
+- Exponential Queue scheduling라 부르기도 한다.
+- 새로 RunQ에 들어온 process에 가장 높은 priority를 부여한다.
