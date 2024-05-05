@@ -300,4 +300,17 @@ tags:
 - RR Gantt Chart
 	- AWT = 4.5
 
-- Fair하나 AWT는 하향 
+- Fair하나 AWT는 하향 평준화 된다.
+
+#### FIFO vs. RR
+
+- RR에서 Time Slice를 inf.로 보내면 FIFO와 똑같다.
+- Time Slice = 0이면 GPS가 된다.
+	- 실제로 구현할 수는 없다.
+	- GPS(Generalize Process Sharing)는 ideal RR이다.
+
+#### Right size of Time slice value
+
+- I/O intensive인 $P_1$, CPU intensive인 $P_2$를 생각해보자.
+	- $P_1$은 1ms동안 동작하고 I/O를 10ms
+	- $P_2$
