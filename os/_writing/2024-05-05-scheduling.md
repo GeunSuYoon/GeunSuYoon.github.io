@@ -364,4 +364,19 @@ tags:
 
 - 각 process의 최근 CPU 사용 정도를 기록.
 - 짧은 CPU time을 사용한 process에 높은 priority 부여.
-- 
+- "Billing factors"를 바꿔 priority 조정 가능.
+
+## 3. Fair Share Scheduling in Linux
+
+>과거에 mininum reponse time을 기준으로 했다면 이제 user perception에 따라 판단하자!
+
+### Formulation
+
+#### Terminology
+
+- $N$
+- $Φ$
+- $W(τ_i)$
+- $S_Φ$
+- $T_{τ_i}(t_1, t_2))$
+- $T_{τ_i}(t_1, t_2))$
