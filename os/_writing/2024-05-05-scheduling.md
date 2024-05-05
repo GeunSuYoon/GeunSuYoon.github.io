@@ -374,9 +374,15 @@ tags:
 
 #### Terminology
 
-- $N$
-- $Φ$
-- $W(τ_i)$
-- $S_Φ$
-- $T_{τ_i}(t_1, t_2))$
-- $T_{τ_i}(t_1, t_2))$
+- $N$ : size of RunQ
+- $Φ$ : Set of tasks
+- $W(τ_i)$ : Weight of $i^{th}$ task
+- $S_Φ$ : Weight sum of tasks
+- $T_{τ_i}(t_1, t_2))$ : Ideal time slice of task between interval $t_1$ and $t_2$
+- $C_{τ_i}(t_1, t_2)$ : Real time slice of task between interval $t_1$ and $t_2$
+
+#### FSS의 목표
+
+- 주어진 weight를 이용해 각 process에 적절한 resource 분배.
+- $C_{τ_i}(t_1, t_2) = {W(τ_i)}/{S_Φ} * (t_2 - t_1)$
+	- Time interval의 
