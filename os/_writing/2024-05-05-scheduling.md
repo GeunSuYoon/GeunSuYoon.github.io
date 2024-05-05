@@ -118,6 +118,15 @@ tags:
 
 #### Waiting time
 
-- Process가 
+- Process가 ReadyQ에 있는 시간
 
 #### Response time
+
+- 첫 response 제출 후 request 생성까지 걸리는 시간.
+
+### Scheduling Policies
+
+>CPU scheduler가 사용하는 것들.
+#### 규칙
+
+- FIFO(FCFS), RR, S
