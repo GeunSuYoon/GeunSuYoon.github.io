@@ -18,16 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4abc954ec7e3227e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "public/img/rr_ts_100ms.png"
-              }
-            }
           }
         ]
       }
@@ -158,6 +148,7 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
+    "public/img/rr_ts_1ms.png",
     "public/img/rr_ts_100ms.png",
     "os/_writing/2024-05-05-scheduling.md",
     "public/img/gantt_chart_rr_rr_2.png",
@@ -168,7 +159,6 @@
     "public/img/gantt_chart_2.png",
     "public/img/gantt_chart_sjf_non_preemptive.png",
     "public/img/gantt_chart_1.png",
-    "public/img/process_state_transition.png",
     "os/_writing/2024-05-03-processnthread.md",
     "os/_posts/2024-03-13-Intro.md",
     "os/_posts/2024-05-03-runtime_stack.md",

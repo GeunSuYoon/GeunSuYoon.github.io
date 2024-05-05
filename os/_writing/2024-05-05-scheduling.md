@@ -323,3 +323,23 @@ tags:
 - $U_{IO}$ = 10 / 101 ~ 10%
 
 ##### Time Slice = 1ms
+
+![rr_ts_1ms](public/img/rr_ts_1ms.png)
+
+- $U_{CPU}$ = 100%
+- $U_{IO}$ = 10 / 11 ~ 91%
+- 겉보기엔 좋아 보이지만, $P_2$는 interrupt가 자주 걸린다.
+	- $P_2$에 Time slice를 크게 주면 I/O 입력 꼬여 오래 걸린다.
+	- 우선 순위를 다르게 주자!
+		- Process가 fork되면 우선 I/O intensive로 간주.
+			- 빨리 종료? I/O intensive 유지
+			- 더 써야 한다? I/O intensive가 아닌지 의심
+
+
+### MLFQ (Multi-Level Feedback Queue)
+
+#### MLFQ에서 idea development
+
+- STCF는 나쁘지 않게 동작하지만, 예측이 필요하다.
+	- 과거 데이터로 미래 예측
+	- 이는 곧 resource 낭비로 
