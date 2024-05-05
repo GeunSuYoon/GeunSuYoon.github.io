@@ -429,4 +429,14 @@ tags:
 | $τ_3$    | 4                | 3.5 |
 | $τ_4$    | 0                | 3.5 |
 
-####
+#### Evaluation
+
+- Low Scheduling Overhead: O(1)
+- Fairness guarantee가 약하다
+	- Interval이 커지면 lag도 커진다!
+
+### WFQ (Weighted Fair Queuing)
+
+#### Key
+
+- VT(Virtual Time)
