@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os/_writing/2024-05-03-processnthread.md",
+                "file": "os/_writing/2024-05-05-scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_writing/2024-05-03-processnthread.md",
+                "file": "os/_writing/2024-05-05-scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_writing/2024-05-03-processnthread.md",
+                "file": "os/_writing/2024-05-05-scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_writing/2024-05-03-processnthread.md"
+                "file": "os/_writing/2024-05-05-scheduling.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
-    "public/img/pthread_life_cycle.png",
     "os/_writing/2024-05-03-processnthread.md",
+    "os/_writing/2024-05-05-scheduling.md",
+    "public/img/pthread_life_cycle.png",
     "public/img/threading_structure.png",
     "public/img/process_life_cycle.png",
     "public/img/state_transition_diagram.png",
