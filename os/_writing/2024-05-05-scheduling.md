@@ -251,3 +251,37 @@ tags:
 
 - 높은 priority를 가진 process를 먼저 실행.
 - 같은 priority는 RR
+- RunQ 내 더 크거나 같은 priority process 뒤에 넣는다.
+
+#### Time Slice Selection
+
+- Time Slice를 제대로 선택하지 않으면?
+	- Too Long
+		- Process의 CPU 독점
+	- Too Short
+		- Context switch overhead가 너무 커짐 > Interrupt 너무 잦다.
+- Unix는 1s로 설정
+	- 너무 길다!
+- 최근 system은 1~10ms로 설정.
+
+#### FIFO와 비교
+
+- 아래와 같은 process들이 있다고 하자.
+
+| -Process- | -Burst Time- |
+| --------- | ------------ |
+| $P_1$     | 10           |
+| $P_2$     | 1            |
+
+- FIFO Gantt Chart
+	- AWT = 5
+
+
+
+- RR Gantt Chart
+	- AWT = 1
+
+- FIFO Gantt Chart
+	- AWT = 2.5
+- RR Gantt Chart
+	- AWT = 4.5
