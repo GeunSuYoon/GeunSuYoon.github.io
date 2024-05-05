@@ -312,5 +312,14 @@ tags:
 #### Right size of Time slice value
 
 - I/O intensive인 $P_1$, CPU intensive인 $P_2$를 생각해보자.
-	- $P_1$은 1ms동안 동작하고 I/O를 10ms
-	- $P_2$
+	- $P_1$은 1ms동안 동작하고 I/O를 10ms동안 기다린다.
+	- $P_2$는 waiting 없이 계속 동작한다.
+
+##### Time Slice = 100ms
+
+![rr_ts_100ms](public/img/rr_ts_100ms.png)
+
+- $U_{CPU}$ = 100%
+- $U_{IO}$ = 10 / 101 ~ 10%
+
+##### Time Slice = 1ms
