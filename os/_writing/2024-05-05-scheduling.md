@@ -73,3 +73,14 @@ tags:
 	- CPU 주세요
 - Waiting(Blocked)
 	- 특정 event를 기다린다.(disk I/O, message, semaphore, etc.)
+
+![process_state_transition](/public/img/process_state_transition.png)
+
+- Running to Waiting은 non-preemptive
+
+### Dispatcher
+
+#### Dispatcher는 scheduler에 의해 선택된 process에게 CPU control을 넘긴다.
+- Switching Context
+- Switching to user mode
+- 다시 시작한 program이 이전까지 진행하던 곳을 
