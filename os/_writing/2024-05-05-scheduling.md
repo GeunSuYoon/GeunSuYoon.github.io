@@ -225,4 +225,11 @@ tags:
 
 - AWT = (9 + 1 + 0 + 2) / 4 = 3
 
-#### 
+#### Challenge: 다음 CPU burst size 예측
+
+- 추측할 수 있는 것은 길이 뿐이다.
+	- 이전 CPU burst length를 EMA를 이용한 ES로 해보자.  
+	- ES(Exponential Smoothing)
+	- EMA(Exponential Moving Everage)
+		- $τ_{n+1} = α*t_n + (1-α)*τ_n$
+		- $τ_{n+1}$: 
