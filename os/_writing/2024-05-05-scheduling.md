@@ -384,6 +384,7 @@ tags:
 #### FSS의 목표
 
 - 주어진 weight를 이용해 각 process에 적절한 resource 분배.
+- CPU time when GPS
 - $C_{τ_i}(t_1, t_2) = {W(τ_i)}/{S_Φ} * (t_2 - t_1)$
 	- Time interval의 weight 비율.
 	- $t_2 - t_1$이 작을수록 좋지만, 너무 작으면 overhead가 커진다.
@@ -394,4 +395,8 @@ tags:
 #### CPU time lag
 
 - $lag_{τ_i}(t) = C_{τ_i}(t_1, t) - {W(τ_i)}/{S_Φ} * (t - t_1)$
-	- 실제 CPU time - 
+	- 실제 CPU time - GPS에서 CPU time
+	- Positive lag : GPS보다 더 많은 시간 받음
+	- Negative lag : GPS보다 더 적은 시간 받음
+- 이런 lag를 모든 time interval에서 최소화 하자!
+
