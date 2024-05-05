@@ -273,15 +273,31 @@ tags:
 | $P_1$     | 10           |
 | $P_2$     | 1            |
 
+![gantt_chart_rr_fifo_1](/public/img/gantt_chart_rr_fifo_1.png)
+
 - FIFO Gantt Chart
 	- AWT = 5
 
-
+![gantt_chart_rr_rr_1](/public/img/gantt_chart_rr_rr_1.png)
 
 - RR Gantt Chart
 	- AWT = 1
 
+- 아래와 같은 process들이 있다고 하자.
+
+| -Process- | -Burst Time- |
+| --------- | ------------ |
+| $P_1$     | 5            |
+| $P_2$     | 5            |
+
+![gantt_chart_rr_fifo_2](/public/img/gantt_chart_rr_fifo_2.png)
+
 - FIFO Gantt Chart
 	- AWT = 2.5
+
+![gantt_chart_rr_rr_2](public/img/gantt_chart_rr_rr_2.png)
+
 - RR Gantt Chart
 	- AWT = 4.5
+
+- Fair하나 AWT는 하향 
