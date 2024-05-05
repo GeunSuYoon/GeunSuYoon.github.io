@@ -197,4 +197,7 @@ tags:
 #### 두 가지 방법
 
 - Non-preemptive
+	- Process가 CPU를 가진 후, CPU burst 이전까지 독점
 - Preemptive
+	- 지금 동작하는 process보다 CPU burst가 더 짧은 process가 도착하면 그 즉시 교체.
+	- SRTF(Shortest Remaining Time First) 혹은 STCF(Shortest Time to Com)라고 불린다.
