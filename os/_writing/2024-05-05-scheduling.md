@@ -200,4 +200,29 @@ tags:
 	- Process가 CPU를 가진 후, CPU burst 이전까지 독점
 - Preemptive
 	- 지금 동작하는 process보다 CPU burst가 더 짧은 process가 도착하면 그 즉시 교체.
-	- SRTF(Shortest Remaining Time First) 혹은 STCF(Shortest Time to Com)라고 불린다.
+	- SRTF(Shortest Remaining Time First) 혹은 STCF(Shortest Time to Completion First)라고 불린다.
+
+#### 예시
+
+- 아래와 같은 process들이 있다고 하자.
+
+| -Process- | -Arrival Time- | -Burst Time- |
+| --------- | -------------- | ------------ |
+| $P_1$     | 0              | 7            |
+| $P_2$     | 2              | 4            |
+| $P_3$     | 4              | 1            |
+| $P_4$     | 5              | 4            |
+
+- Non-preemptive Gantt Chart
+
+![gantt_chart_sjf_non_preemptive](/public/img/gantt_chart_sjf_non_preemptive.png)
+
+- AWT = (0 + 6 + 3 + 7) / 4 = 4
+
+- Non-preemptive Gantt Chart
+
+![gantt_chart_sjf_preemptive](/public/img/gantt_chart_sjf_preemptive.png)
+
+- AWT = (9 + 1 + 0 + 2) / 4 = 3
+
+#### 

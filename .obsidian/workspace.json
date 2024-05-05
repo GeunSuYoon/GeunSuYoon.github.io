@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "b83acfb48760d9f0",
+            "id": "a6046b8b75002474",
             "type": "leaf",
             "state": {
               "type": "image",
               "state": {
-                "file": "public/img/gantt_chart_2.png"
+                "file": "public/img/gantt_chart_sjf_preemptive.png"
               }
             }
           }
@@ -158,8 +158,10 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
-    "public/img/gantt_chart_2.png",
+    "public/img/gantt_chart_sjf_preemptive.png",
     "os/_writing/2024-05-05-scheduling.md",
+    "public/img/gantt_chart_2.png",
+    "public/img/gantt_chart_sjf_non_preemptive.png",
     "public/img/gantt_chart_1.png",
     "public/img/process_state_transition.png",
     "os/_writing/2024-05-03-processnthread.md",
@@ -171,10 +173,8 @@
     "os/_posts/2024-03-13-Intro.md",
     "os/_posts/2024-05-03-runtime_stack.md",
     "os/_posts/2024-05-03-Hardware.md",
-    "public/img/sample_assembly_code.png",
     "_template/post_template.md",
     "aws/_posts/2024-04-28-awsebs.md",
-    "public/img/switch_mode_instruction.png",
     "os/_writing",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
