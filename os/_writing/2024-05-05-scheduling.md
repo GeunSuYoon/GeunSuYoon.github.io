@@ -394,9 +394,21 @@ tags:
 
 #### CPU time lag
 
-- $lag_{τ_i}(t) = C_{τ_i}(t_1, t) - {W(τ_i)}/{S_Φ} * (t - t_1)$
+- $lag_{τ_i}(t) = C_{τ_i}(t_1, t) - {W(τ_i)} / {S_Φ} * (t - t_1)$
 	- 실제 CPU time - GPS에서 CPU time
 	- Positive lag : GPS보다 더 많은 시간 받음
 	- Negative lag : GPS보다 더 적은 시간 받음
 - 이런 lag를 모든 time interval에서 최소화 하자!
 
+### WRR (Weighted Round Robin)
+
+#### Key
+
+- Time Slice
+	- $TS_{τ_i} = W(τ_i) / {S_Φ} *$ round_robin_interval_period
+- Time Slice를 이용한 GPS approximation
+- 각 task에 weighted time slice 할당
+- RR로 task를 schedule
+	- 한 time slice 단위로 task 실행.
+- 예시
+- 
