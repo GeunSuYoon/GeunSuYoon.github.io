@@ -83,4 +83,41 @@ tags:
 #### Dispatcher는 scheduler에 의해 선택된 process에게 CPU control을 넘긴다.
 - Switching Context
 - Switching to user mode
-- 다시 시작한 program이 이전까지 진행하던 곳을 
+- 다시 시작한 program이 이전까지 진행하던 곳으로 jump
+
+#### Latancy
+
+- Dispatcher가 한 process를 멈추고 다른 것을 시작하는데 걸리는 시간
+
+## 2. Scheduling Policies
+
+>어떤 process를 선택할 것인가\
+>얼마나 process를 동작할 것인가
+
+### Scheduling Objectives
+
+#### Resourc utilization 최대화
+
+- CPU와 I/O device를 최대한 사용해야 한다.
+
+#### Overhead 최소화
+
+#### Context Switch 최소화
+
+#### CPU cycle 공정 분배
+
+### Optimization Metrics
+
+#### Throughput
+
+- 시간 단위 당 끝낼 수 있는 process의 숫자
+
+#### Turnaround time
+
+- 특정 process를 종료하는 시간
+
+#### Waiting time
+
+- Process가 
+
+#### Response time
