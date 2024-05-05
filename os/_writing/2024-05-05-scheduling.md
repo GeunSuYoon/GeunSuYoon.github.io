@@ -232,4 +232,22 @@ tags:
 	- ES(Exponential Smoothing)
 	- EMA(Exponential Moving Everage)
 		- $τ_{n+1} = α*t_n + (1-α)*τ_n$
-		- $τ_{n+1}$: 
+		- $τ_{n+1}$: 다음 CPU burst를 예측하기 위한 값
+		- $t_n$: $n^{th}$ CPU burst의 실제 길이
+		- $α(0<=α<=1)$: Smoothing factor. 값이 클수록 최근 값을 높게 반영.
+
+### RR (Round Robin)
+
+>FIFO를 preemptive하게 만들자!
+
+#### Key idea
+
+- Process를 time slice만큼 실행하자.
+- 그리고 RunQ에 다시 넣는다.
+- 모든 process는 CPU를 동일하게 할당 받는다.
+- 대부분 system이 이와 비슷한 것을 사용한다!
+
+#### Priority 참고
+
+- 높은 priority를 가진 process를 먼저 실행.
+- 같은 priority는 RR
