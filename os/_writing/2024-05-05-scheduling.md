@@ -41,4 +41,17 @@ tags:
 - OS는 여러 개의 process를 memory에 load할 수 있다.
 - 해당 process들은 CPU를 time-multiplexing으로 공유한다.
 
-### CPU 
+### CPU Burst
+
+>최신 OS에서 CPU scheduling할 때 참고하는 entity다.
+
+#### CPU-I/O Burst Cycle
+
+- Process execution은 CPU execution과 I/O wait의 cycle로 이루어져 있다.
+- CPU execution과 I/O wait time을 비교해 CPU-I/O Bound/Intensive process로 구분할 수 있다.
+	- CPU intensive는 throughput이 중요하다.
+	- I/O intensive는 반응 속도가 중요하다.
+
+### CPU Scheduler
+
+#### 
