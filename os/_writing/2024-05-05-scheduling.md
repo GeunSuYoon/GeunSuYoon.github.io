@@ -437,6 +437,14 @@ tags:
 
 ### WFQ (Weighted Fair Queuing)
 
+>WRR과 Time quantam(C)는 동일. w가 큰 task가 새치기 하는 것!
+
 #### Key
 
 - VT(Virtual Time)
+	- $VT_{τ_i}(t) = C_{τ_i}(0, t) / W(τ_i)$
+	- Weight에 따른 진행도 체크
+- Preemptive tick period
+
+
+
