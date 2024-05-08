@@ -445,6 +445,9 @@ tags:
 	- $VT_{τ_i}(t) = C_{τ_i}(0, t) / W(τ_i)$
 	- Weight에 따른 진행도 체크
 - Preemptive tick period
+	- Preemptive를 위해 scheduler가 확인할 time interval
+- VFT (Virtual Finish Time)
+	- $VFT_{τ_i}(t) = VT_{τ_i}(t + T) = VT_{τ_i}(t) + T / W(τ_i)$
 
-
+### CFS (Completely Fair Scheduler)
 
