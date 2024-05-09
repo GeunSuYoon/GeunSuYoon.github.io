@@ -141,7 +141,6 @@ tags:
 >
 >Non-preemptive > Sync. interrupt
 
-
 ### Process Scheduling
 
 #### Goal
