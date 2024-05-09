@@ -90,6 +90,7 @@ tags:
 ## 2. Scheduling Policies
 
 >어떤 process를 선택할 것인가\
+>
 >얼마나 process를 동작할 것인가
 
 ### Scheduling Objectives
@@ -134,6 +135,7 @@ tags:
 ### FIFO (First In First Out)
 
 >Non-preemptive programming\
+>
 >First Come First Served (FCFS)로도 불린다.
 
 #### Key ideas
@@ -181,6 +183,7 @@ tags:
 	
 - Convoy Effect가 발생한다.
 	- Burst time이 짧은 애들이 앞에 올 수록 AWT가 짧아짐!!!
+	- 즉, process가 도착하는 순서에 따라 AWT가 달라진다.
 
 ### SJF (Shortest Job First)
 
@@ -226,13 +229,13 @@ tags:
 #### Challenge: 다음 CPU burst size 예측
 
 - 추측할 수 있는 것은 길이 뿐이다.
-	- 이전 CPU burst length를 EMA를 이용한 ES로 해보자.  
+	- 이전 CPU burst length를 EMA를 이용한 ES로 해보자.
 	- ES(Exponential Smoothing)
 	- EMA(Exponential Moving Everage)
 		- $τ_{n+1} = α*t_n + (1-α)*τ_n$
-		- $τ_{n+1}$: 다음 CPU burst를 예측하기 위한 값
-		- $t_n$: $n^{th}$ CPU burst의 실제 길이
-		- $α(0<=α<=1)$: Smoothing factor. 값이 클수록 최근 값을 높게 반영.
+		- $τ_{n+1}$ : 다음 CPU burst를 예측하기 위한 값
+		- $t_n$ : $n^{th}$ CPU burst의 실제 길이
+		- $α(0<=α<=1)$ : Smoothing factor. 값이 클수록 최근 값을 높게 반영.
 
 ### RR (Round Robin)
 
@@ -257,7 +260,7 @@ tags:
 	- Too Long
 		- Process의 CPU 독점
 	- Too Short
-		- Context switch overhead가 너무 커짐 > Interrupt 너무 잦다.
+		- Interrupt 너무 잦다 > Context switch overhead가 너무 커짐.
 - Unix는 1s로 설정
 	- 너무 길다!
 - 최근 system은 1~10ms로 설정.
@@ -275,7 +278,6 @@ tags:
 	![gantt_chart_rr_fifo_1](/public/img/gantt_chart_rr_fifo_1.png)
 	
 	- AWT = 5
-
 - RR Gantt Chart
 	
 	![gantt_chart_rr_rr_1](/public/img/gantt_chart_rr_rr_1.png)
@@ -294,7 +296,6 @@ tags:
 	![gantt_chart_rr_fifo_2](/public/img/gantt_chart_rr_fifo_2.png)
 	
 	- AWT = 2.5
-
 - RR Gantt Chart
 	
 	![gantt_chart_rr_rr_2](public/img/gantt_chart_rr_rr_2.png)
@@ -317,14 +318,14 @@ tags:
 
 ##### Time Slice = 100ms
 
-![rr_ts_100ms](public/img/rr_ts_100ms.png)
+![rr_ts_100ms](/public/img/rr_ts_100ms.png)
 
 - $U_{CPU}$ = 100%
 - $U_{IO}$ = 10 / 101 ~ 10%
 
 ##### Time Slice = 1ms
 
-![rr_ts_1ms](public/img/rr_ts_1ms.png)
+![rr_ts_1ms](/public/img/rr_ts_1ms.png)
 
 - $U_{CPU}$ = 100%
 - $U_{IO}$ = 10 / 11 ~ 91%
