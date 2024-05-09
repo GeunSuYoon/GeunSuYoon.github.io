@@ -561,7 +561,7 @@ tags:
 #### Key entities
 
 - Thread
-	- User-level와 같은 entity
+	- UL, KL에 같은 entity로 존재.
 	- Kernel이 모든 thread의 존재를 안다.
 - Syscall API, thread facility를 위한 kernel func.
 	- 이하 code를 가지고 있다.

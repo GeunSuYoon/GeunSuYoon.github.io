@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os/_writing/2024-05-03-processnthread.md",
+                "file": "os/_writing/2024-05-05-scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_writing/2024-05-03-processnthread.md",
+                "file": "os/_writing/2024-05-05-scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_writing/2024-05-03-processnthread.md",
+                "file": "os/_writing/2024-05-05-scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_writing/2024-05-03-processnthread.md"
+                "file": "os/_writing/2024-05-05-scheduling.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
+    "os/_writing/2024-05-03-processnthread.md",
     "os/_posts/2024-05-03-Hardware.md",
     "os/_posts/2024-05-03-runtime_stack.md",
     "os/_posts/2024-03-13-Intro.md",
@@ -162,7 +163,6 @@
     "public/img/gantt_chart_2.png",
     "public/img/gantt_chart_sjf_non_preemptive.png",
     "public/img/gantt_chart_1.png",
-    "os/_writing/2024-05-03-processnthread.md",
     "_template/post_template.md",
     "aws/_posts/2024-04-28-awsebs.md",
     "os/_writing",

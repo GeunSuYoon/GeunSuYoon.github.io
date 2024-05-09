@@ -7,8 +7,6 @@ tags:
 ---
 # \[Lecture - OS] Scheduling
 
->simple explane
-
 ## Agenda
 
 1. Basic Concepts
@@ -329,7 +327,7 @@ tags:
 - $U_{CPU}$ = 100%
 - $U_{IO}$ = 10 / 11 ~ 91%
 - 겉보기엔 좋아 보이지만, $P_2$는 interrupt가 자주 걸린다.
-	- $P_2$에 $P_1$보다다 Time slice를 크게 주면 어떨까?
+	- $P_2$에 $P_1$보다 Time slice를 크게 주면 어떨까?
 
 ### MLFQ (Multi-Level Feedback Queue)
 
@@ -378,7 +376,7 @@ tags:
 - $Φ$ : Set of tasks
 - $W(τ_i)$ : Weight of $i^{th}$ task
 - $S_Φ$ : Weight sum of tasks
-- $T_{τ_i}(t_1, t_2))$ : Ideal time slice of task between interval $t_1$ and $t_2$
+- $T_{τ_i}(t_1, t_2)$ : Ideal time slice of task between interval $t_1$ and $t_2$
 - $C_{τ_i}(t_1, t_2)$ : Real time slice of task between interval $t_1$ and $t_2$
 
 #### FSS의 목표
