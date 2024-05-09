@@ -71,9 +71,9 @@ tags:
 	- CPU 주세요
 - Waiting(Blocked)
 	- 특정 event를 기다린다.(disk I/O, message, semaphore, etc.)
-
-![process_state_transition](/public/img/process_state_transition.png)
-
+	
+	![process_state_transition](/public/img/process_state_transition.png)
+	
 - Running to Waiting은 non-preemptive
 
 ### Dispatcher
@@ -160,9 +160,9 @@ tags:
 | $P_3$     | 3            |
 
 - 아래와 같은 Gantt Chart를 생각해보자.
-
-![gantt_chart_1](/public/img/gantt_chart_1.png)
-
+	
+	![gantt_chart_1](/public/img/gantt_chart_1.png)
+	
 - Waiting time
 	- $P_1$ = 0
 	- $P_2$ = 24
@@ -170,15 +170,15 @@ tags:
 - Average waiting time: (0 + 24 + 27) / 3 = 17
 
 - 다른 Gantt Chart를 보자.
-
-![gantt_chart_2](/public/img/gantt_chart_2.png)
-
+	
+	![gantt_chart_2](/public/img/gantt_chart_2.png)
+	
 - Waiting time
 	- $P_1$ = 6
 	- $P_2$ = 0
 	- $P_3$ = 3
 - Average waiting time: (6 + 0 + 3) / 3 = 3
-
+	
 - Convoy Effect가 발생한다.
 	- Burst time이 짧은 애들이 앞에 올 수록 AWT가 짧아짐!!!
 
@@ -212,15 +212,15 @@ tags:
 | $P_4$     | 5              | 4            |
 
 - Non-preemptive Gantt Chart
-
-![gantt_chart_sjf_non_preemptive](/public/img/gantt_chart_sjf_non_preemptive.png)
-
+	
+	![gantt_chart_sjf_non_preemptive](/public/img/gantt_chart_sjf_non_preemptive.png)
+	
 - AWT = (0 + 6 + 3 + 7) / 4 = 4
 
 - Non-preemptive Gantt Chart
-
-![gantt_chart_sjf_preemptive](/public/img/gantt_chart_sjf_preemptive.png)
-
+	
+	![gantt_chart_sjf_preemptive](/public/img/gantt_chart_sjf_preemptive.png)
+	
 - AWT = (9 + 1 + 0 + 2) / 4 = 3
 
 #### Challenge: 다음 CPU burst size 예측
@@ -270,15 +270,16 @@ tags:
 | --------- | ------------ |
 | $P_1$     | 10           |
 | $P_2$     | 1            |
-
-![gantt_chart_rr_fifo_1](/public/img/gantt_chart_rr_fifo_1.png)
-
 - FIFO Gantt Chart
+	
+	![gantt_chart_rr_fifo_1](/public/img/gantt_chart_rr_fifo_1.png)
+	
 	- AWT = 5
 
-![gantt_chart_rr_rr_1](/public/img/gantt_chart_rr_rr_1.png)
-
 - RR Gantt Chart
+	
+	![gantt_chart_rr_rr_1](/public/img/gantt_chart_rr_rr_1.png)
+	
 	- AWT = 1
 
 - 아래와 같은 process들이 있다고 하자.
@@ -288,16 +289,17 @@ tags:
 | $P_1$     | 5            |
 | $P_2$     | 5            |
 
-![gantt_chart_rr_fifo_2](/public/img/gantt_chart_rr_fifo_2.png)
-
 - FIFO Gantt Chart
+	
+	![gantt_chart_rr_fifo_2](/public/img/gantt_chart_rr_fifo_2.png)
+	
 	- AWT = 2.5
 
-![gantt_chart_rr_rr_2](public/img/gantt_chart_rr_rr_2.png)
-
 - RR Gantt Chart
+	
+	![gantt_chart_rr_rr_2](public/img/gantt_chart_rr_rr_2.png)
+	
 	- AWT = 4.5
-
 - Fair하나 AWT는 하향 평준화 된다.
 
 #### FIFO vs. RR
