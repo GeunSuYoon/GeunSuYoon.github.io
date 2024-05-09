@@ -432,7 +432,7 @@ tags:
 #### Evaluation
 
 - Low Scheduling Overhead: O(1)
-- Fairness guarantee가 약하다
+- 하지만, fairness guarantee가 약하다
 	- Interval이 커지면 lag도 커진다!
 
 ### WFQ (Weighted Fair Queuing)
