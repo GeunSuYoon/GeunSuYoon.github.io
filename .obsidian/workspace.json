@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os/_writing/2024-05-05-scheduling.md",
+                "file": "os/_writing/2024-05-03-processnthread.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_writing/2024-05-05-scheduling.md",
+                "file": "os/_writing/2024-05-03-processnthread.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_writing/2024-05-05-scheduling.md",
+                "file": "os/_writing/2024-05-03-processnthread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_writing/2024-05-05-scheduling.md"
+                "file": "os/_writing/2024-05-03-processnthread.md"
               }
             }
           }
@@ -148,9 +148,12 @@
   },
   "active": "d60760ca2f44688d",
   "lastOpenFiles": [
+    "os/_posts/2024-05-03-Hardware.md",
+    "os/_posts/2024-05-03-runtime_stack.md",
+    "os/_posts/2024-03-13-Intro.md",
+    "os/_writing/2024-05-05-scheduling.md",
     "public/img/rr_ts_1ms.png",
     "public/img/rr_ts_100ms.png",
-    "os/_writing/2024-05-05-scheduling.md",
     "public/img/gantt_chart_rr_rr_2.png",
     "public/img/gantt_chart_sjf_preemptive.png",
     "public/img/gantt_chart_rr_fifo_1.png",
@@ -160,9 +163,6 @@
     "public/img/gantt_chart_sjf_non_preemptive.png",
     "public/img/gantt_chart_1.png",
     "os/_writing/2024-05-03-processnthread.md",
-    "os/_posts/2024-03-13-Intro.md",
-    "os/_posts/2024-05-03-runtime_stack.md",
-    "os/_posts/2024-05-03-Hardware.md",
     "_template/post_template.md",
     "aws/_posts/2024-04-28-awsebs.md",
     "os/_writing",
