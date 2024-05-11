@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "platform/writing/2024-05-12-gcp.md",
+                "file": "platform/writing/2024-05-12-azure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "platform/writing/2024-05-12-gcp.md",
+                "file": "platform/writing/2024-05-12-azure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "platform/writing/2024-05-12-gcp.md",
+                "file": "platform/writing/2024-05-12-azure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "platform/writing/2024-05-12-gcp.md"
+                "file": "platform/writing/2024-05-12-azure.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
-    "public/img/gcp_resource_arch.png",
     "platform/writing/2024-05-12-gcp.md",
+    "platform/writing/2024-05-12-azure.md",
+    "public/img/gcp_resource_arch.png",
     "aws/_writing/2024-05-12-opensearch.md",
     "aws/_posts/2024-04-28-awsrds.md",
     "aws/_posts/2024-04-28-awselb.md",
