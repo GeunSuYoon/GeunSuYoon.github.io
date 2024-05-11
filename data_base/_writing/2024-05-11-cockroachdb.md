@@ -20,6 +20,9 @@ tags:
 
 ### PostgreSQL Compatibiliity
 
+- PostgreSQL은 오픈소스 ORDBMS이다.
+- MySQL에 비해 SQL 표준을 더 잘 지원하고 기능이 강력하며, 쿼리가 복잡할수록 성능이 더 좋아진다.
+- 이런 PostgreSQL 프로토콜 대부분을 지원해 기존 커뮤니티에 존재하던 다양한 DB 접속 라이브러리나 ORM 등을 거의 그대로 사용할 수 있다. (RDB)
 
 ### Serialization Transaction
 
