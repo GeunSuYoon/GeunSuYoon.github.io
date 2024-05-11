@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_base/_writing/2024-05-11-cockroachdb.md",
+                "file": "data_base/_writing/2024-05-12-databricks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_base/_writing/2024-05-11-cockroachdb.md",
+                "file": "data_base/_writing/2024-05-12-databricks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_base/_writing/2024-05-11-cockroachdb.md",
+                "file": "data_base/_writing/2024-05-12-databricks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_base/_writing/2024-05-11-cockroachdb.md"
+                "file": "data_base/_writing/2024-05-12-databricks.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
-    "_category/data_base.md",
     "data_base/_writing/2024-05-11-cockroachdb.md",
+    "data_base/_writing/2024-05-12-databricks.md",
+    "_category/data_base.md",
     "data_base/_writing/2024-05-11-compare_db.md",
     "data_base/_writing",
     "data_base",
@@ -191,7 +192,6 @@
     "algorithm/_posts/2024-04-10-mitm.md",
     "algorithm/_posts/2024-02-22-greedy.md",
     "algorithm/_posts/2024-02-21-sieveeratos.md",
-    "algorithm/_posts/2024-02-21-radixsort.md",
     "webservice/_posts",
     "webservice/_writing"
   ]
