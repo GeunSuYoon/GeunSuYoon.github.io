@@ -26,10 +26,17 @@ tags:
 
 ### Serialization Transaction
 
-- SQL 표준ㅇ
+- SQL 표준에 정의된 Transaction 격리 수준 4단계 중 가장 강력한 Serializable 격리를 모든 transaction에서 사용하도록 되어 있다.
+- 여러 transaction을 동시에 실행해도 한 번에 하나씩 실행한 것과 같은 결과를 보장한다!
 
 ### 수평 확장성
 
+- DM 확장이 필요한 경우 노드를 추가로 확보한 뒤 붙여주기만 하면 된다.
+	- 처리량과 용량이 그대로 늘어난다!
+- 노드를 확장이나 축소, 교체할 때 서비스 중단 없이 작업할 수 있다.
 
 ### Multi-Region 클러스터 지원
 
+- DB를 쪼개거나 shading 하지 않고 하나의 클러스터를 여러 개의 region에서 운영할 수 있다.
+	- 여러 region에 물리적으로 DB를 나눌 필요가 없다!
+	- 물리적으로 나눈 DB의 sync 문제도 해결할 수 있다!!!
