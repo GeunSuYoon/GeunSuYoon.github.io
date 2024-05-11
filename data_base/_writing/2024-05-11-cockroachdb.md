@@ -14,8 +14,18 @@ tags:
 - Cockroach Labs에서 개발한 상용 분산 SQL DB 관리 시스템이다.
 - 데이터 센터 오류를 견딜 수 있는 transaction과 일관된 key-value 저장소 위에 구축돼 있다.
 - 수평으로 확장이 가능하다.
+- 데이터 센터 오류에 강해 cockroach, 바퀴벌레라는 이름을 따왔다!
 
 ## CockroachDB 특징
 
-### H3 tag (element about H2 tag)
-- explane about H3 tag
+### PostgreSQL Compatibiliity
+
+
+### Serialization Transaction
+
+
+### 수평 확장성
+
+
+### Multi-Region 클러스터 지원
+
