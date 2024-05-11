@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "os/_writing/2024-05-05-scheduling.md",
+                "file": "_category/data_base.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4454fea9984c6d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data_base/_writing/Untitled.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "os/_writing/2024-05-05-scheduling.md",
+                "file": "data_base/_writing/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "os/_writing/2024-05-05-scheduling.md",
+                "file": "data_base/_writing/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "os/_writing/2024-05-05-scheduling.md"
+                "file": "data_base/_writing/Untitled.md"
               }
             }
           }
@@ -146,10 +159,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d60760ca2f44688d",
+  "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
-    "os/_writing/2024-05-03-processnthread.md",
+    "data_base/_writing/2024-05-11-compare_db.md",
+    "data_base/_writing/Untitled.md",
+    "_category/data_base.md",
+    "data_base/_writing",
+    "data_base",
+    "_category/data_structure.md",
     "os/_writing/2024-05-05-scheduling.md",
+    "os/_writing/2024-05-03-processnthread.md",
     "os/_posts/2024-05-03-Hardware.md",
     "os/_posts/2024-05-03-runtime_stack.md",
     "os/_posts/2024-03-13-Intro.md",
@@ -186,12 +205,7 @@
     "algorithm/_posts/2024-02-22-greedy.md",
     "algorithm/_posts/2024-02-21-sieveeratos.md",
     "algorithm/_posts/2024-02-21-radixsort.md",
-    "algorithm/_posts/2024-02-21-quicksort.md",
-    "algorithm/_posts/2024-02-21-permuncomb.md",
-    "algorithm/_posts/2024-02-21-mergesort.md",
     "webservice/_posts",
-    "webservice/_writing",
-    "webservice",
-    "algorithm/_writing"
+    "webservice/_writing"
   ]
 }
