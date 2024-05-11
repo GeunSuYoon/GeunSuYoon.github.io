@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_base/_writing/Untitled.md",
+                "file": "data_base/_writing/2024-05-12-snowflake.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_base/_writing/Untitled.md",
+                "file": "data_base/_writing/2024-05-12-snowflake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_base/_writing/Untitled.md",
+                "file": "data_base/_writing/2024-05-12-snowflake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_base/_writing/Untitled.md"
+                "file": "data_base/_writing/2024-05-12-snowflake.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
     "data_base/_writing/2024-05-12-databricks.md",
-    "data_base/_writing/Untitled.md",
+    "data_base/_writing/2024-05-12-snowflake.md",
     "data_base/_writing/2024-05-11-cockroachdb.md",
     "_category/data_base.md",
     "data_base/_writing/2024-05-11-compare_db.md",
