@@ -12,7 +12,8 @@ tags:
 >이 DB에 대해 알아보자!
 
 - Cockroach Labs에서 개발한 상용 분산 SQL DB 관리 시스템이다.
-- 오류를 해결할 수 있는 transaction
+- 데이터 센터 오류를 견딜 수 있는 transaction과 일관된 key-value 저장소 위에 구축돼 있다.
+- 수평으로 확장이 가능하다.
 
 ## CockroachDB 특징
 
