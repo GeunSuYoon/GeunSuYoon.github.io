@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_base/_writing/2024-05-12-mariadb.md",
+                "file": "data_base/_writing/2024-05-12-redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_base/_writing/2024-05-12-mariadb.md",
+                "file": "data_base/_writing/2024-05-12-redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_base/_writing/2024-05-12-mariadb.md",
+                "file": "data_base/_writing/2024-05-12-redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_base/_writing/2024-05-12-mariadb.md"
+                "file": "data_base/_writing/2024-05-12-redis.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
-    "platform/writing/2024-05-12-snowflake.md",
     "data_base/_writing/2024-05-12-mariadb.md",
+    "data_base/_writing/2024-05-12-redis.md",
+    "platform/writing/2024-05-12-snowflake.md",
     "platform/writing/2024-05-12-databricks.md",
     "data_base/_writing/2024-05-11-compare_db.md",
     "_category/platform.md",
@@ -192,7 +193,6 @@
     "geunsuyoon.github.io",
     "aws/_writing",
     "aws",
-    "_category/AWS.md",
-    "42seoul/circle02/2024-02-21-pipex.md"
+    "_category/AWS.md"
   ]
 }
