@@ -22,9 +22,13 @@ tags:
 	- 가상 컴퓨팅 instance를 사용하고, 데이터를 영구 저장 하기 위해 Storage Service를 사용한다.
 - 지속적인 유지 및 관리를 Snowflake에서 알아서 처리한다.
 
+### Snowflake Architecture
 
+![snowflake_arch](/public/img/snowflake_arch.png)
 
 ## Cloud Platform
 
-### H3 tag (element about H2 tag)
-- explane about H3 tag
+- 이하 Cloud Platform에서 호스팅 될 수 있다.
+	1. AWS
+	2. GCP
+	3. Azure
