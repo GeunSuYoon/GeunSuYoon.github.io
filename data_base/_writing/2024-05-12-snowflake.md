@@ -8,7 +8,9 @@ tags:
 ---
 # \[DB] Snow Flake
 
->Cloud기반 Data solution Flatform.
+>Cloud기반 Data solution Platform.
+
+- 데이터 저장, 처리, 시각화
 
 ## H2 tag
 

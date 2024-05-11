@@ -19,9 +19,9 @@ tags:
 ### Delta Lake
 
 - Data management에 활용하는 기술이다.
-- 데이터의 직접적인 이동 없이 cloud, region, data flatform 전반에 걸쳐 함께 작업할 수 있다.
+- 데이터의 직접적인 이동 없이 cloud, region, data platform 전반에 걸쳐 함께 작업할 수 있다.
 	- 개방적이고 안전한 공유가 가능하다!
-	- 수신자가 관련된 flatform, cloud를 이용하지 않아도 공유할 수 있다!!
+	- 수신자가 관련된 platform, cloud를 이용하지 않아도 공유할 수 있다!!
 
 ### Apache Spark
 
