@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "data_base/_writing/Untitled.md",
+                "file": "aws/_writing/2024-05-12-opensearch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "data_base/_writing/Untitled.md",
+                "file": "aws/_writing/2024-05-12-opensearch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "data_base/_writing/Untitled.md",
+                "file": "aws/_writing/2024-05-12-opensearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "data_base/_writing/Untitled.md"
+                "file": "aws/_writing/2024-05-12-opensearch.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
-    "data_base/_writing/2024-05-12-redis.md",
+    "aws/_posts/2024-04-28-awss3.md",
+    "aws/_writing/2024-05-12-opensearch.md",
     "data_base/_writing/Untitled.md",
+    "data_base/_writing/2024-05-12-redis.md",
     "data_base/_writing/2024-05-12-mariadb.md",
     "platform/writing/2024-05-12-snowflake.md",
     "platform/writing/2024-05-12-databricks.md",
@@ -184,12 +186,10 @@
     "webservice/_posts/2024-04-28-robotstxt.md",
     "webservice/_posts/2024-04-28-seo.md",
     "aws/_posts/2024-04-28-awsec2.md",
-    "aws/_posts/2024-04-28-awss3.md",
     "aws/_posts",
     "aws/_posts/2024-04-28-awselb.md",
     "aws/_posts/2024-04-28-awsrds.md",
     "geunsuyoon.github.io/webservice/robotstxt.html.md",
-    "geunsuyoon.github.io/webservice/robots.txt.md",
     "geunsuyoon.github.io/webservice",
     "geunsuyoon.github.io",
     "aws/_writing",
