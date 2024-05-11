@@ -1,12 +1,12 @@
 ---
 layout: post
 categories:
-  - data_base
-title: "[DB] Snowflake"
+  - platform
+title: "[Platform] Snowflake"
 date: 2024-05-12 06:23:00 +09:00
 tags:
 ---
-# \[DB] Snowflake
+# \[Platform] Snowflake
 
 >Cloud기반 Data solution Platform.
 
