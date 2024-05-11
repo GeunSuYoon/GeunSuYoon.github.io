@@ -148,8 +148,9 @@
   },
   "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
-    "aws/_posts/2024-04-28-awss3.md",
+    "_template/post_template.md",
     "aws/_writing/2024-05-12-opensearch.md",
+    "aws/_posts/2024-04-28-awss3.md",
     "data_base/_writing/Untitled.md",
     "data_base/_writing/2024-05-12-redis.md",
     "data_base/_writing/2024-05-12-mariadb.md",
@@ -179,7 +180,6 @@
     "public/img/gantt_chart_rr_rr_1.png",
     "public/img/gantt_chart_2.png",
     "public/img/gantt_chart_sjf_non_preemptive.png",
-    "_template/post_template.md",
     "aws/_posts/2024-04-28-awsebs.md",
     "os/_writing",
     "cs/_posts/2024-02-22-outlineofcs.md",
