@@ -35,4 +35,7 @@ tags:
 
 - 기계 학습을 이용해 비정형 데이터의 의미와 context를 숫자로 표현하는 방법이다.
 	- 이를 통해 비정형 데이터 사이 유사성을 확인할 수 있다!
-- 다만, OpenSearch에서 Vector Search를 사용하면 메모리 절반을 검색 엔진(ElasticSearch), 나머지 절반을 Vector Search에 사용하도록 구성됭
+- Vector Search를 사용하면 메모리 절반을 검색 엔진(ElasticSearch), 나머지 절반을 Vector Search에 사용하도록 구성되어 있다.
+	- 이로 인해 Vector Search만 사용하는 경우 메모리를 낭비할 수 밖에 없다...
+- 모든 케이스를 검색하려면 연산량이 너무 많아진다.
+	- Filtering 기능을 활용해 연산량을 줄일 수 있다.

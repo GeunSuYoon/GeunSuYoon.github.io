@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "aws/_writing/2024-05-12-opensearch.md",
+                "file": "platform/writing/2024-05-12-gcp.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aws/_writing/2024-05-12-opensearch.md",
+                "file": "platform/writing/2024-05-12-gcp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aws/_writing/2024-05-12-opensearch.md",
+                "file": "platform/writing/2024-05-12-gcp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "aws/_writing/2024-05-12-opensearch.md"
+                "file": "platform/writing/2024-05-12-gcp.md"
               }
             }
           }
@@ -148,8 +148,13 @@
   },
   "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
-    "_template/post_template.md",
     "aws/_writing/2024-05-12-opensearch.md",
+    "platform/writing/2024-05-12-gcp.md",
+    "aws/_posts/2024-04-28-awsrds.md",
+    "aws/_posts/2024-04-28-awselb.md",
+    "aws/_posts/2024-04-28-awsec2.md",
+    "aws/_posts/2024-04-28-awsebs.md",
+    "_template/post_template.md",
     "aws/_posts/2024-04-28-awss3.md",
     "data_base/_writing/Untitled.md",
     "data_base/_writing/2024-05-12-redis.md",
@@ -180,16 +185,11 @@
     "public/img/gantt_chart_rr_rr_1.png",
     "public/img/gantt_chart_2.png",
     "public/img/gantt_chart_sjf_non_preemptive.png",
-    "aws/_posts/2024-04-28-awsebs.md",
     "os/_writing",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
     "webservice/_posts/2024-04-28-seo.md",
-    "aws/_posts/2024-04-28-awsec2.md",
     "aws/_posts",
-    "aws/_posts/2024-04-28-awselb.md",
-    "aws/_posts/2024-04-28-awsrds.md",
-    "geunsuyoon.github.io/webservice/robotstxt.html.md",
     "geunsuyoon.github.io/webservice",
     "geunsuyoon.github.io",
     "aws/_writing",
