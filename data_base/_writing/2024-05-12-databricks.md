@@ -45,10 +45,13 @@ tags:
 
 #### Dashboard
 
-- 
+- 시각화 제공 인터페이스
 
 #### Library
+
+- 클러스터에서 실행되는 노트북, job 등에서 사용 가능한 코드 패키지이다.
+- 커스텀이 가능하다.
+
 #### Repo
 
-### H3 tag (element about H2 tag)
-- explane about H3 tag
+- Git repository에 동기화 되어 관리되는 컨텐츠.
