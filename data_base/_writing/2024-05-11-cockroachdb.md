@@ -26,6 +26,7 @@ tags:
 
 ### Serialization Transaction
 
+- SQL 표준ㅇ
 
 ### 수평 확장성
 
