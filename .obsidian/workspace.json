@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "platform/writing/2024-05-12-gcp.md",
+                "file": "platform/_posts/2024-05-12-azure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad8fd0182cf02ed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "aws/_posts/2024-05-12-opensearch.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "platform/writing/2024-05-12-gcp.md",
+                "file": "aws/_posts/2024-05-12-opensearch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "platform/writing/2024-05-12-gcp.md",
+                "file": "aws/_posts/2024-05-12-opensearch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "platform/writing/2024-05-12-gcp.md"
+                "file": "aws/_posts/2024-05-12-opensearch.md"
               }
             }
           }
@@ -146,14 +159,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b4454fea9984c6d3",
+  "active": "ad8fd0182cf02ed3",
   "lastOpenFiles": [
-    "platform/writing/2024-05-12-azure.md",
+    "data_base/_posts/2024-05-12-redis.md",
+    "data_base/_writing/2024-05-12-mariadb.md",
+    "data_base/_posts/2024-05-11-cockroachdb.md",
+    "data_base/_writing/2024-05-11-compare_db.md",
+    "data_base/_posts",
+    "platform/writing/2024-05-12-gcp.md",
     "platform/writing/2024-05-12-databricks.md",
     "platform/writing/2024-05-12-snowflake.md",
-    "platform/writing/2024-05-12-gcp.md",
+    "platform/_posts/2024-05-12-azure.md",
+    "platform/_posts",
     "public/img/gcp_resource_arch.png",
-    "aws/_writing/2024-05-12-opensearch.md",
+    "aws/_posts/2024-05-12-opensearch.md",
     "aws/_posts/2024-04-28-awsrds.md",
     "aws/_posts/2024-04-28-awselb.md",
     "aws/_posts/2024-04-28-awsec2.md",
@@ -161,14 +180,10 @@
     "_template/post_template.md",
     "aws/_posts/2024-04-28-awss3.md",
     "data_base/_writing/Untitled.md",
-    "data_base/_writing/2024-05-12-redis.md",
-    "data_base/_writing/2024-05-12-mariadb.md",
-    "data_base/_writing/2024-05-11-compare_db.md",
     "_category/platform.md",
     "platform/writing",
     "platform",
     "public/img/snowflake_arch.png",
-    "data_base/_writing/2024-05-11-cockroachdb.md",
     "_category/data_base.md",
     "data_base/_writing",
     "data_base",
@@ -188,11 +203,8 @@
     "public/img/gantt_chart_2.png",
     "os/_writing",
     "cs/_posts/2024-02-22-outlineofcs.md",
-    "webservice/_posts/2024-04-28-robotstxt.md",
     "aws/_posts",
     "geunsuyoon.github.io/webservice",
-    "geunsuyoon.github.io",
-    "aws/_writing",
-    "aws"
+    "geunsuyoon.github.io"
   ]
 }
