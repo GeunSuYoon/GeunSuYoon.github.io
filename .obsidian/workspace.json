@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "platform/writing/2024-05-12-azure.md",
+                "file": "platform/writing/2024-05-12-gcp.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "platform/writing/2024-05-12-azure.md",
+                "file": "platform/writing/2024-05-12-gcp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "platform/writing/2024-05-12-azure.md",
+                "file": "platform/writing/2024-05-12-gcp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "platform/writing/2024-05-12-azure.md"
+                "file": "platform/writing/2024-05-12-gcp.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
-    "platform/writing/2024-05-12-gcp.md",
     "platform/writing/2024-05-12-azure.md",
+    "platform/writing/2024-05-12-databricks.md",
+    "platform/writing/2024-05-12-snowflake.md",
+    "platform/writing/2024-05-12-gcp.md",
     "public/img/gcp_resource_arch.png",
     "aws/_writing/2024-05-12-opensearch.md",
     "aws/_posts/2024-04-28-awsrds.md",
@@ -161,8 +163,6 @@
     "data_base/_writing/Untitled.md",
     "data_base/_writing/2024-05-12-redis.md",
     "data_base/_writing/2024-05-12-mariadb.md",
-    "platform/writing/2024-05-12-snowflake.md",
-    "platform/writing/2024-05-12-databricks.md",
     "data_base/_writing/2024-05-11-compare_db.md",
     "_category/platform.md",
     "platform/writing",
