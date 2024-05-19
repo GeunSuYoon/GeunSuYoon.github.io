@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "platform/writing/2024-05-12-snowflake.md",
+                "file": "_category/math.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "platform/writing/2024-05-12-snowflake.md",
+                "file": "_category/math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "platform/writing/2024-05-12-snowflake.md",
+                "file": "_category/math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "platform/writing/2024-05-12-snowflake.md"
+                "file": "_category/math.md"
               }
             }
           }
@@ -161,10 +161,17 @@
   },
   "active": "ad8fd0182cf02ed3",
   "lastOpenFiles": [
+    "_category/platform.md",
+    "_category/math.md",
+    "_category/lecture.md",
+    "_category/git.md",
+    "_category/etc.md",
+    "_category/data_base.md",
+    "_category/cs.md",
+    "platform/writing/2024-05-12-snowflake.md",
     "git/_writing/2024-03-31-git_submodule.md",
     "platform/_posts/2024-05-12-databricks.md",
     "platform/_posts/2024-05-12-gcp.md",
-    "platform/writing/2024-05-12-snowflake.md",
     "platform/_posts/2024-05-12-azure.md",
     "aws/_posts/2024-05-12-opensearch.md",
     "data_base/_posts/2024-05-12-redis.md",
@@ -181,19 +188,13 @@
     "_template/post_template.md",
     "aws/_posts/2024-04-28-awss3.md",
     "data_base/_writing/Untitled.md",
-    "_category/platform.md",
     "platform/writing",
     "platform",
     "public/img/snowflake_arch.png",
-    "_category/data_base.md",
     "data_base/_writing",
     "data_base",
     "_category/data_structure.md",
     "os/_writing/2024-05-05-scheduling.md",
-    "os/_writing/2024-05-03-processnthread.md",
-    "os/_posts/2024-05-03-Hardware.md",
-    "os/_posts/2024-05-03-runtime_stack.md",
-    "os/_posts/2024-03-13-Intro.md",
     "public/img/rr_ts_1ms.png",
     "public/img/rr_ts_100ms.png",
     "public/img/gantt_chart_rr_rr_2.png",
@@ -203,7 +204,6 @@
     "public/img/gantt_chart_rr_rr_1.png",
     "public/img/gantt_chart_2.png",
     "os/_writing",
-    "cs/_posts/2024-02-22-outlineofcs.md",
     "aws/_posts",
     "geunsuyoon.github.io/webservice",
     "geunsuyoon.github.io"
