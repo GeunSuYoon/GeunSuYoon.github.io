@@ -46,6 +46,6 @@ tags:
 
 #### Soft-state
 
-- 
+- 데이터가
 
 #### Eventually consistent
