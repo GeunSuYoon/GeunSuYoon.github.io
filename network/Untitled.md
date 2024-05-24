@@ -12,6 +12,8 @@ tags:
 
 ## ACID
 
+- 안전하고 신뢰 가능한 트랜잭션을 보장한다.
+
 ### 원칙
 
 #### Atomicity (원자성)
@@ -39,6 +41,11 @@ tags:
 
 #### Basically Available
 
+- 사용자가 언제든 DB에 동시에 접근할 수 있다.
+	- 이전 사용자가 완료될 때까지 기다릴 필요가 없다.
+
 #### Soft-state
 
-#### Eventually 
+- 
+
+#### Eventually consistent
