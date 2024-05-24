@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network/Untitled.md",
+                "file": "cs/solid.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network/Untitled.md",
+                "file": "cs/solid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network/Untitled.md",
+                "file": "cs/solid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network/Untitled.md"
+                "file": "cs/solid.md"
               }
             }
           }
@@ -161,8 +161,9 @@
   },
   "active": "ad8fd0182cf02ed3",
   "lastOpenFiles": [
+    "network/acidnbase.md",
+    "cs/solid.md",
     "_category/network.md",
-    "network/Untitled.md",
     "Untitled",
     "network",
     "_category/math.md",
@@ -191,7 +192,6 @@
     "aws/_posts/2024-04-28-awsebs.md",
     "_template/post_template.md",
     "aws/_posts/2024-04-28-awss3.md",
-    "data_base/_writing/Untitled.md",
     "platform/writing",
     "platform",
     "public/img/snowflake_arch.png",

@@ -52,4 +52,8 @@ tags:
 
 #### Eventually consistent
 
-- 
+- 동시에 업데이트 됐을 때 일관성이 유지된다.
+- 중간 사용자에게 보이는 값이 다를지라도 나중에 병합돼 모두 같은 값을 받게 된다.
+
+
+[ACID 데이터베이스 대 BASE 데이터베이스 - 데이터베이스 간의 차이점 - AWS (amazon.com)](https://aws.amazon.com/ko/compare/the-difference-between-acid-and-base-database/)
