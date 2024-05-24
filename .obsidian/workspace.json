@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_category/math.md",
+                "file": "network/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lru",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_category/math.md",
+                "file": "network/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_category/math.md",
+                "file": "network/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_category/math.md"
+                "file": "network/Untitled.md"
               }
             }
           }
@@ -161,8 +161,12 @@
   },
   "active": "ad8fd0182cf02ed3",
   "lastOpenFiles": [
-    "_category/platform.md",
+    "_category/network.md",
+    "network/Untitled.md",
+    "Untitled",
+    "network",
     "_category/math.md",
+    "_category/platform.md",
     "_category/lecture.md",
     "_category/git.md",
     "_category/etc.md",
@@ -193,8 +197,6 @@
     "public/img/snowflake_arch.png",
     "data_base/_writing",
     "data_base",
-    "_category/data_structure.md",
-    "os/_writing/2024-05-05-scheduling.md",
     "public/img/rr_ts_1ms.png",
     "public/img/rr_ts_100ms.png",
     "public/img/gantt_chart_rr_rr_2.png",
@@ -204,8 +206,6 @@
     "public/img/gantt_chart_rr_rr_1.png",
     "public/img/gantt_chart_2.png",
     "os/_writing",
-    "aws/_posts",
-    "geunsuyoon.github.io/webservice",
-    "geunsuyoon.github.io"
+    "aws/_posts"
   ]
 }
