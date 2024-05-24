@@ -26,11 +26,19 @@ tags:
 
 #### Isolation (격리성)
 
-- 
+- 새 트랜잭션은 이전 트랜잭션이 완료될 때까지 기다린다.
 - 트랜잭션이 서로 간섭하지 않도록 보장해 순차적으로 실행되는 것처럼 보인다.
 
 #### Durability (내구)
 
+- 시스템에 오류가 생겨도 commit된 모든 기록은 DB에 유지한다.
+
 ## BASE
 
 ### 원칙
+
+#### Basically Available
+
+#### Soft-state
+
+#### Eventually 
