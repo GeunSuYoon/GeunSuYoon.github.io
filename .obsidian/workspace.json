@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network/_posts/2024-05-24-acidnbase.md",
+                "file": "network/2024-06-02-restnsoap.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "network/_posts/2024-05-24-acidnbase.md",
+                "file": "network/2024-06-02-restnsoap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "network/_posts/2024-05-24-acidnbase.md",
+                "file": "network/2024-06-02-restnsoap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "network/_posts/2024-05-24-acidnbase.md"
+                "file": "network/2024-06-02-restnsoap.md"
               }
             }
           }
@@ -146,8 +146,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a24e5739df025198",
+  "active": "8b94c2396f3e1983",
   "lastOpenFiles": [
+    "network/_posts/2024-05-24-acidnbase.md",
+    "network/2024-06-02-restnsoap.md",
     "network/_posts",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "algorithm/_posts/2024-04-10-mitm.md",
@@ -173,7 +175,6 @@
     "etc/_posts/2024-03-24-Naver_ct.md",
     "boj/_posts/2024-02-27-filecombination.md",
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
-    "boj/_posts/2024-02-21-remainsum.md",
     "Untitled",
     "network",
     "data_base/_posts",
@@ -192,7 +193,6 @@
     "public/img/gantt_chart_rr_fifo_2.png",
     "public/img/gantt_chart_rr_rr_1.png",
     "public/img/gantt_chart_2.png",
-    "os/_writing",
-    "aws/_posts"
+    "os/_writing"
   ]
 }
