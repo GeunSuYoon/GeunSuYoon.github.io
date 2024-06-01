@@ -76,7 +76,9 @@ tags:
 
 #### BASE
 
-- 어플리케이션이 레코드를 사용할 수 있게 되면 레코드를 수정할 수
+- 어플리케이션이 레코드를 사용할 수 있게 되면 레코드를 수정할 수 있도록 할 수 있어 유연성이 높다.
 
+
+## 참
 
 [ACID 데이터베이스 대 BASE 데이터베이스 - 데이터베이스 간의 차이점 - AWS (amazon.com)](https://aws.amazon.com/ko/compare/the-difference-between-acid-and-base-database/)
