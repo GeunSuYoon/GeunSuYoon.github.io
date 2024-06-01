@@ -2,7 +2,7 @@
 layout: post
 categories:
   - git
-title: 깃 서브모듈
+title: "[GIT] 깃 서브모듈"
 date: 2024-03-31 13:00:00 +09:00
 tags:
 ---

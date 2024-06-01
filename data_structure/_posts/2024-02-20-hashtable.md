@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Hash Table"
+title: "[Data Structure] Hash Table"
 date: 2024-02-20 20:51:54 +09:00
-categories: [data_structure]
-tags: [data_structure]
+categories:
+  - data_structure
+tags:
+  - data_structure
 ---
 # \[Data Structure] 해시 테이블 (Hash Table)
 

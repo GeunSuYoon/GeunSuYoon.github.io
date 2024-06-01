@@ -2,7 +2,7 @@
 layout: post
 categories:
   - boj
-title: 나머지 합
+title: "[BOJ] 백준 나머지 합 10986"
 date: 2024-02-21 20:16:00 +09:00
 tags:
   - math

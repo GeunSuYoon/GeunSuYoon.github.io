@@ -2,7 +2,7 @@
 layout: post
 categories:
   - boj
-title: 이항 계수 3
+title: "[BOJ] 백준 이항 계수 3 11401"
 date: 2024-02-22 16:23:00 +09:00
 tags:
   - math

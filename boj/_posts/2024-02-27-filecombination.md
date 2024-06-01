@@ -2,7 +2,7 @@
 layout: post
 categories:
   - boj
-title: 파일 합치기
+title: "[BOJ] 파일 합치기 11066"
 date: 2024-02-27 22:13:00 +09:00
 tags:
 ---

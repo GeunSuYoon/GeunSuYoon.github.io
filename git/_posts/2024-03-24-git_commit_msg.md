@@ -2,7 +2,7 @@
 layout: post
 categories:
   - git
-title: 깃허브 커밋 메세지 변경
+title: "[GIT] 깃허브 커밋 메세지 변경"
 date: 2024-03-24 23:58:00 +09:00
 tags:
 ---
