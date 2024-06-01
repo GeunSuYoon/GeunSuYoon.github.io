@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/solid.md",
+                "file": "algorithm/_posts/2024-02-21-heapsort.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/solid.md",
+                "file": "algorithm/_posts/2024-02-21-heapsort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/solid.md",
+                "file": "algorithm/_posts/2024-02-21-heapsort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/solid.md"
+                "file": "algorithm/_posts/2024-02-21-heapsort.md"
               }
             }
           }
@@ -161,37 +161,37 @@
   },
   "active": "ad8fd0182cf02ed3",
   "lastOpenFiles": [
-    "network/acidnbase.md",
-    "cs/solid.md",
-    "_category/network.md",
+    "algorithm/_posts/2024-02-21-gcdnlcm.md",
+    "algorithm/_posts/2024-02-21-dp.md",
+    "algorithm/_posts/2024-02-21-dijkstra.md",
+    "algorithm/_posts/2024-02-21-dfsnbfs.md",
+    "algorithm/_posts/2024-02-21-countingsort.md",
+    "algorithm/_posts/2024-02-21-binarysearch.md",
+    "algorithm/_posts/2024-02-20-bubblesort.md",
+    "42seoul/circle02/2024-02-21-pipex.md",
+    "data_structure/_posts/2024-02-20-hashtable.md",
+    "data_base/_posts/2024-05-12-redis.md",
+    "data_base/_posts/2024-05-11-cockroachdb.md",
+    "webservice/_posts/2024-04-28-seo.md",
+    "webservice/_posts/2024-04-28-robotstxt.md",
+    "technique/_posts/2024-02-21-twoptr.md",
+    "technique/_posts/2024-02-21-bitmask.md",
+    "platform/writing/2024-05-12-snowflake.md",
+    "os/_posts/2024-05-03-runtime_stack.md",
+    "os/_posts/2024-03-13-Intro.md",
+    "network/2024-05-24-acidnbase.md",
+    "git/_posts/2024-03-24-git_commit_msg.md",
+    "etc/_posts/2024-03-24-Naver_ct.md",
+    "boj/_posts/2024-02-27-filecombination.md",
+    "boj/_posts/2024-02-22-binomialcoefficient3.md",
+    "boj/_posts/2024-02-21-remainsum.md",
+    "data_base/_writing/2024-05-12-mariadb.md",
+    "data_base/_writing/2024-05-11-compare_db.md",
     "Untitled",
     "network",
-    "_category/math.md",
-    "_category/platform.md",
-    "_category/lecture.md",
-    "_category/git.md",
-    "_category/etc.md",
-    "_category/data_base.md",
-    "_category/cs.md",
-    "platform/writing/2024-05-12-snowflake.md",
-    "git/_writing/2024-03-31-git_submodule.md",
-    "platform/_posts/2024-05-12-databricks.md",
-    "platform/_posts/2024-05-12-gcp.md",
-    "platform/_posts/2024-05-12-azure.md",
-    "aws/_posts/2024-05-12-opensearch.md",
-    "data_base/_posts/2024-05-12-redis.md",
-    "data_base/_writing/2024-05-12-mariadb.md",
-    "data_base/_posts/2024-05-11-cockroachdb.md",
-    "data_base/_writing/2024-05-11-compare_db.md",
     "data_base/_posts",
     "platform/_posts",
     "public/img/gcp_resource_arch.png",
-    "aws/_posts/2024-04-28-awsrds.md",
-    "aws/_posts/2024-04-28-awselb.md",
-    "aws/_posts/2024-04-28-awsec2.md",
-    "aws/_posts/2024-04-28-awsebs.md",
-    "_template/post_template.md",
-    "aws/_posts/2024-04-28-awss3.md",
     "platform/writing",
     "platform",
     "public/img/snowflake_arch.png",

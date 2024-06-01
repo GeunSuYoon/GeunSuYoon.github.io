@@ -3,7 +3,7 @@ layout: post
 categories:
   - algorithm
   - sort
-title: Counting Sort
+title: "[Algorithm] Counting Sort"
 date: 2024-02-21 19:17:00 +09:00
 tags:
   - sort

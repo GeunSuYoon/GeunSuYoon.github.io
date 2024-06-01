@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bubble Sort
+title: "[Algorithm] Bubble Sort"
 date: 2024-02-20 20:44:23 +09:00
 categories:
   - algorithm
