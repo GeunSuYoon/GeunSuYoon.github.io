@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/_posts/2024-02-21-heapsort.md",
+                "file": "algorithm/_posts/2024-04-10-mitm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/_posts/2024-02-21-heapsort.md",
+                "file": "platform/_posts/2024-05-12-azure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/_posts/2024-02-21-heapsort.md",
+                "file": "platform/_posts/2024-05-12-azure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/_posts/2024-02-21-heapsort.md"
+                "file": "platform/_posts/2024-05-12-azure.md"
               }
             }
           }
@@ -159,8 +158,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ad8fd0182cf02ed3",
+  "active": "b4454fea9984c6d3",
   "lastOpenFiles": [
+    "algorithm/_posts/2024-04-10-mitm.md",
+    "algorithm/_posts/2024-02-22-greedy.md",
+    "algorithm/_posts/2024-02-21-sieveeratos.md",
+    "algorithm/_posts/2024-02-21-radixsort.md",
+    "algorithm/_posts/2024-02-21-quicksort.md",
+    "algorithm/_posts/2024-02-21-permuncomb.md",
+    "algorithm/_posts/2024-02-21-mergesort.md",
+    "algorithm/_posts/2024-02-21-lrucache.md",
+    "algorithm/_posts/2024-02-21-lis.md",
+    "algorithm/_posts/2024-02-21-lca.md",
+    "algorithm/_posts/2024-02-21-insertionsort.md",
+    "algorithm/_posts/2024-02-21-heapsort.md",
     "algorithm/_posts/2024-02-21-gcdnlcm.md",
     "algorithm/_posts/2024-02-21-dp.md",
     "algorithm/_posts/2024-02-21-dijkstra.md",
@@ -175,18 +186,6 @@
     "webservice/_posts/2024-04-28-seo.md",
     "webservice/_posts/2024-04-28-robotstxt.md",
     "technique/_posts/2024-02-21-twoptr.md",
-    "technique/_posts/2024-02-21-bitmask.md",
-    "platform/writing/2024-05-12-snowflake.md",
-    "os/_posts/2024-05-03-runtime_stack.md",
-    "os/_posts/2024-03-13-Intro.md",
-    "network/2024-05-24-acidnbase.md",
-    "git/_posts/2024-03-24-git_commit_msg.md",
-    "etc/_posts/2024-03-24-Naver_ct.md",
-    "boj/_posts/2024-02-27-filecombination.md",
-    "boj/_posts/2024-02-22-binomialcoefficient3.md",
-    "boj/_posts/2024-02-21-remainsum.md",
-    "data_base/_writing/2024-05-12-mariadb.md",
-    "data_base/_writing/2024-05-11-compare_db.md",
     "Untitled",
     "network",
     "data_base/_posts",

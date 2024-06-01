@@ -2,7 +2,7 @@
 layout: post
 categories:
   - algorithm
-title: Insertion Sort
+title: "[Algorithm] Insertion Sort"
 date: 2024-02-21 18:31:00 +09:00
 tags:
   - sort
@@ -14,10 +14,10 @@ tags:
 - k번째 원소를 정렬한다고 하면 0에서 k - 1번째까지 원소들은 정렬된 상태이다.
 - 안전 정렬에 속한다.
 
-#### 시간 복잡도
+## 시간 복잡도
 - O(n^2)
 
-#### 과정
+## 과정
 - 배열 arr을 오름차순으로 정리한다고 가정한다.
 - k(0 < k < arr_len)번째 index를 정렬한다고 하자.
 - k번째 인덱스 값(이하 now_val)을 저장한다.

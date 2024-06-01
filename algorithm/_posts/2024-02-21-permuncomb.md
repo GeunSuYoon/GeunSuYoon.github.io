@@ -2,7 +2,7 @@
 layout: post
 categories:
   - algorithm
-title: Permutation & Combination
+title: "[Algorithm] Permutation & Combination"
 date: 2024-02-21 19:10:00 +09:00
 tags:
   - math
