@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/_posts/2024-04-10-mitm.md",
+                "file": "cs/_posts/2024-02-22-outlineofcs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "algorithm/_posts/2024-04-10-mitm.md",
+                "file": "cs/_posts/2024-02-22-outlineofcs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "algorithm/_posts/2024-04-10-mitm.md",
+                "file": "cs/_posts/2024-02-22-outlineofcs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "algorithm/_posts/2024-04-10-mitm.md"
+                "file": "cs/_posts/2024-02-22-outlineofcs.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "8b94c2396f3e1983",
   "lastOpenFiles": [
+    "algorithm/_posts/2024-04-10-mitm.md",
     "algorithm/_posts/2024-02-22-greedy.md",
     "algorithm/_posts/2024-02-21-sieveeratos.md",
     "algorithm/_posts/2024-02-21-radixsort.md",
@@ -169,7 +170,6 @@
     "data_structure/_posts/2024-02-20-hashtable.md",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "etc/_posts/2024-03-24-Naver_ct.md",
-    "algorithm/_posts/2024-04-10-mitm.md",
     "boj/_posts/2024-02-27-filecombination.md",
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "boj/_posts/2024-02-21-remainsum.md",
