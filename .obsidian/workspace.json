@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "file": "network/2024-05-24-acidnbase.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "e0d18f265407405c",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "file": "network/2024-05-24-acidnbase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md",
+                "file": "network/2024-05-24-acidnbase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cs/_posts/2024-02-22-outlineofcs.md"
+                "file": "network/2024-05-24-acidnbase.md"
               }
             }
           }
@@ -146,8 +147,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8b94c2396f3e1983",
+  "active": "a24e5739df025198",
   "lastOpenFiles": [
+    "cs/_posts/2024-02-22-outlineofcs.md",
     "algorithm/_posts/2024-04-10-mitm.md",
     "algorithm/_posts/2024-02-22-greedy.md",
     "algorithm/_posts/2024-02-21-sieveeratos.md",
@@ -168,7 +170,6 @@
     "algorithm/_posts/2024-02-21-binarysearch.md",
     "algorithm/_posts/2024-02-20-bubblesort.md",
     "data_structure/_posts/2024-02-20-hashtable.md",
-    "cs/_posts/2024-02-22-outlineofcs.md",
     "etc/_posts/2024-03-24-Naver_ct.md",
     "boj/_posts/2024-02-27-filecombination.md",
     "boj/_posts/2024-02-22-binomialcoefficient3.md",
