@@ -2,7 +2,6 @@
 layout: post
 categories:
   - algorithm
-  - math
 title: "[Algorithm] Sieve of Eratosthenes"
 date: 2024-02-21 19:14:00 +09:00
 tags:
