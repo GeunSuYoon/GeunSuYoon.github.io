@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Quick Sort
+title: "[Algorithm] Quick Sort"
 date: 2024-02-21 18:30:00 +09:00
 categories:
   - algorithm
