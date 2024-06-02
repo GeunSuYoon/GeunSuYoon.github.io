@@ -11,8 +11,12 @@
             "id": "c77d21403aa91270",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "data_base/_posts/2024-05-24-acidnbase.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "data_base/_posts/2024-05-24-acidnbase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "data_base/_posts/2024-05-24-acidnbase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "data_base/_posts/2024-05-24-acidnbase.md"
+              }
             }
           }
         ]
@@ -140,8 +148,9 @@
   },
   "active": "c77d21403aa91270",
   "lastOpenFiles": [
-    "network/2024-06-02-restnsoap.md",
-    "network/_posts/2024-05-24-acidnbase.md",
+    "data_base/_posts/2024-05-12-redis.md",
+    "data_base/_posts/2024-05-24-acidnbase.md",
+    "network/_posts/2024-06-02-restnsoap.md",
     "network/_posts",
     "cs/_posts/2024-02-22-outlineofcs.md",
     "algorithm/_posts/2024-04-10-mitm.md",
@@ -166,7 +175,6 @@
     "data_structure/_posts/2024-02-20-hashtable.md",
     "etc/_posts/2024-03-24-Naver_ct.md",
     "boj/_posts/2024-02-27-filecombination.md",
-    "boj/_posts/2024-02-22-binomialcoefficient3.md",
     "Untitled",
     "network",
     "data_base/_posts",

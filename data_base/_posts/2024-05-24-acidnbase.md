@@ -1,12 +1,12 @@
 ---
 layout: post
 categories:
-  - network
-title: "[Network] ACID와 BASE"
+  - data_base
+title: "[DB] ACID와 BASE"
 date: 2024-05-24 16:54:00 +09:00
 tags:
 ---
-# \[Network] ACID와 BASD
+# \[DB] ACID와 BASD
 
 >DB 트랜잭션 처리를 위한 개념이다.
 
