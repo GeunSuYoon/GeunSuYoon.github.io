@@ -1,17 +1,61 @@
-# GeunSuYoon.github.io
+# Chirpy Starter
 
-- 개인적인 공부 내용을 정리하기 위해 만든 블로그
-- 처음 만드는 것은 [이곳](https://supermemi.tistory.com/entry/%EB%82%98%EB%A7%8C%EC%9D%98-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-Git-hub-blog-GitHubio)을 참고했습니다.
-- 이후 내부 내용 추가 및 오류 수정은 [이곳](https://devpro.kr/posts/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-(1)/)을 참고했습니다.
-- 테마는 [Monos](http://jekyllthemes.org/themes/monos/)입니다.
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-### 오류 처리
-#### bundle ca 인증서 문제
-- linux에선 명령어 입력을 통해 자동으로 해결할 수 있는 문제이지만 windows에선 직접 해결해야한다.
-- 검색을 통해 내부에 필요없는 파일을 지워주자. 나같은 경우엔 [이 블로그](https://devpro.kr/posts/Github-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-(3)/)를 참고해 _posts 파일을 지워줬다.
+When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
+`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
+from the theme's gem. If you have ever installed this theme gem, you can use the command
+`bundle info --path jekyll-theme-chirpy` to locate these files.
 
-#### bundle exec jekyll serve 문제
- `require': cannot load such file -- webrick (LoadError)
- - 위와 같은 오류가 발생했다. 말 그대로 webrick이 필요하다는 뜻.
-- bundle을 이용해 webrick을 설치해주자.
-`bundle add webrick`
+The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
+able to enjoy the out-of-the-box experience when using feature-rich themes.
+
+To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
+Jekyll site. The following is a list of targets:
+
+```shell
+.
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
+```
+
+To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
+latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+
+## Prerequisites
+
+Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of
+the basic environment. [Git](https://git-scm.com/) also needs to be installed.
+
+## Installation
+
+Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
+`USERNAME.github.io`, where `USERNAME` represents your GitHub username.
+
+Then clone it to your local machine and run:
+
+```console
+$ bundle
+```
+
+## Usage
+
+Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+
+## Contributing
+
+The contents of this repository are automatically updated when new releases are made to the [main repository][chirpy].  
+If you have problems using it, or would like to participate in improving it, please go to the main repository for feedback!
+
+## License
+
+This work is published under [MIT][mit] License.
+
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[use-template]: https://github.com/cotes2020/chirpy-starter/generate
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE

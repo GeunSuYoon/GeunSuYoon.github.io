@@ -5,7 +5,7 @@ title: "[Lecture - OS] 05. Scheduling"
 date: 2024-05-05 16:10:00 +09:00
 tags:
 ---
-# \[Lecture - OS] Scheduling
+# [Lecture - OS] Scheduling
 
 ## Agenda
 
