@@ -6,7 +6,7 @@ title: "[Lecture - OS] 04. Processes and Threads"
 date: 2024-05-03 17:35:00 +09:00
 tags:
 ---
-# \[Lecture - OS] Processes and Threads
+# [Lecture - OS] Processes and Threads
 
 ## Agenda
 
