@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "fe060a3e0e4e91b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "506c2f36fe15b8d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c77d21403aa91270",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "data_base/_posts/2024-05-24-acidnbase.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "233e46483c0486a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "523efbe6a30c9f49",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a24e5739df025198",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9e7ad893e92b13a7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c9b00331018a7d8e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "e0d18f265407405c",
+    "type": "split",
+    "children": [
+      {
+        "id": "204d262947a3c17d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "40a364357020444d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "data_base/_posts/2024-05-24-acidnbase.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "204d3f0c542e29a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "data_base/_posts/2024-05-24-acidnbase.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "befe52047096a45c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "520a8aedaaff442f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "data_base/_posts/2024-05-24-acidnbase.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "c77d21403aa91270",
+  "lastOpenFiles": [
+    "data_base/_posts/2024-05-12-redis.md",
+    "data_base/_posts/2024-05-24-acidnbase.md",
+    "network/_posts/2024-06-02-restnsoap.md",
+    "network/_posts",
+    "cs/_posts/2024-02-22-outlineofcs.md",
+    "algorithm/_posts/2024-04-10-mitm.md",
+    "algorithm/_posts/2024-02-22-greedy.md",
+    "algorithm/_posts/2024-02-21-sieveeratos.md",
+    "algorithm/_posts/2024-02-21-radixsort.md",
+    "algorithm/_posts/2024-02-21-quicksort.md",
+    "algorithm/_posts/2024-02-21-permuncomb.md",
+    "algorithm/_posts/2024-02-21-mergesort.md",
+    "algorithm/_posts/2024-02-21-lrucache.md",
+    "algorithm/_posts/2024-02-21-lis.md",
+    "algorithm/_posts/2024-02-21-lca.md",
+    "algorithm/_posts/2024-02-21-insertionsort.md",
+    "algorithm/_posts/2024-02-21-heapsort.md",
+    "algorithm/_posts/2024-02-21-gcdnlcm.md",
+    "algorithm/_posts/2024-02-21-dp.md",
+    "algorithm/_posts/2024-02-21-dijkstra.md",
+    "algorithm/_posts/2024-02-21-dfsnbfs.md",
+    "algorithm/_posts/2024-02-21-countingsort.md",
+    "algorithm/_posts/2024-02-21-binarysearch.md",
+    "algorithm/_posts/2024-02-20-bubblesort.md",
+    "data_structure/_posts/2024-02-20-hashtable.md",
+    "etc/_posts/2024-03-24-Naver_ct.md",
+    "boj/_posts/2024-02-27-filecombination.md",
+    "Untitled",
+    "network",
+    "data_base/_posts",
+    "platform/_posts",
+    "public/img/gcp_resource_arch.png",
+    "platform/writing",
+    "platform",
+    "public/img/snowflake_arch.png",
+    "data_base/_writing",
+    "data_base",
+    "public/img/rr_ts_1ms.png",
+    "public/img/rr_ts_100ms.png",
+    "public/img/gantt_chart_rr_rr_2.png",
+    "public/img/gantt_chart_sjf_preemptive.png",
+    "public/img/gantt_chart_rr_fifo_1.png",
+    "public/img/gantt_chart_rr_fifo_2.png",
+    "public/img/gantt_chart_rr_rr_1.png",
+    "public/img/gantt_chart_2.png",
+    "os/_writing"
+  ]
+}

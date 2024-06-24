@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="지식쌓기" /></head>
+<style>@import url(/public/css/syntax/monokai.css);</style>
+  <title>지식쌓기</title>
+  <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <link href="/public/css/style.css" rel="stylesheet">
+  <body>
+  	<div class="container"> 
+		<div class="sidebar">
+			<div class="sidebar-item sidebar-header">
+	<div class='sidebar-brand'>
+		<a href="/">지식쌓기</a>
+	</div>
+	<p class="lead">조금씩, 천천히</p></div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+      <li class="nav-title">Pages</li>
+	  <li>
+	  	<a class="nav-item" href="/">Articles</a>
+	  </li>
+	  
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	</ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+  	<ul class="nav">
+			<li class="nav-title">Categories</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#algorithm">
+				<span class="name">algorithm</span>
+				<span class="badge">18</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#data_structure">
+				<span class="name">data_structure</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#tree">
+				<span class="name">tree</span>
+				<span class="badge">2</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#technique">
+				<span class="name">technique</span>
+				<span class="badge">2</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#graph">
+				<span class="name">graph</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#math">
+				<span class="name">math</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#sort">
+				<span class="name">sort</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#boj">
+				<span class="name">boj</span>
+				<span class="badge">2</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#cs">
+				<span class="name">cs</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#os">
+				<span class="name">os</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	  </nav>
+	</ul>
+</div>
+
+<!-- <div class="sidebar-item sidebar-footer">
+	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+</div> -->
+		</div>
+		<div class="content">
+			<article class="post">
+	<header class="post-header">
+		<div class="post-title"> 
+			Radix Sort
+		</div>
+		<time class="post-date dt-published" datetime="2024-02-21T19:19:00+09:00" itemprop="datePublished">2024/02/21
+		</time>		
+	</header>
+
+	<div class="post-content">
+		<h1 id="radix-sort">Radix Sort</h1>
+<blockquote>
+  <p>Comparison Sort의 문제 해결.</p>
+</blockquote>
+
+<h3 id="radix-sort-1">Radix Sort</h3>
+<ul>
+  <li>데이터를 구성하는 기본 요소(Radix)를 이용하여 정렬.</li>
+  <li>입력 데이터의 최댓값에 따라 Counting Sort 대신 사용 가능.
+    <ul>
+      <li>자릿수 기준이므로 나올 수 있는 최대 사이즈는 9(0~9).
+        <h4 id="시간복잡도">시간복잡도</h4>
+      </li>
+    </ul>
+  </li>
+  <li>O(d * (n + b)) &gt; d는 자릿수, b는 10.</li>
+</ul>
+
+<h3 id="장단점">장단점</h3>
+<h4 id="장점">장점</h4>
+<ul>
+  <li>문자열, 정수 정렬 가능.
+    <h4 id="단점">단점</h4>
+  </li>
+  <li>자릿수가 없는 것은 정렬 불가능(부동 소숫점 등)</li>
+  <li>중간 결과를 저장할 bucket 공간 필요.</li>
+</ul>
+
+<h3 id="구현-방법">구현 방법</h3>
+<ul>
+  <li>arrLen = arr.len;</li>
+  <li>maxVal = max value of arr;</li>
+  <li>for exp = 1 to exp of maxVal
+    <ul>
+      <li>bucketSort(arr, arrLen, exp);</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="bucketsortarr-arrlen-exp">bucketSort(arr, arrLen, exp)</h4>
+<ul>
+  <li>bucket[arrLen];</li>
+  <li>count[10];</li>
+  <li>for cnt = 0 to arrLen - 1
+    <ul>
+      <li>count[(arr[cnt] / exp) % 10]++; //현재 자릿수에 맞춰 정렬</li>
+    </ul>
+  </li>
+  <li>for cnt = 1 to 9
+    <ul>
+      <li>count[cnt] += count[cnt - 1]; //누적합 계산</li>
+    </ul>
+  </li>
+  <li>for cnt = arrLen - 1 to 0 //counting sort
+    <ul>
+      <li>bucket[count[(arr[cnt] / exp) % 10] - 1] = arr[cnt];</li>
+      <li>count[(arr / exp) % 10]–;</li>
+    </ul>
+  </li>
+  <li>for cnt = 0 to arrLen - 1
+    <ul>
+      <li>arr[cnt] = bucket[cnt];</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="왜-아래부터-측정하는가">왜 아래부터 측정하는가?</h3>
+<ul>
+  <li>MSD(Most Significant Digit)와 LSD(Least Significant Digit) 비교 문제</li>
+  <li>MSD는 가장 큰 자릿수부터 counting sort
+    <ul>
+      <li>마지막 자릿수까지 확인 필요 X.</li>
+      <li>정렬 됐는지 확인하는 과정이 필요해 추가적인 메모리 사용.</li>
+      <li>알고리즘이 일관되지 않음 (만일 exp가 다른 값들이 있다면 따로 sorting해줘야 함.)</li>
+    </ul>
+  </li>
+  <li>LSD는 가장 작은 자릿수부터 counting sort
+    <ul>
+      <li>마지막 자릿수까지 확인해야 함.</li>
+      <li>중간에 정렬 결과를 알 수 없음.</li>
+      <li>알고리즘이 일관됨.</li>
+      <li>LSD의 경우 자릿수가 정해진 경우 좀 더 빠를 수 있음.</li>
+    </ul>
+  </li>
+</ul>
+
+	</div>
+</article>
+		</div>
+	</div>
+  </body>
+</html>

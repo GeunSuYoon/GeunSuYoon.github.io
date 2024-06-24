@@ -1,0 +1,9 @@
+{
+  "strictLineBreaks": true,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "/public/img",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true,
+  "promptDelete": false
+}
