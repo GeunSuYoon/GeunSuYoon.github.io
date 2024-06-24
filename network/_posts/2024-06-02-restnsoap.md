@@ -3,7 +3,7 @@ layout: post
 categories:
   - network
 title: "[Net] REST and SOAP"
-date: 
+date: 2024-06-02 17:46:00 +09:00
 tags:
 ---
 # \[Net] REST and SOAP
