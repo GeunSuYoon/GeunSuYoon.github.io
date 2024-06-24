@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="지식쌓기" /></head>
+<style>@import url(/public/css/syntax/monokai.css);</style>
+  <title>지식쌓기</title>
+  <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <link href="/public/css/style.css" rel="stylesheet">
+  <body>
+  	<div class="container"> 
+		<div class="sidebar">
+			<div class="sidebar-item sidebar-header">
+	<div class='sidebar-brand'>
+		<a href="/">지식쌓기</a>
+	</div>
+	<p class="lead">조금씩, 천천히</p></div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+      <li class="nav-title">Pages</li>
+	  <li>
+	  	<a class="nav-item" href="/">Articles</a>
+	  </li>
+	  
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	</ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+  	<ul class="nav">
+			<li class="nav-title">Categories</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#algorithm">
+				<span class="name">algorithm</span>
+				<span class="badge">18</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#data_structure">
+				<span class="name">data_structure</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#tree">
+				<span class="name">tree</span>
+				<span class="badge">2</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#technique">
+				<span class="name">technique</span>
+				<span class="badge">2</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#graph">
+				<span class="name">graph</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#math">
+				<span class="name">math</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#sort">
+				<span class="name">sort</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#boj">
+				<span class="name">boj</span>
+				<span class="badge">2</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#cs">
+				<span class="name">cs</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#os">
+				<span class="name">os</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	  </nav>
+	</ul>
+</div>
+
+<!-- <div class="sidebar-item sidebar-footer">
+	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+</div> -->
+		</div>
+		<div class="content">
+			<article class="post">
+	<header class="post-header">
+		<div class="post-title"> 
+			Greedy
+		</div>
+		<time class="post-date dt-published" datetime="2024-02-22T13:31:00+09:00" itemprop="datePublished">2024/02/22
+		</time>		
+	</header>
+
+	<div class="post-content">
+		<blockquote>
+  <p>매 선택에서 지금 이 순간 당장 최적인 답을 선택해 적합한 결과를 도출하는 알고리즘이다.</p>
+
+  <p>특정 조건에서만 사용이 가능하다.</p>
+
+  <p>해당 조건을 만족하는 문제를 매트로이드 문제라고 한다.</p>
+</blockquote>
+
+<hr />
+
+<h1 id="개요">개요</h1>
+<ul>
+  <li><a href="#설명">설명</a></li>
+  <li><a href="#조건">조건</a></li>
+  <li><a href="#특징">특징</a></li>
+  <li><a href="#단계">단계</a></li>
+</ul>
+
+<hr />
+
+<h1 id="설명">설명</h1>
+<ul>
+  <li>매 선택을 지역적으로 최선인 것을 선택해 최적의 답을 찾아가는 알고리즘.</li>
+  <li>지역적으로 최선의 답이 전역적으로 최선이 아닐 수 있다.</li>
+  <li>따라서, 이하 두 조건을 만족해야 사용할 수 있다.
+    <ul>
+      <li>Greedy Choice Property(탐욕스러운 선택 조건)</li>
+      <li>Optimal Substructure(최적 부분 구조 조건)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="조건">조건</h1>
+<h2 id="greedy-choice-property">Greedy Choice Property</h2>
+<ul>
+  <li>각 단계에서 <font color="#548dd4">최선의 선택</font>을 했을 때 전체 문제에 대한 최적해를 구할 수 있는 경우.</li>
+  <li>즉, 지금의 선택이 이후의 선택에 영향을 주어선 안된다.
+    <h2 id="optiaml-substructure">Optiaml Substructure</h2>
+  </li>
+  <li>전체 문제의 최적해가 <font color="#548dd4">부분 문제의 최적해</font>로 구성될 수 있는 경우.</li>
+  <li>즉, 전체 문제를 부분 문제로 나누어 최적해를 구한 다음 이를 조합했을 때 전체 문제의 최적해가 돼야 한다.</li>
+</ul>
+
+<hr />
+
+<h1 id="특징">특징</h1>
+<ul>
+  <li>전체 상황에서 최적의 결과를 보장하지 못한다.</li>
+  <li>빠르다!</li>
+  <li>최적의 답안은 아니지만 최적에 근사한 답안을 제시하므로 근사 알고리즘에 속한다.</li>
+</ul>
+
+<hr />
+
+<h1 id="단계">단계</h1>
+<ol>
+  <li>문제의 최적해 구조 결정</li>
+  <li>문제 구조에 맞게 선택 절차 정의 (Selection Procedure, 선택 절차)</li>
+  <li>선택 절차에 맞게 선택 수행</li>
+  <li>선택된 해가 문제 조건을 만족하는지 검사 (Feasiblitiy Check, 적절성 검사)</li>
+  <li>조건을 만족하지 않으면 해당 해 제외</li>
+  <li>모든 선택이 완료되면 해답을 검사 (Solution Check, 해답 검사)</li>
+  <li>조건을 만족하지 않으면 다시 검사</li>
+</ol>
+
+<h2 id="selection-procedure">Selection Procedure</h2>
+<ul>
+  <li>
+    <font color="#548dd4">현재 상태</font>
+    <p>에서 <font color="#548dd4">최적인 선택</font>을 한다. 이 선택은 바뀌지 않는다.</p>
+  </li>
+</ul>
+
+<h2 id="feasibility-check">Feasibility Check</h2>
+<ul>
+  <li>선택한 것이 <font color="#548dd4">문제의 조건</font>을 만족하는지 확인한다.
+    <ul>
+      <li>만족하지 않으면 <font color="#ff0000">제외</font>한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="solution-check">Solution Check</h2>
+<ul>
+  <li>모든 선택이 완료되면 최종 선택이 <font color="#548dd4">문제의 조건</font>을 만족하는지 확인한다.
+    <ul>
+      <li>조건을 만족하면 해답으로 인정한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+	</div>
+</article>
+		</div>
+	</div>
+  </body>
+</html>

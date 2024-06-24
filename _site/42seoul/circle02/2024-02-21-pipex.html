@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="지식쌓기" /></head>
+<style>@import url(/public/css/syntax/monokai.css);</style>
+  <title>지식쌓기</title>
+  <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <link href="/public/css/style.css" rel="stylesheet">
+  <body>
+  	<div class="container"> 
+		<div class="sidebar">
+			<div class="sidebar-item sidebar-header">
+	<div class='sidebar-brand'>
+		<a href="/">지식쌓기</a>
+	</div>
+	<p class="lead">조금씩, 천천히</p></div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+      <li class="nav-title">Pages</li>
+	  <li>
+	  	<a class="nav-item" href="/">Articles</a>
+	  </li>
+	  
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	    
+	      
+	    
+	  
+	    
+	  
+	</ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+  	<ul class="nav">
+			<li class="nav-title">Categories</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#algorithm">
+				<span class="name">algorithm</span>
+				<span class="badge">18</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#data_structure">
+				<span class="name">data_structure</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#tree">
+				<span class="name">tree</span>
+				<span class="badge">2</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#technique">
+				<span class="name">technique</span>
+				<span class="badge">2</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#graph">
+				<span class="name">graph</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#math">
+				<span class="name">math</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#sort">
+				<span class="name">sort</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#boj">
+				<span class="name">boj</span>
+				<span class="badge">2</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#cs">
+				<span class="name">cs</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	    <li>
+	    	<a class="nav-item" href="/category/#os">
+				<span class="name">os</span>
+				<span class="badge">1</span>
+	    	</a>
+ 		</li>
+	    
+	  </nav>
+	</ul>
+</div>
+
+<!-- <div class="sidebar-item sidebar-footer">
+	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+</div> -->
+		</div>
+		<div class="content">
+			<article class="post">
+	<header class="post-header">
+		<div class="post-title"> 
+			pipex
+		</div>
+		<time class="post-date dt-published" datetime="2024-02-21T21:03:00+09:00" itemprop="datePublished">2024/02/21
+		</time>		
+	</header>
+
+	<div class="post-content">
+		<h1 id="mandatory-part">Mandatory Part</h1>
+
+<hr />
+<h2 id="과제-조건">과제 조건</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Program name</td>
+      <td>: pipex</td>
+    </tr>
+    <tr>
+      <td>Turn in file</td>
+      <td>: Makefile, *.h, *.c</td>
+    </tr>
+    <tr>
+      <td>Makefile</td>
+      <td>: NAEM, all, clean, fclean, re</td>
+    </tr>
+    <tr>
+      <td>Arguments</td>
+      <td>: file1 cmd1 cmd2 file2</td>
+    </tr>
+    <tr>
+      <td>External functs</td>
+      <td>: open, close, write, malloc, free, perror, strerror, access, dup, dup2, execve, exit, fork, pipe, unlink, wait, waitpid</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>: ft_printf and any equivalent YOU coded</td>
+    </tr>
+    <tr>
+      <td>Libft authorized</td>
+      <td>: Yes</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>: This project is about handling pipes.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="프로그램-실행-결과">프로그램 실행 결과</h3>
+<ul>
+  <li>
+    <p>프로그램은 아래와 같이 실행한다.</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ./pipex infile cmd1 cmd2 outfile
+</code></pre></div>    </div>
+  </li>
+  <li>위 커맨드의 결과는 아래의 shell command와 같이 동작해야 한다.
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $&gt; &lt; infile cmd1 | cmd2 &gt; outfile
+</code></pre></div>    </div>
+  </li>
+  <li>infile에 cmd1을 실행시키고, 그 결과에 cmd2를 실행시킨 결과를 outfile에 저장한다.
+    <ul>
+      <li>outfile이 존재한다면 내용을 새로 작성한다.</li>
+      <li>outfile이 존재하지 않는다면 outfile을 만든 후 내용을 작성한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+<h2 id="구현-방법">구현 방법</h2>
+<ul>
+  <li>실제 코드가 아닌 흐름만 적어 놓았다.</li>
+  <li>크게 세 가지로 흐름을 나눌 수 있다.
+    <ul>
+      <li>
+        <ol>
+          <li>입력 오류 제어</li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li>cmd 실행</li>
+        </ol>
+      </li>
+      <li>
+        <ol>
+          <li>최종 결과 저장</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>여기서 가장 중요한 부분은 2번으로 대부분의 동작이 여기서 실행된다.</li>
+  <li>모든 경우에서 exit으로 마무리한다.</li>
+</ul>
+
+<h3 id="1-입력-오류-제어">1. 입력 오류 제어</h3>
+<ul>
+  <li>가장 최초에 프로그램이 실행될 때 인자를 받아 확인하는 부분이다.</li>
+  <li>우선 입력된 인자의 개수를 세어 맞지 않으면 format error로 exit한다.</li>
+  <li>커맨드 실행에서 사용할 pipe를 저장하기 위해 커맨드의 개수(mandatory에서는 2)만큼 int 타입의 배열을 malloc한다. <br />
+   <code class="highlighter-rouge">int cmd_len = argc - 3;</code> <br />
+   <code class="highlighter-rouge">int *pipe_fd = calloc(cmd_len, sizeof(int))</code></li>
+  <li>cmd 실행으로 넘어간다.</li>
+</ul>
+
+<h3 id="2-cmd-실행">2. cmd 실행</h3>
+<ul>
+  <li>fork할 자식의 pid를 저장하기 위해 커맨드의 개수만큼 pid_t 타입의 배열을 malloc한다. <br />
+   <code class="highlighter-rouge">pid_t *pid_lst = calloc(cmd_len, sizeof(pid_t))</code></li>
+  <li>cmd의 수 만큼 loop를 돈다. (cmd_cnt = 0 to cmd_len - 1)
+    <ul>
+      <li><code class="highlighter-rouge">int tmp_pipe[2]</code>에<code class="highlighter-rouge"> pipe(tmp_pipe);</code> 로 파이프 생성한다.</li>
+      <li><code class="highlighter-rouge">pid_t pid = fork();</code></li>
+      <li>child process:
+        <ul>
+          <li>현재 커맨드의 번호에 따라 아래와 같이 fd를 관리한다.
+            <ul>
+              <li>cmd1: infile에 open을 통해 fd(<code class="highlighter-rouge">infd</code>)를 얻는다. <br />
+<code class="highlighter-rouge">dup2(infd, STDIN_FILENO);</code> &gt; infile의 내용을 stdin으로 받는다.</li>
+              <li>cmd2: <code class="highlighter-rouge">dup2(pipe_fd[cmd], STDIN_FILENO);</code> &gt; cmd1의 출력 내용을 stdin으로 받는다.</li>
+              <li>공통: <code class="highlighter-rouge">dup2(tmp_pipe[1], STDOUT_FILENO);</code> &gt; 커맨드 결과를 stdout으로 <br />
+  <code class="highlighter-rouge">close(tmp_pipe[0]);</code> &gt; 안 쓰는 pipe를 닫는다.<br />
+  <code class="highlighter-rouge">close(tmp_pipe[1]);</code> &gt; stdout으로 교체했으므로 닫아도 무방하다.</li>
+            </ul>
+          </li>
+          <li>인자로 들어온 cmd를 적절하게 parsing해 <code class="highlighter-rouge">args</code>에 저장한다.<br />
+  <code class="highlighter-rouge">char **args;</code></li>
+          <li>인자로 들어온 envp(환경 변수)에서 <code class="highlighter-rouge">path</code>를 parsing해 <code class="highlighter-rouge">path_lst</code>에 저장한다.<br />
+  <code class="highlighter-rouge">char **path_lst;</code></li>
+          <li>cmd의 실행 경로를 path에 저장한다.<br />
+  <code class="highlighter-rouge">char *path</code></li>
+          <li><code class="highlighter-rouge">args</code>와 <code class="highlighter-rouge">path</code>, <code class="highlighter-rouge">envp를</code> 이용해 <code class="highlighter-rouge">execve</code>함수를 실행한다.<br />
+  <code class="highlighter-rouge">execve(path, args, envp);</code></li>
+          <li>만일 제대로 실행됐다면 이후의 코드는 동작하지 않는다.</li>
+          <li><code class="highlighter-rouge">path</code>가 0(null 주소)이라면 command not found 에러를 출력한다.</li>
+          <li><code class="highlighter-rouge">path</code>의 실행 권한이 없다면 Permition denied 에러를 출력한다</li>
+        </ul>
+      </li>
+      <li>parant process:
+        <ul>
+          <li><code class="highlighter-rouge">pid_lst</code>에 지금 자식의 <code class="highlighter-rouge">pid</code>를 저장한다. &lt; 이후 waitpid 함수에 사용한다.</li>
+          <li><code class="highlighter-rouge">tmp_pipe[0]</code>를 <code class="highlighter-rouge">pipe_fd</code>에 저장한다. &lt; 자식 간 pipe 통신을 가능하게 한다.</li>
+          <li><code class="highlighter-rouge">tmp_pipe[0]</code>에 -1을 넣는다. &lt; <code class="highlighter-rouge">tmp_pipe</code>를 재활용하기 위해 fd로 사용할 수 없는 수를 저장한다.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>최종 결과 저장으로 넘어간다.
+    <h3 id="3-최종-결과-저장">3. 최종 결과 저장</h3>
+  </li>
+  <li><code class="highlighter-rouge">pipe_fd</code>의 가장 마지막 fd(이하 결과fd)를 <code class="highlighter-rouge">dup2(pipe_fd[], STDIN_FILENO)</code>로 stdin으로 받아준다.</li>
+  <li>나머지 fd는 닫는다.</li>
+  <li><code class="highlighter-rouge">cmd_len</code>만큼 loop을 돌며 child process의 종료를 기다린다.
+    <ul>
+      <li><code class="highlighter-rouge">waitpid(pid_lst[], &amp;pid_stat, 0)</code>으로 exit code를 받는다.
+        <ul>
+          <li>만약 마지막 커맨드라면 <code class="highlighter-rouge">pid_stat</code>을 저장한다.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>결과fd의 내용을 outfile에 저장한다.</li>
+  <li>결과fd를 닫는다.</li>
+  <li>마지막 signal로 exit한다.</li>
+</ul>
+
+<hr />
+
+<h1 id="bonus-part">Bonus Part</h1>
+<ul>
+  <li>이하 두 가지를 추가로 구현해야 한다.
+    <ul>
+      <li>다중 파이프 구현</li>
+      <li>heredoc 구현</li>
+    </ul>
+  </li>
+  <li>다중 파이프
+    <ul>
+      <li>아래와 같이 실행한다.
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ./pipex infile cmd1 cmd2 ... cmdN outfile
+</code></pre></div>        </div>
+      </li>
+      <li>위 커맨드의 결과는 아래의 shell command와 같이 동작해야 한다.
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $&gt; &lt; infile cmd1 | cmd2 | ... | cmdN &gt; outfile
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>heredoc
+    <ul>
+      <li>아래와 같이 실행한다.
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ./pipex here_doc LIMITER cmd cmd1 ... cmdN-1 outfile
+</code></pre></div>        </div>
+      </li>
+      <li>위 커맨드의 결과는 아래의 shell command와 같이 동작해야 한다.
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $&gt; cmd &lt;&lt; LIMITER cmd1 | cmd2 | ... | cmdN &gt;&gt; outfile
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+
+	</div>
+</article>
+		</div>
+	</div>
+  </body>
+</html>
