@@ -18,6 +18,26 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06f2b392ca7d7695",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/cmd_detail_vdisk.png"
+              }
+            }
+          },
+          {
+            "id": "634db2404cba6b58",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "public/img/cmd_detail_vdisk.png"
+              }
+            }
           }
         ]
       }
@@ -148,12 +168,20 @@
   },
   "active": "bbc5a9cab39ba51b",
   "lastOpenFiles": [
-    "public/img/powershell_diskpart.png",
     "public/img/cmd_expand_vdisk.png",
-    "public/img/cmd_detail_vdisk.png",
-    "_posts/2024-04-28-awsec2.md",
     "_posts/2024-06-24-wsl2storageexpand.md",
+    "public/img/cmd_detail_vdisk.png",
+    "_posts/2024-05-03-Hardware.md",
+    "_posts/2024-04-28-seo.md",
+    "_posts/2024-05-12-azure.md",
+    "_posts/2024-03-24-git_commit_msg.md",
+    "_posts/2024-04-10-mitm.md",
+    "_posts/2024-04-28-awsebs.md",
     "_posts/2024-06-02-restnsoap.md",
+    "_posts/2024-05-12-redis.md",
+    "_posts/2024-05-24-solid.md",
+    "public/img/powershell_diskpart.png",
+    "_posts/2024-04-28-awsec2.md",
     "_template/42seoul_template.md",
     "_template/categroy_template.md",
     "_template/post_template.md",

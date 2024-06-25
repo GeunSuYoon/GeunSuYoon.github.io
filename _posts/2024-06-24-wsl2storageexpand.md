@@ -25,7 +25,7 @@ tags:
 - 해당 명령어로 모든 wsl instance를 종료해 예기치 못한 오류를 방지한다.
 ### 2. wsl 경로 확인
 
-- C:\\Users\\{{ user_name }}\\AppData\\Local\\Packages
+- C:\\Users\\{{ user_name }}\AppData\\Local\\Packages
 - 보통 위 경로에서 본인이 관리하고 싶은 배포판을 확인해 들어간다.
 	- 나의 경우 CanonicalGroupLimited.Ubuntu20.04LTS_79 였다.
 - 배포판 폴더 내부 LocalState 폴더에 들어가면 ext4.vhdx 파일이 있다.
@@ -35,10 +35,10 @@ tags:
 - PowerShell에 `diskpart` 명령어를 입력한다.
 	- DISKPART> 가 나온다면 성공이다!
 - `Select vdisk file="<pathToVHD>"` 명령어로 가상 디스크 파일을 선택한다.
-	- \\<pathToVHD\>는 2번에서 확인한 ext4.vhdx 파일을 포함한 경로다!!!
+	- \<pathToVHD\>는 2번에서 확인한 ext4.vhdx 파일을 포함한 경로다!!!
 - `detail vdisk`를 실행해 가상 디스크의 정보를 확인한다.
 	- cmd로 실행하면 아래와 같이 나온다.
-	- ![[cmd_detail_vdisk.png]]
+	- ![cmd_detail_vdisk](/public/img/cmd_detail_vdisk.png)
 	- 장치 유형도 확인할 수 없고, 공급업체 ID도 알 수 없다.
 	- 마지막 줄을 확인해보니 연결된 디스크가 없다...
 	- 그러면 이후 동작이 실행되지 않는다!!!!
@@ -46,10 +46,11 @@ tags:
 	- \\<sizeInMegaBytes\>는 바꿀 크기를 MB 단위로 입력하란 뜻이다.
 	- 난 20GB를 할당할 것이므로 20000을 입력했다!
 	- cmd로 실행하면 아래와 같이 나온다.
-	- ![[cmd_expand_vdisk.png]]
+	- ![cmd_expand_vdisk](/public/img/cmd_expand_vdisk.png)
 - 이제 `exit` 명령어로 diskpart를 종료하고 wsl을 켜면 동작할 것이다!!!!!!!
 - 아래와 같이 진행돼야 한다.
-- ![[powershell_diskpart.png]]
+	- ![powershell_diskpart](/public/img/powershell_diskpart.png)
+
 
 ## 여담
 
